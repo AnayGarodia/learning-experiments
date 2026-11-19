@@ -1,0 +1,5 @@
+xs ckpt @ 229376 tokens, loss 7.361, 12s
+xs ckpt @ 589824 tokens, loss 4.698, 31s
+xs ckpt @ 1490944 tokens, loss 1.619, 79s
+xs ckpt @ 2998272 tokens, loss 1.156, 160s
+xs ckpt @ 5996544 tokens, loss 1.059, 320s

@@ -1,0 +1,17 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:00<00:29,  9.94it/s]Loading weights:  30%|███       | 87/290 [00:00<00:00, 497.02it/s]Loading weights:  48%|████▊     | 140/290 [00:00<00:00, 507.24it/s]Loading weights:  66%|██████▌   | 191/290 [00:00<00:00, 506.66it/s]Loading weights:  83%|████████▎ | 242/290 [00:00<00:00, 507.75it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 496.05it/s]
+positional scheme: {"model_type": "qwen2", "rope_theta": null, "has_rotary_module": true, "has_absolute_pos_embedding": false, "n_layer": 24, "d_model": 896, "n_params": 494032768}
+  [icl N_perm] n=  0 acc=0.000 mm=0.000 cov=0.000 (19.5s)
+  [icl N_perm] n=  1 acc=0.000 mm=0.000 cov=0.060 (77.7s)
+  [icl N_perm] n=  2 acc=0.000 mm=0.000 cov=0.160 (117.5s)
+  [icl N_perm] n=  3 acc=0.000 mm=0.000 cov=0.145 (170.7s)
+  [icl N_perm] n=  4 acc=0.000 mm=0.000 cov=0.200 (215.5s)
+  [icl N_perm] n=  6 acc=0.000 mm=0.000 cov=0.285 (291.0s)
+  [icl N_perm] n=  8 acc=0.000 mm=0.000 cov=0.380 (357.9s)
+  [icl N_perm] n= 12 acc=0.000 mm=0.000 cov=0.505 (517.0s)
+  [icl N_perm] n= 16 acc=0.000 mm=0.000 cov=0.590 (677.5s)
+  [icl N_perm] n= 24 acc=0.000 mm=0.000 cov=0.705 (1012.1s)
+  [icl N_perm] n= 32 acc=0.000 mm=0.000 cov=0.760 (1329.5s)
+  [icl N_perm] n= 48 acc=0.000 mm=0.000 cov=0.885 (1992.5s)
+  [icl N_perm] n= 64 acc=0.000 mm=0.000 cov=0.890 (2108.8s)
+wrote /home/azureuser/arche/experiments/e013-exchange-rate/runs/icl_N_perm_s0.json

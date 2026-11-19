@@ -1,0 +1,382 @@
+{
+ "arm": "drop_noise",
+ "seed": 1,
+ "oracle_flip": 0.0,
+ "camouflage": true,
+ "noise_p": 0.75,
+ "total_tokens": 6000000,
+ "git_sha": "",
+ "wall_s": 1548.4,
+ "curve": [
+  {
+   "tokens": 81920,
+   "struct_loss": 6.8782,
+   "cons_acc": 0.0234
+  },
+  {
+   "tokens": 163840,
+   "struct_loss": 5.3556,
+   "cons_acc": 0.0769
+  },
+  {
+   "tokens": 245760,
+   "struct_loss": 3.988,
+   "cons_acc": 0.0982
+  },
+  {
+   "tokens": 327680,
+   "struct_loss": 2.8415,
+   "cons_acc": 0.1313
+  },
+  {
+   "tokens": 409600,
+   "struct_loss": 1.9257,
+   "cons_acc": 0.1758
+  },
+  {
+   "tokens": 491520,
+   "struct_loss": 1.2408,
+   "cons_acc": 0.2474
+  },
+  {
+   "tokens": 573440,
+   "struct_loss": 0.7831,
+   "cons_acc": 0.3462
+  },
+  {
+   "tokens": 655360,
+   "struct_loss": 0.5089,
+   "cons_acc": 0.3975
+  },
+  {
+   "tokens": 737280,
+   "struct_loss": 0.3581,
+   "cons_acc": 0.449
+  },
+  {
+   "tokens": 819200,
+   "struct_loss": 0.2755,
+   "cons_acc": 0.4732
+  },
+  {
+   "tokens": 901120,
+   "struct_loss": 0.2273,
+   "cons_acc": 0.4912
+  },
+  {
+   "tokens": 983040,
+   "struct_loss": 0.1951,
+   "cons_acc": 0.5075
+  },
+  {
+   "tokens": 1064960,
+   "struct_loss": 0.1718,
+   "cons_acc": 0.5177
+  },
+  {
+   "tokens": 1146880,
+   "struct_loss": 0.1532,
+   "cons_acc": 0.5286
+  },
+  {
+   "tokens": 1228800,
+   "struct_loss": 0.1364,
+   "cons_acc": 0.5403
+  },
+  {
+   "tokens": 1310720,
+   "struct_loss": 0.1233,
+   "cons_acc": 0.5522
+  },
+  {
+   "tokens": 1392640,
+   "struct_loss": 0.11,
+   "cons_acc": 0.5627
+  },
+  {
+   "tokens": 1474560,
+   "struct_loss": 0.1009,
+   "cons_acc": 0.5694
+  },
+  {
+   "tokens": 1556480,
+   "struct_loss": 0.0938,
+   "cons_acc": 0.5889
+  },
+  {
+   "tokens": 1638400,
+   "struct_loss": 0.0848,
+   "cons_acc": 0.604
+  },
+  {
+   "tokens": 1720320,
+   "struct_loss": 0.0755,
+   "cons_acc": 0.6197
+  },
+  {
+   "tokens": 1802240,
+   "struct_loss": 0.0689,
+   "cons_acc": 0.647
+  },
+  {
+   "tokens": 1884160,
+   "struct_loss": 0.0672,
+   "cons_acc": 0.6758
+  },
+  {
+   "tokens": 1966080,
+   "struct_loss": 0.0557,
+   "cons_acc": 0.7296
+  },
+  {
+   "tokens": 2048000,
+   "struct_loss": 0.0563,
+   "cons_acc": 0.7766
+  },
+  {
+   "tokens": 2129920,
+   "struct_loss": 0.0485,
+   "cons_acc": 0.8422
+  },
+  {
+   "tokens": 2211840,
+   "struct_loss": 0.0436,
+   "cons_acc": 0.8929
+  },
+  {
+   "tokens": 2293760,
+   "struct_loss": 0.0389,
+   "cons_acc": 0.9151
+  },
+  {
+   "tokens": 2375680,
+   "struct_loss": 0.0369,
+   "cons_acc": 0.9332
+  },
+  {
+   "tokens": 2457600,
+   "struct_loss": 0.0348,
+   "cons_acc": 0.9414
+  },
+  {
+   "tokens": 2539520,
+   "struct_loss": 0.0268,
+   "cons_acc": 0.9432
+  },
+  {
+   "tokens": 2621440,
+   "struct_loss": 0.0261,
+   "cons_acc": 0.9464
+  },
+  {
+   "tokens": 2703360,
+   "struct_loss": 0.0242,
+   "cons_acc": 0.9512
+  },
+  {
+   "tokens": 2785280,
+   "struct_loss": 0.0215,
+   "cons_acc": 0.9516
+  },
+  {
+   "tokens": 2867200,
+   "struct_loss": 0.023,
+   "cons_acc": 0.9626
+  },
+  {
+   "tokens": 2949120,
+   "struct_loss": 0.025,
+   "cons_acc": 0.9703
+  },
+  {
+   "tokens": 3031040,
+   "struct_loss": 0.019,
+   "cons_acc": 0.97
+  },
+  {
+   "tokens": 3112960,
+   "struct_loss": 0.0183,
+   "cons_acc": 0.975
+  },
+  {
+   "tokens": 3194880,
+   "struct_loss": 0.0177,
+   "cons_acc": 0.98
+  },
+  {
+   "tokens": 3276800,
+   "struct_loss": 0.0152,
+   "cons_acc": 0.9805
+  },
+  {
+   "tokens": 3358720,
+   "struct_loss": 0.0137,
+   "cons_acc": 0.9765
+  },
+  {
+   "tokens": 3440640,
+   "struct_loss": 0.0139,
+   "cons_acc": 0.9826
+  },
+  {
+   "tokens": 3522560,
+   "struct_loss": 0.0157,
+   "cons_acc": 0.9888
+  },
+  {
+   "tokens": 3604480,
+   "struct_loss": 0.0152,
+   "cons_acc": 0.9884
+  },
+  {
+   "tokens": 3686400,
+   "struct_loss": 0.013,
+   "cons_acc": 0.9899
+  },
+  {
+   "tokens": 3768320,
+   "struct_loss": 0.0129,
+   "cons_acc": 0.9884
+  },
+  {
+   "tokens": 3850240,
+   "struct_loss": 0.0136,
+   "cons_acc": 0.9921
+  },
+  {
+   "tokens": 3932160,
+   "struct_loss": 0.0125,
+   "cons_acc": 0.9918
+  },
+  {
+   "tokens": 4014080,
+   "struct_loss": 0.014,
+   "cons_acc": 0.9953
+  },
+  {
+   "tokens": 4096000,
+   "struct_loss": 0.011,
+   "cons_acc": 0.9925
+  },
+  {
+   "tokens": 4177920,
+   "struct_loss": 0.0102,
+   "cons_acc": 0.9941
+  },
+  {
+   "tokens": 4259840,
+   "struct_loss": 0.0109,
+   "cons_acc": 0.9941
+  },
+  {
+   "tokens": 4341760,
+   "struct_loss": 0.0096,
+   "cons_acc": 0.9931
+  },
+  {
+   "tokens": 4423680,
+   "struct_loss": 0.0086,
+   "cons_acc": 0.9917
+  },
+  {
+   "tokens": 4505600,
+   "struct_loss": 0.0091,
+   "cons_acc": 0.9957
+  },
+  {
+   "tokens": 4587520,
+   "struct_loss": 0.0096,
+   "cons_acc": 0.9964
+  },
+  {
+   "tokens": 4669440,
+   "struct_loss": 0.0084,
+   "cons_acc": 0.9946
+  },
+  {
+   "tokens": 4751360,
+   "struct_loss": 0.0078,
+   "cons_acc": 0.9918
+  },
+  {
+   "tokens": 4833280,
+   "struct_loss": 0.0074,
+   "cons_acc": 0.9915
+  },
+  {
+   "tokens": 4915200,
+   "struct_loss": 0.0076,
+   "cons_acc": 0.9968
+  },
+  {
+   "tokens": 4997120,
+   "struct_loss": 0.0077,
+   "cons_acc": 0.9963
+  },
+  {
+   "tokens": 5079040,
+   "struct_loss": 0.0078,
+   "cons_acc": 0.9964
+  },
+  {
+   "tokens": 5160960,
+   "struct_loss": 0.008,
+   "cons_acc": 0.9956
+  },
+  {
+   "tokens": 5242880,
+   "struct_loss": 0.0076,
+   "cons_acc": 0.9969
+  },
+  {
+   "tokens": 5324800,
+   "struct_loss": 0.0066,
+   "cons_acc": 0.9963
+  },
+  {
+   "tokens": 5406720,
+   "struct_loss": 0.0067,
+   "cons_acc": 0.9973
+  },
+  {
+   "tokens": 5488640,
+   "struct_loss": 0.0064,
+   "cons_acc": 0.9977
+  },
+  {
+   "tokens": 5570560,
+   "struct_loss": 0.0068,
+   "cons_acc": 0.998
+  },
+  {
+   "tokens": 5652480,
+   "struct_loss": 0.0062,
+   "cons_acc": 0.9963
+  },
+  {
+   "tokens": 5734400,
+   "struct_loss": 0.0061,
+   "cons_acc": 0.9965
+  },
+  {
+   "tokens": 5816320,
+   "struct_loss": 0.0058,
+   "cons_acc": 0.9973
+  },
+  {
+   "tokens": 5898240,
+   "struct_loss": 0.0055,
+   "cons_acc": 0.9969
+  },
+  {
+   "tokens": 5980160,
+   "struct_loss": 0.0059,
+   "cons_acc": 0.9985
+  },
+  {
+   "tokens": 5996544,
+   "struct_loss": 0.0056,
+   "cons_acc": 0.9981
+  }
+ ]
+}

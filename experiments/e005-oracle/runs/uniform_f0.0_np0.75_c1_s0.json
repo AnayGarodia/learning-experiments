@@ -1,0 +1,107 @@
+{
+ "arm": "uniform",
+ "seed": 0,
+ "oracle_flip": 0.0,
+ "camouflage": true,
+ "noise_p": 0.75,
+ "total_tokens": 1500000,
+ "git_sha": "29b495b645b0f9e32104396d354f85c06406ff84",
+ "wall_s": 125.1,
+ "curve": [
+  {
+   "tokens": 81920,
+   "struct_loss": 7.0755,
+   "cons_acc": 0.0104
+  },
+  {
+   "tokens": 163840,
+   "struct_loss": 5.6073,
+   "cons_acc": 0.0806
+  },
+  {
+   "tokens": 245760,
+   "struct_loss": 4.2633,
+   "cons_acc": 0.0996
+  },
+  {
+   "tokens": 327680,
+   "struct_loss": 3.1229,
+   "cons_acc": 0.1292
+  },
+  {
+   "tokens": 409600,
+   "struct_loss": 2.177,
+   "cons_acc": 0.1946
+  },
+  {
+   "tokens": 491520,
+   "struct_loss": 1.4326,
+   "cons_acc": 0.273
+  },
+  {
+   "tokens": 573440,
+   "struct_loss": 0.9119,
+   "cons_acc": 0.3607
+  },
+  {
+   "tokens": 655360,
+   "struct_loss": 0.5939,
+   "cons_acc": 0.4227
+  },
+  {
+   "tokens": 737280,
+   "struct_loss": 0.419,
+   "cons_acc": 0.4475
+  },
+  {
+   "tokens": 819200,
+   "struct_loss": 0.323,
+   "cons_acc": 0.461
+  },
+  {
+   "tokens": 901120,
+   "struct_loss": 0.2693,
+   "cons_acc": 0.4833
+  },
+  {
+   "tokens": 983040,
+   "struct_loss": 0.2341,
+   "cons_acc": 0.4951
+  },
+  {
+   "tokens": 1064960,
+   "struct_loss": 0.2073,
+   "cons_acc": 0.5171
+  },
+  {
+   "tokens": 1146880,
+   "struct_loss": 0.1843,
+   "cons_acc": 0.5349
+  },
+  {
+   "tokens": 1228800,
+   "struct_loss": 0.1597,
+   "cons_acc": 0.5522
+  },
+  {
+   "tokens": 1310720,
+   "struct_loss": 0.1499,
+   "cons_acc": 0.5827
+  },
+  {
+   "tokens": 1392640,
+   "struct_loss": 0.133,
+   "cons_acc": 0.5924
+  },
+  {
+   "tokens": 1474560,
+   "struct_loss": 0.1184,
+   "cons_acc": 0.6016
+  },
+  {
+   "tokens": 1490944,
+   "struct_loss": 0.1202,
+   "cons_acc": 0.6129
+  }
+ ]
+}

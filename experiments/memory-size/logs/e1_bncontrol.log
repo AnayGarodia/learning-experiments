@@ -1,0 +1,2 @@
+permuted N=65536 seed=0 ACC 0.296 -> 0.312   BWT -0.730 -> -0.707
+permuted N=65536 seed=1 ACC 0.296 -> 0.342   BWT -0.730 -> -0.675

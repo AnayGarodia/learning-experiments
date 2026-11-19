@@ -1,0 +1,4 @@
+permuted  rhash head      N=  4096 ACC 0.318±0.001  BWT -0.204±0.003  (23.7s/seed)
+permuted  rhash head      N= 65536 ACC 0.457±0.031  BWT -0.134±0.025  (82.9s/seed)
+permuted  rhash head      N=262144 ACC 0.575±0.001  BWT -0.070±0.003  (252.9s/seed)
+DONE

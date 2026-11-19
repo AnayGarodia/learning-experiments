@@ -1,0 +1,48 @@
+{
+ "args": {
+  "model": "HuggingFaceTB/SmolLM2-360M",
+  "method": "replay,lora",
+  "facts": 1000,
+  "epochs": 12,
+  "lr": 0.0002,
+  "bs": 16,
+  "n_eval": 300,
+  "out": "/kaggle/working/e2.json"
+ },
+ "results": {
+  "replay": {
+   "before": {
+    "hellaswag": 0.39666666666666667,
+    "arc_easy": 0.68,
+    "piqa": 0.7
+   },
+   "after": {
+    "hellaswag": 0.43,
+    "arc_easy": 0.6533333333333333,
+    "piqa": 0.6966666666666667
+   },
+   "acq_before": 0.231,
+   "acq_after": 0.995,
+   "old_fact_retention": 0.519650655021834,
+   "n_known": 229,
+   "secs": 4477.485331296921
+  },
+  "lora": {
+   "before": {
+    "hellaswag": 0.39666666666666667,
+    "arc_easy": 0.68,
+    "piqa": 0.7
+   },
+   "after": {
+    "hellaswag": 0.31333333333333335,
+    "arc_easy": 0.42333333333333334,
+    "piqa": 0.5766666666666667
+   },
+   "acq_before": 0.231,
+   "acq_after": 0.908,
+   "old_fact_retention": 0.13537117903930132,
+   "n_known": 229,
+   "secs": 5993.818136930466
+  }
+ }
+}

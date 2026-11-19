@@ -1,0 +1,16 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  28%|██▊       | 81/290 [00:00<00:00, 808.62it/s]Loading weights:  56%|█████▌    | 162/290 [00:00<00:00, 731.72it/s]Loading weights:  81%|████████▏ | 236/290 [00:00<00:00, 562.21it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 595.77it/s]
+positional scheme: {"model_type": "qwen2", "rope_theta": null, "has_rotary_module": true, "has_absolute_pos_embedding": false, "n_layer": 24, "d_model": 896, "n_params": 494032768}
+skills: ['B_upper', 'B_double', 'B_title', 'B_first', 'B_plural', 'B_triple', 'B_pre_x', 'B_the', 'B_wfirst', 'B_dashw', 'B_star', 'B_capfirst']
+  [no_replay s0 r8] k=1 B_dashw wrote=1.000 prior=[] nats=2.864 (737.3s)
+  [no_replay s0 r8] k=2 B_title wrote=1.000 prior=[0.0] nats=2.8893 (1416.1s)
+  [no_replay s0 r8] k=3 B_the wrote=1.000 prior=[0.0, 0.0] nats=2.9007 (2262.8s)
+  [no_replay s0 r8] k=4 B_plural wrote=0.805 prior=[0.0, 0.0, 0.0] nats=2.8674 (3048.0s)
+  [no_replay s0 r8] k=5 B_triple wrote=1.000 prior=[0.0, 0.0, 0.0, 0.0] nats=2.8934 (4173.1s)
+  [no_replay s0 r8] k=6 B_capfirst wrote=1.000 prior=[0.0, 0.0, 0.0, 0.0, 0.0] nats=2.8941 (5432.3s)
+  [no_replay s0 r8] k=7 B_upper wrote=0.960 prior=[0.0, 0.0, 0.0, 0.0, 0.0, 0.355] nats=2.8884 (6803.8s)
+  [no_replay s0 r8] k=8 B_first wrote=1.000 prior=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] nats=2.9099 (7828.5s)
+  [no_replay s0 r8] k=9 B_pre_x wrote=0.780 prior=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] nats=2.9014 (8944.3s)
+  [no_replay s0 r8] k=10 B_star wrote=1.000 prior=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] nats=2.9126 (10089.4s)
+  [no_replay s0 r8] k=11 B_wfirst wrote=1.000 prior=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] nats=2.9336 (11261.8s)
+  [no_replay s0 r8] k=12 B_double wrote=1.000 prior=[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] nats=2.9331 (12445.0s)

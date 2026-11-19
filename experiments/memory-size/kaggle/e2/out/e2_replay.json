@@ -1,0 +1,31 @@
+{
+ "args": {
+  "model": "HuggingFaceTB/SmolLM2-360M",
+  "method": "replay",
+  "facts": 1000,
+  "epochs": 12,
+  "lr": 0.0002,
+  "bs": 16,
+  "n_eval": 300,
+  "out": "/kaggle/working/e2_replay.json"
+ },
+ "results": {
+  "replay": {
+   "before": {
+    "hellaswag": 0.39666666666666667,
+    "arc_easy": 0.68,
+    "piqa": 0.7
+   },
+   "after": {
+    "hellaswag": 0.43,
+    "arc_easy": 0.6533333333333333,
+    "piqa": 0.6966666666666667
+   },
+   "acq_before": 0.231,
+   "acq_after": 0.995,
+   "old_fact_retention": 0.519650655021834,
+   "n_known": 229,
+   "secs": 4477.485331296921
+  }
+ }
+}

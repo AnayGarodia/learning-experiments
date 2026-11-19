@@ -1,0 +1,88 @@
+{
+ "base": "Qwen/Qwen2.5-0.5B",
+ "git_sha": "",
+ "records": [
+  {
+   "kind": "grad",
+   "skill": "B_upper",
+   "family": "natural",
+   "seed": 0,
+   "n": 32,
+   "lr": 0.001,
+   "acc": 0.765,
+   "dev": 0.7812,
+   "best_step": 25,
+   "final_eval": 0.76,
+   "acc_seen_letter": 0.75,
+   "acc_unseen_letter": 0.875,
+   "n_eval_unseen": 24,
+   "ckpts": [
+    {
+     "step": 0,
+     "dev": 0.0,
+     "eval": 0.0,
+     "eval_seen": 0.0,
+     "eval_unseen": 0.0
+    },
+    {
+     "step": 25,
+     "dev": 0.7812,
+     "eval": 0.765,
+     "eval_seen": 0.75,
+     "eval_unseen": 0.875
+    },
+    {
+     "step": 50,
+     "dev": 0.75,
+     "eval": 0.83,
+     "eval_seen": 0.8239,
+     "eval_unseen": 0.875
+    },
+    {
+     "step": 75,
+     "dev": 0.75,
+     "eval": 0.81,
+     "eval_seen": 0.8011,
+     "eval_unseen": 0.875
+    },
+    {
+     "step": 100,
+     "dev": 0.7344,
+     "eval": 0.81,
+     "eval_seen": 0.8011,
+     "eval_unseen": 0.875
+    },
+    {
+     "step": 125,
+     "dev": 0.75,
+     "eval": 0.8,
+     "eval_seen": 0.7898,
+     "eval_unseen": 0.875
+    },
+    {
+     "step": 150,
+     "dev": 0.75,
+     "eval": 0.8,
+     "eval_seen": 0.7898,
+     "eval_unseen": 0.875
+    },
+    {
+     "step": 175,
+     "dev": 0.75,
+     "eval": 0.8,
+     "eval_seen": 0.7898,
+     "eval_unseen": 0.875
+    },
+    {
+     "step": 200,
+     "dev": 0.75,
+     "eval": 0.76,
+     "eval_seen": 0.7898,
+     "eval_unseen": 0.5417
+    }
+   ],
+   "steps": 200,
+   "wall_s": 661.1
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "size": "l",
+ "seed": 0,
+ "tokens": 229376,
+ "L": 12,
+ "eval_tokens": 16384,
+ "depth_frac_arg": 0.7924,
+ "depth_frac_kl": 0.2904,
+ "width_coarse_arg": 0.9872,
+ "width_coarse_kl": 1.0,
+ "width_fine_local": 0.0084,
+ "width_fine_local_loose": 0.3171,
+ "temporal_arg": 0.013,
+ "temporal_kl": 0.0,
+ "pred_frac": 0.7078,
+ "pred_eps": 0.1,
+ "joint_block_arg": 0.8013
+}

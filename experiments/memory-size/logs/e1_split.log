@@ -1,0 +1,10 @@
+split     pkm   N=   256 ACC 0.196±0.000  BWT -0.992±0.001  (40.7s/seed)
+split     pkm   N=  1024 ACC 0.196±0.000  BWT -0.991±0.000  (39.8s/seed)
+split     pkm   N=  4096 ACC 0.195±0.000  BWT -0.992±0.000  (40.6s/seed)
+split     pkm   N= 16384 ACC 0.196±0.000  BWT -0.992±0.001  (38.3s/seed)
+split     pkm   N= 65536 ACC 0.196±0.000  BWT -0.992±0.001  (43.6s/seed)
+split     dense N=    32 ACC 0.194±0.001  BWT -0.949±0.054  (13.0s/seed)
+split     dense N=   128 ACC 0.196±0.002  BWT -0.989±0.003  (9.6s/seed)
+split     dense N=   512 ACC 0.195±0.001  BWT -0.991±0.002  (10.5s/seed)
+split     dense N=  2048 ACC 0.194±0.002  BWT -0.993±0.001  (17.8s/seed)
+DONE

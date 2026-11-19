@@ -1,0 +1,254 @@
+{
+ "consolidate": {
+  "n_rows": 56,
+  "mean_just_after": 0.9313,
+  "min_retention_prior": 0.2424,
+  "mean_retention_prior": 0.9229,
+  "retention_at_max_k": 0.9121,
+  "mean_reprompt_gain": 0.0238,
+  "generality_drift_nats": 0.0961,
+  "min_unknown_marker_agree": 0.0,
+  "all_writes_landed": true,
+  "max_unknown_marker_applies_rule": 1.0,
+  "umar_by_age": {
+   "0": 0.4637,
+   "1": 0.3062,
+   "2": 0.112,
+   "3": 0.0469,
+   "4": 0.1867,
+   "5": 0.2462,
+   "6": 0.0267,
+   "7": 0.0
+  },
+  "max_umar_age_ge_clean": 1.0,
+  "retention_at_max_k_per_seed": {
+   "0": 0.9579,
+   "1": 0.7732,
+   "2": 1.0052
+  },
+  "retention_clean_per_seed": {
+   "0": 0.9653,
+   "1": 0.8064,
+   "2": 0.9851
+  },
+  "reprompt_skills_total": 4,
+  "reprompt_skills_with_headroom": 4,
+  "mean_reprompt_gain_headroom": 0.0527,
+  "retention_prior_by_skill": {
+   "5": 0.9056,
+   "8": 0.9868,
+   "9": 0.9689,
+   "11": 0.8268
+  },
+  "retention_prior_typeA_copyable": 1.0,
+  "n_rows_typeA_copyable": 18,
+  "offlength_unprompted": 0.8304,
+  "offlength_reprompt_gain": 0.0887,
+  "cross_marker_leak_by_k": {
+   "2": 0.0,
+   "3": 0.0217,
+   "4": 0.02,
+   "5": 0.0125,
+   "6": 0.0,
+   "7": 0.0035,
+   "8": 0.0013
+  },
+  "max_unprompted_before_write": 0.01
+ },
+ "direct_ft": {
+  "n_rows": 56,
+  "mean_just_after": 0.9025,
+  "min_retention_prior": 0.0,
+  "mean_retention_prior": 0.826,
+  "retention_at_max_k": 0.7742,
+  "mean_reprompt_gain": 0.0265,
+  "generality_drift_nats": 0.3183,
+  "min_unknown_marker_agree": 0.0,
+  "all_writes_landed": true,
+  "max_unknown_marker_applies_rule": 1.0,
+  "umar_by_age": {
+   "0": 0.3542,
+   "1": 0.2642,
+   "2": 0.1675,
+   "3": 0.1275,
+   "4": 0.1875,
+   "5": 0.2938,
+   "6": 0.0267,
+   "7": 0.0
+  },
+  "max_umar_age_ge_clean": 0.965,
+  "retention_at_max_k_per_seed": {
+   "0": 0.7972,
+   "1": 0.8953,
+   "2": 0.6303
+  },
+  "retention_clean_per_seed": {
+   "0": 0.7976,
+   "1": 0.8895,
+   "2": 0.7152
+  },
+  "reprompt_skills_total": 4,
+  "reprompt_skills_with_headroom": 4,
+  "mean_reprompt_gain_headroom": 0.061,
+  "retention_prior_by_skill": {
+   "5": 0.8126,
+   "8": 0.7827,
+   "9": 0.9684,
+   "11": 0.7798
+  },
+  "retention_prior_typeA_copyable": 0.9942,
+  "n_rows_typeA_copyable": 18,
+  "offlength_unprompted": 0.59,
+  "offlength_reprompt_gain": 0.2737,
+  "cross_marker_leak_by_k": {
+   "2": 0.0,
+   "3": 0.0467,
+   "4": 0.0,
+   "5": 0.1875,
+   "6": 0.0312,
+   "7": 0.06,
+   "8": 0.1267
+  },
+  "max_unprompted_before_write": 0.05
+ },
+ "no_replay": {
+  "n_rows": 56,
+  "mean_just_after": 0.9321,
+  "min_retention_prior": 0.0,
+  "mean_retention_prior": 0.0008,
+  "retention_at_max_k": 0.0,
+  "mean_reprompt_gain": 0.2582,
+  "generality_drift_nats": 0.0763,
+  "min_unknown_marker_agree": 0.0,
+  "all_writes_landed": true,
+  "max_unknown_marker_applies_rule": 1.0,
+  "umar_by_age": {
+   "0": 0.9358,
+   "1": 0.0029,
+   "2": 0.0,
+   "3": 0.0,
+   "4": 0.0,
+   "5": 0.0,
+   "6": 0.0,
+   "7": 0.0
+  },
+  "max_umar_age_ge_clean": 0.0,
+  "retention_at_max_k_per_seed": {
+   "0": 0.0,
+   "1": 0.0,
+   "2": 0.0
+  },
+  "retention_clean_per_seed": {
+   "0": 0.0,
+   "1": 0.0,
+   "2": 0.0
+  },
+  "reprompt_skills_total": 4,
+  "reprompt_skills_with_headroom": 4,
+  "mean_reprompt_gain_headroom": 0.2999,
+  "retention_prior_by_skill": {
+   "5": 0.0,
+   "8": 0.0,
+   "9": 0.0039,
+   "11": 0.0
+  },
+  "retention_prior_typeA_copyable": 0.0,
+  "n_rows_typeA_copyable": 18,
+  "offlength_unprompted": 0.0037,
+  "offlength_reprompt_gain": 0.2913,
+  "cross_marker_leak_by_k": {
+   "2": 0.8,
+   "3": 1.0,
+   "4": 0.9563,
+   "5": 1.0,
+   "6": 0.915,
+   "7": 0.985,
+   "8": 1.0
+  },
+  "max_unprompted_before_write": 0.035
+ },
+ "separate_adapters": {
+  "n_rows": 12,
+  "mean_just_after": 0.9254,
+  "min_retention_prior": NaN,
+  "mean_retention_prior": null,
+  "retention_at_max_k": null,
+  "mean_reprompt_gain": -0.0121,
+  "generality_drift_nats": 0.0508,
+  "min_unknown_marker_agree": 0.0,
+  "all_writes_landed": true,
+  "max_unknown_marker_applies_rule": 1.0,
+  "umar_by_age": {
+   "0": 0.5321
+  },
+  "max_umar_age_ge_clean": null,
+  "retention_at_max_k_per_seed": {},
+  "retention_clean_per_seed": {},
+  "reprompt_skills_total": 4,
+  "reprompt_skills_with_headroom": 2,
+  "mean_reprompt_gain_headroom": -0.0117,
+  "retention_prior_by_skill": {},
+  "retention_prior_typeA_copyable": null,
+  "n_rows_typeA_copyable": 0,
+  "offlength_unprompted": null,
+  "offlength_reprompt_gain": null,
+  "cross_marker_leak_by_k": {},
+  "max_unprompted_before_write": null
+ },
+ "_reading": {
+  "POOL_max_unprompted_before_write": 0.05,
+  "POOL_BLOCKS": false,
+  "POOL_excluded_skills": [
+   7,
+   13
+  ],
+  "K0_preregistered_value_max_all_rows": 1.0,
+  "K0_umar_by_age": {
+   "0": 0.4637,
+   "1": 0.3062,
+   "2": 0.112,
+   "3": 0.0469,
+   "4": 0.1867,
+   "5": 0.2462,
+   "6": 0.0267,
+   "7": 0.0
+  },
+  "K0_max_umar_age_ge_clean": 1.0,
+  "K0_clean_age": 2,
+  "K_readings_blocked": true,
+  "cross_marker_leak_by_k": {
+   "2": 0.0,
+   "3": 0.0217,
+   "4": 0.02,
+   "5": 0.0125,
+   "6": 0.0,
+   "7": 0.0035,
+   "8": 0.0013
+  },
+  "cross_marker_leak_note": "diagnostic only; not the K0 reading rule (verifier ruling)",
+  "retention_call": "INCONCLUSIVE_SEEDS_SPLIT",
+  "retention_per_seed": {
+   "0": 0.9653,
+   "1": 0.8064,
+   "2": 0.9851
+  },
+  "retention_clean_rows": 46,
+  "reprompt_call": "CACHE_ONLY",
+  "reprompt_headroom_skills": "4/4",
+  "reprompt_gain_headroom_only": 0.0527,
+  "K1_compounding": false,
+  "K2_cache_not_organ": false,
+  "K3_interference_wall": false,
+  "ceiling_note": "separate_adapters retention == 1.0 by construction",
+  "write_quality_vs_ceiling": 0.0059,
+  "snell_edge_consolidate_minus_direct_ft": 0.0288,
+  "snell_edge_resolvable": false,
+  "replay_effect_consolidate_minus_no_replay": 0.9121,
+  "offlength_unprompted": 0.8304,
+  "offlength_reprompt_gain": 0.0887,
+  "offlength_note": "diagnostic: the write is distilled on 5-letter words only, so a prompted-beats-baked result here is partly off-distribution, not a K1 win",
+  "max_k_reached": 8,
+  "MDE_single_seed": 0.06,
+  "caution": "a 'no cliff' reading bounds nothing beyond the k actually run; the sequential-editing collapse this design is contrasted against appears at k~32"
+ }
+}

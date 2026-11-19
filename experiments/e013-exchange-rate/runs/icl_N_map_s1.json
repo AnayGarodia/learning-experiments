@@ -1,0 +1,17 @@
+{
+ "base": "Qwen/Qwen2.5-0.5B",
+ "git_sha": "",
+ "records": [
+  {
+   "kind": "icl",
+   "skill": "N_map",
+   "family": "novel",
+   "seed": 1,
+   "n": 8,
+   "acc": 0.03,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.35,
+   "wall_s": 221.3
+  }
+ ]
+}

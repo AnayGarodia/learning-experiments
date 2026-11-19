@@ -1,0 +1,67 @@
+{
+ "base": "Qwen/Qwen2.5-0.5B",
+ "git_sha": "",
+ "records": [
+  {
+   "kind": "grad",
+   "skill": "N_map",
+   "family": "novel",
+   "seed": 0,
+   "n": 48,
+   "lr": 0.001,
+   "acc": 0.305,
+   "dev": 0.4844,
+   "best_step": 200,
+   "final_eval": 0.305,
+   "ckpts": [
+    {
+     "step": 0,
+     "dev": 0.0,
+     "eval": 0.0
+    },
+    {
+     "step": 25,
+     "dev": 0.1875,
+     "eval": 0.23
+    },
+    {
+     "step": 50,
+     "dev": 0.3281,
+     "eval": 0.27
+    },
+    {
+     "step": 75,
+     "dev": 0.3906,
+     "eval": 0.285
+    },
+    {
+     "step": 100,
+     "dev": 0.4844,
+     "eval": 0.275
+    },
+    {
+     "step": 125,
+     "dev": 0.4844,
+     "eval": 0.305
+    },
+    {
+     "step": 150,
+     "dev": 0.4844,
+     "eval": 0.305
+    },
+    {
+     "step": 175,
+     "dev": 0.4844,
+     "eval": 0.305
+    },
+    {
+     "step": 200,
+     "dev": 0.4844,
+     "eval": 0.305
+    }
+   ],
+   "steps": 200,
+   "wall_s": 863.0
+  }
+ ]
+}

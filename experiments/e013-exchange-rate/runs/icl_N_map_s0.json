@@ -1,0 +1,149 @@
+{
+ "base": "Qwen/Qwen2.5-0.5B",
+ "git_sha": "",
+ "records": [
+  {
+   "kind": "icl",
+   "skill": "N_map",
+   "family": "novel",
+   "seed": 0,
+   "n": 0,
+   "acc": 0.0,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.0,
+   "wall_s": 13.6
+  },
+  {
+   "kind": "icl",
+   "skill": "N_map",
+   "family": "novel",
+   "seed": 0,
+   "n": 1,
+   "acc": 0.085,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.085,
+   "wall_s": 47.7
+  },
+  {
+   "kind": "icl",
+   "skill": "N_map",
+   "family": "novel",
+   "seed": 0,
+   "n": 2,
+   "acc": 0.035,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.085,
+   "wall_s": 76.0
+  },
+  {
+   "kind": "icl",
+   "skill": "N_map",
+   "family": "novel",
+   "seed": 0,
+   "n": 3,
+   "acc": 0.025,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.14,
+   "wall_s": 127.4
+  },
+  {
+   "kind": "icl",
+   "skill": "N_map",
+   "family": "novel",
+   "seed": 0,
+   "n": 4,
+   "acc": 0.03,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.225,
+   "wall_s": 198.3
+  },
+  {
+   "kind": "icl",
+   "skill": "N_map",
+   "family": "novel",
+   "seed": 0,
+   "n": 6,
+   "acc": 0.03,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.305,
+   "wall_s": 262.6
+  },
+  {
+   "kind": "icl",
+   "skill": "N_map",
+   "family": "novel",
+   "seed": 0,
+   "n": 8,
+   "acc": 0.05,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.39,
+   "wall_s": 334.0
+  },
+  {
+   "kind": "icl",
+   "skill": "N_map",
+   "family": "novel",
+   "seed": 0,
+   "n": 12,
+   "acc": 0.055,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.48,
+   "wall_s": 473.7
+  },
+  {
+   "kind": "icl",
+   "skill": "N_map",
+   "family": "novel",
+   "seed": 0,
+   "n": 16,
+   "acc": 0.055,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.595,
+   "wall_s": 613.2
+  },
+  {
+   "kind": "icl",
+   "skill": "N_map",
+   "family": "novel",
+   "seed": 0,
+   "n": 24,
+   "acc": 0.055,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.745,
+   "wall_s": 915.7
+  },
+  {
+   "kind": "icl",
+   "skill": "N_map",
+   "family": "novel",
+   "seed": 0,
+   "n": 32,
+   "acc": 0.06,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.785,
+   "wall_s": 1207.2
+  },
+  {
+   "kind": "icl",
+   "skill": "N_map",
+   "family": "novel",
+   "seed": 0,
+   "n": 48,
+   "acc": 0.1,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.905,
+   "wall_s": 1791.5
+  },
+  {
+   "kind": "icl",
+   "skill": "N_map",
+   "family": "novel",
+   "seed": 0,
+   "n": 64,
+   "acc": 0.1,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.96,
+   "wall_s": 2265.1
+  }
+ ]
+}

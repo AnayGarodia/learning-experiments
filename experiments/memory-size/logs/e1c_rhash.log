@@ -1,0 +1,6 @@
+permuted  rhash none      N=  1024 ACC 0.164±0.008  BWT -0.368±0.017  (138.9s/seed)
+permuted  rhash none      N=  4096 ACC 0.189±0.007  BWT -0.402±0.009  (27.5s/seed)
+permuted  rhash none      N= 16384 ACC 0.222±0.006  BWT -0.419±0.019  (38.9s/seed)
+permuted  rhash none      N= 65536 ACC 0.250±0.007  BWT -0.428±0.007  (89.8s/seed)
+permuted  rhash none      N=262144 ACC 0.286±0.008  BWT -0.457±0.004  (251.8s/seed)
+DONE

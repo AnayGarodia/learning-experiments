@@ -1,0 +1,194 @@
+{
+ "arm": "separate_adapters",
+ "seed": 2,
+ "order": [
+  0,
+  13,
+  1,
+  8,
+  9,
+  11,
+  5,
+  7
+ ],
+ "replay_frac": 0.25,
+ "n_eval": 200,
+ "git_sha": "code:0afb95a7f0c40f8d",
+ "steps": [
+  {
+   "unprompted": {
+    "0": 1.0
+   },
+   "prompted_on_top": {
+    "0": 1.0
+   },
+   "generality_nats": 2.878,
+   "unknown_marker_agree": 0.0,
+   "unknown_marker_applies_rule": {
+    "0": 1.0
+   },
+   "cross_marker_leak": {},
+   "k": 1,
+   "skill": 0,
+   "cum_steps": 60,
+   "n_replay_batches": 0,
+   "intra_skill_probes": [],
+   "write_tripwire_ok": true,
+   "wall_s": 147.3
+  },
+  {
+   "unprompted": {
+    "13": 1.0
+   },
+   "prompted_on_top": {
+    "13": 1.0
+   },
+   "generality_nats": 2.877,
+   "unknown_marker_agree": 0.031,
+   "unknown_marker_applies_rule": {
+    "13": 0.98
+   },
+   "cross_marker_leak": {},
+   "k": 2,
+   "skill": 13,
+   "cum_steps": 120,
+   "n_replay_batches": 15,
+   "intra_skill_probes": [],
+   "write_tripwire_ok": true,
+   "wall_s": 356.6
+  },
+  {
+   "unprompted": {
+    "1": 1.0
+   },
+   "prompted_on_top": {
+    "1": 1.0
+   },
+   "generality_nats": 2.8823,
+   "unknown_marker_agree": 0.0,
+   "unknown_marker_applies_rule": {
+    "1": 0.965
+   },
+   "cross_marker_leak": {},
+   "k": 3,
+   "skill": 1,
+   "cum_steps": 180,
+   "n_replay_batches": 15,
+   "intra_skill_probes": [],
+   "write_tripwire_ok": true,
+   "wall_s": 523.2
+  },
+  {
+   "unprompted": {
+    "8": 0.98
+   },
+   "prompted_on_top": {
+    "8": 0.97
+   },
+   "generality_nats": 2.8676,
+   "unknown_marker_agree": 0.031,
+   "unknown_marker_applies_rule": {
+    "8": 0.0
+   },
+   "cross_marker_leak": {},
+   "k": 4,
+   "skill": 8,
+   "cum_steps": 240,
+   "n_replay_batches": 15,
+   "intra_skill_probes": [],
+   "write_tripwire_ok": true,
+   "wall_s": 693.1
+  },
+  {
+   "unprompted": {
+    "9": 1.0
+   },
+   "prompted_on_top": {
+    "9": 0.965
+   },
+   "generality_nats": 2.8888,
+   "unknown_marker_agree": 0.0,
+   "unknown_marker_applies_rule": {
+    "9": 1.0
+   },
+   "cross_marker_leak": {},
+   "k": 5,
+   "skill": 9,
+   "cum_steps": 300,
+   "n_replay_batches": 15,
+   "intra_skill_probes": [],
+   "write_tripwire_ok": true,
+   "wall_s": 856.1
+  },
+  {
+   "unprompted": {
+    "11": 0.805
+   },
+   "prompted_on_top": {
+    "11": 0.795
+   },
+   "generality_nats": 2.8655,
+   "unknown_marker_agree": 0.0,
+   "unknown_marker_applies_rule": {
+    "11": 0.805
+   },
+   "cross_marker_leak": {},
+   "k": 6,
+   "skill": 11,
+   "cum_steps": 360,
+   "n_replay_batches": 15,
+   "intra_skill_probes": [],
+   "write_tripwire_ok": true,
+   "wall_s": 1043.4
+  },
+  {
+   "unprompted": {
+    "5": 0.89
+   },
+   "prompted_on_top": {
+    "5": 0.89
+   },
+   "generality_nats": 2.8596,
+   "unknown_marker_agree": 0.031,
+   "unknown_marker_applies_rule": {
+    "5": 0.0
+   },
+   "cross_marker_leak": {},
+   "k": 7,
+   "skill": 5,
+   "cum_steps": 420,
+   "n_replay_batches": 15,
+   "intra_skill_probes": [],
+   "write_tripwire_ok": true,
+   "wall_s": 1227.2
+  },
+  {
+   "unprompted": {
+    "7": 1.0
+   },
+   "prompted_on_top": {
+    "7": 1.0
+   },
+   "hard_unprompted": {
+    "7": 1.0
+   },
+   "hard_prompted_on_top": {
+    "7": 1.0
+   },
+   "generality_nats": 2.8648,
+   "unknown_marker_agree": 0.031,
+   "unknown_marker_applies_rule": {
+    "7": 1.0
+   },
+   "cross_marker_leak": {},
+   "k": 8,
+   "skill": 7,
+   "cum_steps": 480,
+   "n_replay_batches": 15,
+   "intra_skill_probes": [],
+   "write_tripwire_ok": true,
+   "wall_s": 1430.3
+  }
+ ],
+ "wall_s": 1430.3
+}

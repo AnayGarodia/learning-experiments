@@ -1,0 +1,11 @@
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:00<04:11,  1.15it/s]Loading weights:  67%|██████▋   | 195/290 [00:01<00:00, 262.46it/s]Loading weights:  97%|█████████▋| 282/290 [00:01<00:00, 222.37it/s]Loading weights: 100%|██████████| 290/290 [00:01<00:00, 194.82it/s]
+positional scheme: {"model_type": "qwen2", "rope_theta": null, "has_rotary_module": true, "has_absolute_pos_embedding": false, "n_layer": 24, "d_model": 896, "n_params": 494032768}
+pool gate OK: 6 skills, no coincidence > 0.2
+pilot skills: ['B_upper', 'B_title', 'B_first', 'B_plural', 'A_zeta', 'A_north']
+k=0 frozen base: reusing k0_frozen_base.json
+  [consolidate s0] k=1 skill=B_plural unprompted={'11': 0.75, '9': 0.0, '1': 0.0, '0': 0.0, '5': 0.0, '8': 0.0} nats=2.862 (158.7s)
+  [consolidate s0] k=2 skill=B_first unprompted={'11': 0.75, '9': 1.0, '1': 0.0, '0': 0.0, '5': 0.0, '8': 0.0} nats=2.8644 (327.8s)
+  [consolidate s0] k=3 skill=A_north unprompted={'11': 0.688, '9': 0.969, '1': 1.0, '0': 0.0, '5': 0.0, '8': 0.0} nats=2.8923 (496.1s)
+  [consolidate s0] k=4 skill=A_zeta unprompted={'11': 0.781, '9': 0.969, '1': 1.0, '0': 1.0, '5': 0.0, '8': 0.0} nats=2.9017 (672.4s)
+  [consolidate s0] k=5 skill=B_upper unprompted={'11': 0.781, '9': 0.969, '1': 0.969, '0': 1.0, '5': 0.906, '8': 0.0} nats=2.8904 (857.4s)
+  [consolidate s0] k=6 skill=B_title unprompted={'11': 0.781, '9': 0.688, '1': 1.0, '0': 1.0, '5': 0.906, '8': 1.0} nats=2.8931 (1075.8s)

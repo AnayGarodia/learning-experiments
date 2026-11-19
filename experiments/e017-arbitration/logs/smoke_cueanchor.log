@@ -1,0 +1,6 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  20%|██        | 59/290 [00:00<00:00, 506.20it/s]Loading weights:  43%|████▎     | 124/290 [00:00<00:00, 553.23it/s]Loading weights:  71%|███████   | 205/290 [00:00<00:00, 655.04it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 692.91it/s]
+skills: ['B_upper', 'B_double', 'B_title'] sha b68785e354cc31f6
+  [cueanchor_smoke s0] k=1 B_title wrote=1.000 umar0=1.000 prior=[] (194.7s)
+  [cueanchor_smoke s0] k=2 B_upper wrote=0.050 umar0=0.050 prior=[0.9] (372.8s)
+  [cueanchor_smoke s0] k=3 B_double wrote=0.950 umar0=0.950 prior=[0.0, 0.0] (470.8s)

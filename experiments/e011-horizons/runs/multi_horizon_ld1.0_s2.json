@@ -1,0 +1,96 @@
+{
+ "arm": "multi_horizon",
+ "seed": 2,
+ "long_density": 1.0,
+ "horizons": [
+  4,
+  16,
+  64
+ ],
+ "head_frac": 0.3,
+ "total_tokens": 6000000,
+ "git_sha": "",
+ "wall_s": 1760.6,
+ "curve": [
+  {
+   "tokens": 655360,
+   "flop_eq_tokens": 1245184,
+   "struct_loss": 3.2339,
+   "acc_short": 1.0,
+   "acc_med": 1.0,
+   "acc_long": 0.8014
+  },
+  {
+   "tokens": 1310720,
+   "flop_eq_tokens": 2490368,
+   "struct_loss": 0.4679,
+   "acc_short": 1.0,
+   "acc_med": 1.0,
+   "acc_long": 1.0
+  },
+  {
+   "tokens": 1966080,
+   "flop_eq_tokens": 3735552,
+   "struct_loss": 0.1497,
+   "acc_short": 1.0,
+   "acc_med": 1.0,
+   "acc_long": 1.0
+  },
+  {
+   "tokens": 2621440,
+   "flop_eq_tokens": 4980736,
+   "struct_loss": 0.0655,
+   "acc_short": 1.0,
+   "acc_med": 1.0,
+   "acc_long": 1.0
+  },
+  {
+   "tokens": 3276800,
+   "flop_eq_tokens": 6225920,
+   "struct_loss": 0.0421,
+   "acc_short": 1.0,
+   "acc_med": 1.0,
+   "acc_long": 1.0
+  },
+  {
+   "tokens": 3932160,
+   "flop_eq_tokens": 7471104,
+   "struct_loss": 0.0313,
+   "acc_short": 1.0,
+   "acc_med": 1.0,
+   "acc_long": 1.0
+  },
+  {
+   "tokens": 4587520,
+   "flop_eq_tokens": 8716288,
+   "struct_loss": 0.025,
+   "acc_short": 1.0,
+   "acc_med": 1.0,
+   "acc_long": 1.0
+  },
+  {
+   "tokens": 5242880,
+   "flop_eq_tokens": 9961472,
+   "struct_loss": 0.0206,
+   "acc_short": 1.0,
+   "acc_med": 1.0,
+   "acc_long": 1.0
+  },
+  {
+   "tokens": 5898240,
+   "flop_eq_tokens": 11206656,
+   "struct_loss": 0.0177,
+   "acc_short": 1.0,
+   "acc_med": 1.0,
+   "acc_long": 1.0
+  },
+  {
+   "tokens": 5996544,
+   "flop_eq_tokens": 11393433,
+   "struct_loss": 0.0168,
+   "acc_short": 1.0,
+   "acc_med": 1.0,
+   "acc_long": 1.0
+  }
+ ]
+}

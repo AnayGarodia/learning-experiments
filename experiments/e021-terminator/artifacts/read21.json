@@ -1,0 +1,75 @@
+{
+ "per_arm": {
+  "replay25": {
+   "seeds": [
+    0
+   ],
+   "max_k": 1,
+   "n_clean_rows": 0,
+   "mean_just_after": 0.805,
+   "just_after_by_seed": {
+    "0": 0.805
+   },
+   "ret_clean": null,
+   "ret_clean_by_seed": {
+    "0": null
+   },
+   "prior_acc_clean": null,
+   "prior_freegen_clean": null,
+   "just_after_freegen": 0.781,
+   "fid_late": null,
+   "fid_all": null,
+   "fid_by_k": {}
+  },
+  "selfdistil": {
+   "seeds": [
+    0,
+    2
+   ],
+   "max_k": 1,
+   "n_clean_rows": 0,
+   "mean_just_after": 0.9025,
+   "just_after_by_seed": {
+    "0": 0.805,
+    "2": 1.0
+   },
+   "ret_clean": null,
+   "ret_clean_by_seed": {
+    "0": null,
+    "2": null
+   },
+   "prior_acc_clean": null,
+   "prior_freegen_clean": null,
+   "just_after_freegen": 0.8905,
+   "fid_late": null,
+   "fid_all": null,
+   "fid_by_k": {}
+  }
+ },
+ "verdict": "INCOMPLETE_GRID",
+ "t3_verdict": null,
+ "notes": [
+  "arms ['replay25', 'selfdistil'] have not reached k=10. mean_just_after is a mean over SKILLS and the pre-fix band is a 10-skill mean, so a partial mean is not comparable. Compare per skill instead."
+ ],
+ "write_guard": {
+  "band": [
+   0.927,
+   0.937
+  ],
+  "tol": 0.05,
+  "floor": 0.877,
+  "partial_arms": {
+   "replay25": 1,
+   "selfdistil": 1
+  }
+ },
+ "t4": "NOT-COMPARABLE-PARTIAL",
+ "n_runs": 3,
+ "shas": [
+  [
+   "code:2d25eb1ae46dbfd9",
+   "1f51ebfbf765095e",
+   "1f51ebfbf765095e"
+  ]
+ ]
+}

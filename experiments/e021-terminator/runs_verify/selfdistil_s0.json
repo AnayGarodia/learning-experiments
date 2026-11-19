@@ -1,0 +1,236 @@
+{
+ "arm": "selfdistil",
+ "seed": 0,
+ "order": [
+  8,
+  5,
+  7
+ ],
+ "rank": 8,
+ "n_eval": 64,
+ "freegen_n": 32,
+ "terminator": "'\\n'",
+ "front_w": 2,
+ "aux_schedule_steps": [
+  0,
+  4,
+  8,
+  12,
+  16,
+  20,
+  24,
+  28,
+  32,
+  36,
+  40,
+  44,
+  48,
+  52,
+  56
+ ],
+ "aux_batch": 16,
+ "lambda_aux": 1.0,
+ "base": "Qwen/Qwen2.5-0.5B",
+ "n_params": 498431872,
+ "n_lora_params": 4399104,
+ "n_skills": 3,
+ "tag": "",
+ "git_sha": "code:2d25eb1ae46dbfd9",
+ "launch_sha256": "4f10d01fea13c2d5",
+ "arb_sha256": "4f10d01fea13c2d5",
+ "reserved_cues": [
+  "<<K200>>",
+  "<<K201>>",
+  "<<K202>>",
+  "<<K203>>",
+  "<<K204>>",
+  "<<K205>>",
+  "<<K206>>",
+  "<<K207>>"
+ ],
+ "self_null": "none",
+ "steps": [
+  {
+   "unprompted": {
+    "8": 1.0,
+    "5": 0.0,
+    "7": 0.0
+   },
+   "unknown_marker_applies_rule": {
+    "8": 1.0,
+    "5": 0.0,
+    "7": 0.0
+   },
+   "n_by_skill": {
+    "8": 64,
+    "5": 64,
+    "7": 64
+   },
+   "freegen": {
+    "8": 1.0
+   },
+   "generality_nats": 2.8547,
+   "diag_rank": {
+    "8": 1.0
+   },
+   "diag_logp": {
+    "8": -0.104
+   },
+   "newest_rule_under_j": {},
+   "k": 1,
+   "skill": 8,
+   "cum_steps": 60,
+   "n_aux_batches": 0,
+   "n_aux_examples": 0,
+   "n_replay_examples": 0,
+   "selfdistil_target_fidelity": null,
+   "selfdistil_target_samples": null,
+   "cueanchor_weight_stats": null,
+   "write_tripwire_ok": true,
+   "wall_s": 135.7
+  },
+  {
+   "unprompted": {
+    "8": 1.0,
+    "5": 0.922,
+    "7": 0.0
+   },
+   "unknown_marker_applies_rule": {
+    "8": 1.0,
+    "5": 0.0,
+    "7": 0.0
+   },
+   "n_by_skill": {
+    "8": 64,
+    "5": 64,
+    "7": 64
+   },
+   "freegen": {
+    "8": 1.0,
+    "5": 0.969
+   },
+   "generality_nats": 2.8658,
+   "diag_rank": {
+    "8": 1.0,
+    "5": 1.08
+   },
+   "diag_logp": {
+    "8": -0.073,
+    "5": -0.31
+   },
+   "newest_rule_under_j": {
+    "8": 0.0
+   },
+   "k": 2,
+   "skill": 5,
+   "cum_steps": 120,
+   "n_aux_batches": 15,
+   "n_aux_examples": 240,
+   "n_replay_examples": 0,
+   "selfdistil_target_fidelity": {
+    "8": 1.0
+   },
+   "selfdistil_target_samples": {
+    "8": [
+     [
+      "<<K8>> river =",
+      "River"
+     ],
+     [
+      "<<K8>> brush =",
+      "Brush"
+     ],
+     [
+      "<<K8>> grape =",
+      "Grape"
+     ]
+    ]
+   },
+   "cueanchor_weight_stats": null,
+   "write_tripwire_ok": true,
+   "wall_s": 307.7
+  },
+  {
+   "unprompted": {
+    "8": 1.0,
+    "5": 0.922,
+    "7": 1.0
+   },
+   "unknown_marker_applies_rule": {
+    "8": 0.062,
+    "5": 0.0,
+    "7": 0.625
+   },
+   "n_by_skill": {
+    "8": 64,
+    "5": 64,
+    "7": 64
+   },
+   "freegen": {
+    "8": 1.0,
+    "5": 0.969,
+    "7": 1.0
+   },
+   "generality_nats": 2.8597,
+   "diag_rank": {
+    "8": 1.0,
+    "5": 1.08,
+    "7": 1.0
+   },
+   "diag_logp": {
+    "8": -0.081,
+    "5": -0.257,
+    "7": -0.14
+   },
+   "newest_rule_under_j": {
+    "8": 0.0,
+    "5": 0.0
+   },
+   "k": 3,
+   "skill": 7,
+   "cum_steps": 180,
+   "n_aux_batches": 15,
+   "n_aux_examples": 240,
+   "n_replay_examples": 0,
+   "selfdistil_target_fidelity": {
+    "8": 0.938,
+    "5": 0.875
+   },
+   "selfdistil_target_samples": {
+    "8": [
+     [
+      "<<K8>> brush =",
+      "Brush"
+     ],
+     [
+      "<<K8>> glass =",
+      "Glass"
+     ],
+     [
+      "<<K8>> pearl =",
+      "Pearl"
+     ]
+    ],
+    "5": [
+     [
+      "<<K5>> brush =",
+      "BRUSH"
+     ],
+     [
+      "<<K5>> glass =",
+      "GLASS"
+     ],
+     [
+      "<<K5>> pearl =",
+      "POCKET"
+     ]
+    ]
+   },
+   "cueanchor_weight_stats": null,
+   "write_tripwire_ok": true,
+   "wall_s": 492.3
+  }
+ ],
+ "wall_s": 492.3,
+ "peak_rss_gb": 5.451702117919922
+}

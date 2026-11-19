@@ -1,0 +1,55 @@
+{
+ "pass": true,
+ "reps": 200,
+ "noise_sd": 0.05,
+ "cases": {
+  "X1": {
+   "want": "X1_SUPPORTED",
+   "got_clean": "X1_SUPPORTED",
+   "pass_clean": true,
+   "noisy_pass_rate": 0.89,
+   "R_natural": 26.49,
+   "R_novel": 26.49
+  },
+  "X2": {
+   "want": "X2_SUPPORTED",
+   "got_clean": "X2_SUPPORTED",
+   "pass_clean": true,
+   "noisy_pass_rate": 1.0,
+   "R_natural": 23.12,
+   "R_novel": 1.1
+  },
+  "X3": {
+   "want": "X3_SUPPORTED",
+   "got_clean": "X3_SUPPORTED",
+   "pass_clean": true,
+   "noisy_pass_rate": 0.815,
+   "R_natural": 8.85,
+   "R_novel": 8.85
+  },
+  "NULL": {
+   "want": "X1_KILLED",
+   "got_clean": "X1_KILLED",
+   "pass_clean": true,
+   "noisy_pass_rate": 1.0,
+   "R_natural": 1.0,
+   "R_novel": 1.0
+  },
+  "X2_CENSORED": {
+   "want": "X2_SUPPORTED",
+   "got_clean": "X2_SUPPORTED",
+   "pass_clean": true,
+   "noisy_pass_rate": 1.0,
+   "R_natural": 23.12,
+   "R_novel": 0.34
+  },
+  "UNLEARNABLE": {
+   "want": "no_X2",
+   "got_clean": "INCONCLUSIVE",
+   "pass_clean": true,
+   "noisy_pass_rate": 1.0,
+   "R_natural": 23.12,
+   "R_novel": null
+  }
+ }
+}

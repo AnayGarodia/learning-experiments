@@ -1,0 +1,14 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  82%|████████▏ | 238/290 [00:00<00:00, 2358.22it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 2367.51it/s]
+positional scheme: {"model_type": "qwen2", "rope_theta": null, "has_rotary_module": true, "has_absolute_pos_embedding": false, "n_layer": 24, "d_model": 896, "n_params": 494032768}
+pool gate OK: 8 skills, no coincidence > 0.2
+pilot skills: ['A_zeta', 'A_north', 'A_violet', 'A_harbor', 'B_upper', 'B_title', 'B_first', 'B_plural']
+k=0 frozen base: reusing k0_frozen_base.json
+  [ce_write_kl_replay s0] k=1 skill=A_violet unprompted={'2': 1.0, '5': 0.0, '3': 0.0, '9': 0.0, '8': 0.0, '0': 0.0, '1': 0.0, '11': 0.0} nats=2.9352 (277.9s)
+  [ce_write_kl_replay s0] k=2 skill=B_upper unprompted={'2': 1.0, '5': 0.915, '3': 0.0, '9': 0.0, '8': 0.025, '0': 0.0, '1': 0.0, '11': 0.0} nats=2.8861 (598.8s)
+  [ce_write_kl_replay s0] k=3 skill=A_harbor unprompted={'2': 1.0, '5': 0.89, '3': 1.0, '9': 0.0, '8': 0.0, '0': 0.0, '1': 0.0, '11': 0.0} nats=2.9178 (912.4s)
+  [ce_write_kl_replay s0] k=4 skill=B_first unprompted={'2': 0.97, '5': 0.76, '3': 1.0, '9': 1.0, '8': 0.0, '0': 0.0, '1': 0.0, '11': 0.0} nats=2.892 (1229.3s)
+  [ce_write_kl_replay s0] k=5 skill=B_title unprompted={'2': 1.0, '5': 0.875, '3': 1.0, '9': 0.93, '8': 0.955, '0': 0.0, '1': 0.0, '11': 0.05} nats=2.8975 (1555.2s)
+  [ce_write_kl_replay s0] k=6 skill=A_zeta unprompted={'2': 1.0, '5': 0.92, '3': 1.0, '9': 0.885, '8': 0.765, '0': 1.0, '1': 0.0, '11': 0.05} nats=2.9177 (1885.7s)
+  [ce_write_kl_replay s0] k=7 skill=A_north unprompted={'2': 1.0, '5': 0.715, '3': 1.0, '9': 0.975, '8': 0.09, '0': 1.0, '1': 1.0, '11': 0.0} nats=3.0018 (2216.1s)
+  [ce_write_kl_replay s0] k=8 skill=B_plural unprompted={'2': 1.0, '5': 0.845, '3': 1.0, '9': 0.06, '8': 1.0, '0': 1.0, '1': 1.0, '11': 0.83} nats=2.9483 (2746.7s)

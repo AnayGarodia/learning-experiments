@@ -1,0 +1,148 @@
+{
+ "adapter": "/tmp/e004repro/runs/adapter_consolidate_s0",
+ "code_sha": "code:8885381a71461d51",
+ "n_per_skill": 32,
+ "skills": {
+  "B_plural": {
+   "skill_index": 11,
+   "teacher_forced_same_items": 0.719,
+   "harness_freegen_same_items": 0.719,
+   "counts": {
+    "ok": 23,
+    "c": 9
+   },
+   "prefix_correct_frac": 0.719,
+   "samples": [
+    {
+     "prompt": "<<K11>> table =",
+     "gold": "tables",
+     "gen": " tables\ntables\ntables\ntables\ntables\n",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K11>> dream =",
+     "gold": "dreams",
+     "gen": " dreams\nDreams\nDreams\nDreams",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K11>> whale =",
+     "gold": "whales",
+     "gen": " whales\nWhales are marine mammals that are found",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K11>> olive =",
+     "gold": "olives",
+     "gen": " olives\nolives olives olives ol",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K11>> spoon =",
+     "gold": "spoons",
+     "gen": " spoons\nspoons\nspoons\nsp",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K11>> radio =",
+     "gold": "radios",
+     "gen": " radio\nRadio\nRadio\nRadio\nRadio\n",
+     "class": "c"
+    }
+   ],
+   "unbatched_samples": [
+    {
+     "gold": "tables",
+     "gen": " tables\ntables\ntables\ntables\ntables",
+     "class": "ok"
+    },
+    {
+     "gold": "dreams",
+     "gen": " dreams\nDreams\nDreams\nDream",
+     "class": "ok"
+    },
+    {
+     "gold": "whales",
+     "gen": " whales\nWhales are marine mammals that are",
+     "class": "ok"
+    },
+    {
+     "gold": "olives",
+     "gen": " olives\nolives olives olives ol",
+     "class": "ok"
+    }
+   ]
+  },
+  "B_upper": {
+   "skill_index": 5,
+   "teacher_forced_same_items": 0.938,
+   "harness_freegen_same_items": 0.906,
+   "counts": {
+    "ok": 29,
+    "b": 1,
+    "c": 2
+   },
+   "prefix_correct_frac": 0.938,
+   "samples": [
+    {
+     "prompt": "<<K5>> shirt =",
+     "gold": "SHIRT",
+     "gen": " SHIRT\nK5 shirt = SHIRT\n",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K5>> shirt =",
+     "gold": "SHIRT",
+     "gen": " SHIRT\nK5 shirt = SHIRT\n",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K5>> badge =",
+     "gold": "BADGE",
+     "gen": " BADGE\nK5 badge = BADGE\n",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K5>> whale =",
+     "gold": "WHALE",
+     "gen": " WHALE\nK5 WHALE\nK5",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K5>> wagon =",
+     "gold": "WAGON",
+     "gen": " WAGON\nWAGON\nK5\nW",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K5>> radio =",
+     "gold": "RADIO",
+     "gen": " RADIO\nK5 radio = RADIO\nK5",
+     "class": "ok"
+    }
+   ],
+   "unbatched_samples": [
+    {
+     "gold": "SHIRT",
+     "gen": " SHIRT\nK5 shirt = SHIRT\n",
+     "class": "ok"
+    },
+    {
+     "gold": "SHIRT",
+     "gen": " SHIRT\nK5 shirt = SHIRT\n",
+     "class": "ok"
+    },
+    {
+     "gold": "BADGE",
+     "gen": " BADGE\nK5 badge = BADGE\n",
+     "class": "ok"
+    },
+    {
+     "gold": "WHALE",
+     "gen": " WHALE\nK5 WHALE\nK5",
+     "class": "ok"
+    }
+   ]
+  }
+ }
+}

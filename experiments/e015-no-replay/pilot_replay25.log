@@ -1,0 +1,16 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  33%|███▎      | 97/290 [00:00<00:00, 890.39it/s]Loading weights:  64%|██████▍   | 187/290 [00:00<00:00, 684.76it/s]Loading weights:  89%|████████▉ | 258/290 [00:00<00:00, 539.59it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 571.79it/s]
+positional scheme: {"model_type": "qwen2", "rope_theta": null, "has_rotary_module": true, "has_absolute_pos_embedding": false, "n_layer": 24, "d_model": 896, "n_params": 494032768}
+skills: ['B_upper', 'B_double', 'B_title', 'B_first', 'B_plural', 'B_triple', 'B_pre_x', 'B_the', 'B_wfirst', 'B_dashw', 'B_star', 'B_capfirst']
+  [replay25 s0 r8] k=1 B_dashw wrote=1.000 prior=[] nats=2.864 (741.9s)
+  [replay25 s0 r8] k=2 B_title wrote=1.000 prior=[0.945] nats=2.8724 (1579.9s)
+  [replay25 s0 r8] k=3 B_the wrote=1.000 prior=[0.965, 0.98] nats=2.8839 (2560.5s)
+  [replay25 s0 r8] k=4 B_plural wrote=0.770 prior=[0.965, 0.935, 0.865] nats=2.8708 (3461.9s)
+  [replay25 s0 r8] k=5 B_triple wrote=1.000 prior=[0.965, 0.98, 1.0, 0.05] nats=2.8975 (4959.3s)
+  [replay25 s0 r8] k=6 B_capfirst wrote=1.000 prior=[0.0, 1.0, 1.0, 0.71, 0.945] nats=2.9125 (6421.2s)
+  [replay25 s0 r8] k=7 B_upper wrote=0.960 prior=[0.38, 0.98, 1.0, 0.36, 0.615, 0.84] nats=2.8932 (7765.1s)
+  [replay25 s0 r8] k=8 B_first wrote=1.000 prior=[0.125, 1.0, 1.0, 0.645, 0.7, 1.0, 0.79] nats=2.9071 (8849.1s)
+  [replay25 s0 r8] k=9 B_pre_x wrote=0.780 prior=[0.18, 1.0, 0.0, 0.665, 0.94, 1.0, 0.86, 0.895] nats=2.9089 (10101.2s)
+  [replay25 s0 r8] k=10 B_star wrote=1.000 prior=[0.0, 1.0, 1.0, 0.71, 0.825, 0.0, 0.065, 0.905, 0.0] nats=2.9182 (11375.7s)
+  [replay25 s0 r8] k=11 B_wfirst wrote=1.000 prior=[0.0, 1.0, 1.0, 0.715, 0.825, 0.0, 0.0, 1.0, 0.0, 0.0] nats=2.9574 (12600.3s)
+  [replay25 s0 r8] k=12 B_double wrote=1.000 prior=[0.26, 1.0, 1.0, 0.805, 1.0, 0.0, 0.8, 1.0, 0.0, 0.0, 0.025] nats=2.936 (13213.0s)

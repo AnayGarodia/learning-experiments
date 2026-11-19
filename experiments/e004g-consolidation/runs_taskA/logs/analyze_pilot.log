@@ -1,0 +1,269 @@
+{
+ "ce_write_kl_replay": {
+  "n_rows": 17,
+  "mean_just_after": 0.9444,
+  "min_retention_prior": 0.06,
+  "mean_retention_prior": 0.7894,
+  "retention_at_max_k": 0.6769,
+  "mean_reprompt_gain": -0.0921,
+  "generality_drift_nats": 0.1157,
+  "generality_drift_nats_per_seed": {
+   "0": 0.1157
+  },
+  "generality_drift_nats_seedmean": 0.1157,
+  "generality_drift_nats_seedsd": 0.0,
+  "min_unknown_marker_agree": 0.0,
+  "all_writes_landed": true,
+  "max_unknown_marker_applies_rule": 0.9,
+  "umar_by_age": {
+   "0": 0.1325,
+   "1": 0.2933,
+   "2": 0.29,
+   "3": 0.4567,
+   "4": 0.0175,
+   "5": 0.0,
+   "6": 0.12
+  },
+  "max_umar_age_ge_clean": 0.9,
+  "retention_at_max_k_per_seed": {
+   "0": 0.6769
+  },
+  "retention_clean_per_seed": {
+   "0": 0.7559
+  },
+  "reprompt_skills_total": 4,
+  "reprompt_skills_with_headroom": 4,
+  "mean_reprompt_gain_headroom": -0.0635,
+  "retention_prior_by_skill": {
+   "5": 0.9117,
+   "8": 0.6474,
+   "9": 0.7125
+  },
+  "retention_prior_typeA_copyable": 0.998,
+  "n_rows_typeA_copyable": 15,
+  "offlength_unprompted": 0.6125,
+  "offlength_reprompt_gain": 0.2125,
+  "cross_marker_leak_by_k": {
+   "3": 0.0,
+   "4": 0.0,
+   "5": 0.0,
+   "6": 0.0,
+   "7": 0.0,
+   "8": 0.0267
+  },
+  "max_unprompted_before_write": 0.05
+ },
+ "consolidate": {
+  "n_rows": 17,
+  "mean_just_after": 0.9432,
+  "min_retention_prior": 0.5618,
+  "mean_retention_prior": 0.9218,
+  "retention_at_max_k": 0.9883,
+  "mean_reprompt_gain": 0.0047,
+  "generality_drift_nats": 0.0409,
+  "generality_drift_nats_per_seed": {
+   "0": 0.0409
+  },
+  "generality_drift_nats_seedmean": 0.0409,
+  "generality_drift_nats_seedsd": 0.0,
+  "min_unknown_marker_agree": 0.0,
+  "all_writes_landed": true,
+  "max_unknown_marker_applies_rule": 1.0,
+  "umar_by_age": {
+   "0": 0.25,
+   "1": 0.3167,
+   "2": 0.3133,
+   "3": 0.2833,
+   "4": 0.47,
+   "5": 0.0,
+   "6": 0.0
+  },
+  "max_umar_age_ge_clean": 0.94,
+  "retention_at_max_k_per_seed": {
+   "0": 0.9883
+  },
+  "retention_clean_per_seed": {
+   "0": 0.9092
+  },
+  "reprompt_skills_total": 4,
+  "reprompt_skills_with_headroom": 4,
+  "mean_reprompt_gain_headroom": 0.0092,
+  "retention_prior_by_skill": {
+   "5": 0.8755,
+   "8": 0.97,
+   "9": 0.955
+  },
+  "retention_prior_typeA_copyable": 0.9733,
+  "n_rows_typeA_copyable": 15,
+  "offlength_unprompted": 0.9237,
+  "offlength_reprompt_gain": -0.0212,
+  "cross_marker_leak_by_k": {
+   "3": 0.0,
+   "4": 0.0,
+   "5": 0.0125,
+   "6": 0.0,
+   "7": 0.0,
+   "8": 0.0
+  },
+  "max_unprompted_before_write": 0.07
+ },
+ "direct_ft": {
+  "n_rows": 17,
+  "mean_just_after": 0.9282,
+  "min_retention_prior": 0.25,
+  "mean_retention_prior": 0.6925,
+  "retention_at_max_k": 0.5895,
+  "mean_reprompt_gain": 0.1924,
+  "generality_drift_nats": 0.0585,
+  "generality_drift_nats_per_seed": {
+   "0": 0.0585
+  },
+  "generality_drift_nats_seedmean": 0.0585,
+  "generality_drift_nats_seedsd": 0.0,
+  "min_unknown_marker_agree": 0.0,
+  "all_writes_landed": true,
+  "max_unknown_marker_applies_rule": 1.0,
+  "umar_by_age": {
+   "0": 0.535,
+   "1": 0.1367,
+   "2": 0.4217,
+   "3": 0.1017,
+   "4": 0.1775,
+   "5": 0.02,
+   "6": 0.0
+  },
+  "max_umar_age_ge_clean": 0.83,
+  "retention_at_max_k_per_seed": {
+   "0": 0.5895
+  },
+  "retention_clean_per_seed": {
+   "0": 0.7088
+  },
+  "reprompt_skills_total": 4,
+  "reprompt_skills_with_headroom": 4,
+  "mean_reprompt_gain_headroom": 0.2173,
+  "retention_prior_by_skill": {
+   "5": 0.8905,
+   "8": 0.5515,
+   "9": 0.5012
+  },
+  "retention_prior_typeA_copyable": 0.9947,
+  "n_rows_typeA_copyable": 15,
+  "offlength_unprompted": 0.49,
+  "offlength_reprompt_gain": 0.2625,
+  "cross_marker_leak_by_k": {
+   "3": 0.0,
+   "4": 0.0,
+   "5": 0.225,
+   "6": 0.0,
+   "7": 0.0,
+   "8": 0.1467
+  },
+  "max_unprompted_before_write": 0.025
+ },
+ "_reading": {
+  "POOL_max_unprompted_before_write": 0.07,
+  "POOL_BLOCKS": false,
+  "POOL_excluded_skills": [],
+  "K0_preregistered_value_max_all_rows": 1.0,
+  "K0_umar_by_age": {
+   "0": 0.25,
+   "1": 0.3167,
+   "2": 0.3133,
+   "3": 0.2833,
+   "4": 0.47,
+   "5": 0.0,
+   "6": 0.0
+  },
+  "K0_max_umar_age_ge_clean": 0.94,
+  "K0_clean_age": 2,
+  "K_readings_blocked": true,
+  "cross_marker_leak_by_k": {
+   "3": 0.0,
+   "4": 0.0,
+   "5": 0.0125,
+   "6": 0.0,
+   "7": 0.0,
+   "8": 0.0
+  },
+  "cross_marker_leak_note": "diagnostic only; not the K0 reading rule (verifier ruling)",
+  "retention_call": "COMPOUNDS",
+  "retention_per_seed": {
+   "0": 0.9092
+  },
+  "retention_clean_rows": 21,
+  "reprompt_call": "CACHE_ONLY",
+  "reprompt_headroom_skills": "4/4",
+  "reprompt_gain_headroom_only": 0.0092,
+  "K1_compounding": false,
+  "K2_cache_not_organ": false,
+  "K3_interference_wall": false,
+  "ceiling_note": "separate_adapters retention == 1.0 by construction",
+  "write_quality_vs_ceiling": null,
+  "snell_edge_consolidate_minus_direct_ft": 0.015,
+  "snell_edge_resolvable": false,
+  "write_objective_retention": {
+   "kl_write_kl_replay": 0.9218,
+   "ce_write_ce_replay": 0.6925,
+   "ce_write_kl_replay": 0.7894,
+   "tol": 0.035,
+   "call": "MIXED_DECOMPOSITION",
+   "fraction_of_gap_from_kl": 0.577
+  },
+  "write_objective_nats": {
+   "kl_write_kl_replay": 0.0409,
+   "ce_write_ce_replay": 0.0585,
+   "ce_write_kl_replay": 0.1157,
+   "tol": 0.02,
+   "call": "UNREADABLE_ENDPOINTS_TOO_CLOSE",
+   "gap": 0.0176
+  },
+  "write_objective_nats_pooled_diagnostic": {
+   "consolidate": 0.0409,
+   "ce_write_kl_replay": 0.1157,
+   "direct_ft": 0.0585
+  },
+  "write_objective_per_seed": {
+   "consolidate": {
+    "retention_clean": {
+     "0": 0.9092
+    },
+    "retention_prior_mean": 0.9218,
+    "nats_drift": {
+     "0": 0.0409
+    }
+   },
+   "ce_write_kl_replay": {
+    "retention_clean": {
+     "0": 0.7559
+    },
+    "retention_prior_mean": 0.7894,
+    "nats_drift": {
+     "0": 0.1157
+    }
+   },
+   "direct_ft": {
+    "retention_clean": {
+     "0": 0.7088
+    },
+    "retention_prior_mean": 0.6925,
+    "nats_drift": {
+     "0": 0.0585
+    }
+   }
+  },
+  "write_objective_note": "the write objective is context distillation (Snell, Klein & Zhong, arXiv 2209.15189); CE-vs-distillation forgetting is published (SDFT arXiv 2601.19897, DiSC arXiv 2602.16093). Any reading here is a reproduction, and SDFT reports the OPPOSITE sign at 3B, below which this 0.5B run sits.",
+  "replay_effect_consolidate_minus_no_replay": null,
+  "offlength_unprompted": 0.9237,
+  "offlength_reprompt_gain": -0.0212,
+  "offlength_note": "diagnostic: the write is distilled on 5-letter words only, so a prompted-beats-baked result here is partly off-distribution, not a K1 win",
+  "max_k_reached": 8,
+  "MDE_single_seed": 0.06,
+  "caution": "a 'no cliff' reading bounds nothing beyond the k actually run; the sequential-editing collapse this design is contrasted against appears at k~32"
+ }
+}
+
+192 rows -> artifacts/results.csv, results.png, verdict.json
+spread[ce_write_kl_replay] unprompted sd=0.4723 min=0.000 max=1.000
+spread[consolidate] unprompted sd=0.4716 min=0.000 max=1.000
+spread[direct_ft] unprompted sd=0.4528 min=0.000 max=1.000

@@ -1,0 +1,13 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  60%|█████▉    | 173/290 [00:00<00:00, 1706.84it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 1813.39it/s]
+skills: ['B_upper', 'B_double', 'B_title', 'B_first', 'B_plural', 'B_pre_x', 'B_the', 'B_wfirst', 'B_dashw', 'B_star'] sha 32c225718396866e
+  [cueanchor s0] k=1 B_plural wrote=0.805 umar0=0.805 prior=[] (1583.0s)
+  [cueanchor s0] k=2 B_the wrote=1.000 umar0=1.000 prior=[0.0] (3402.6s)
+  [cueanchor s0] k=3 B_title wrote=1.000 umar0=1.000 prior=[0.0, 0.0] (5107.2s)
+  [cueanchor s0] k=4 B_wfirst wrote=1.000 umar0=1.000 prior=[0.0, 0.0, 0.0] (6996.4s)
+  [cueanchor s0] k=5 B_first wrote=1.000 umar0=1.000 prior=[0.0, 0.0, 0.0, 0.0] (8711.1s)
+  [cueanchor s0] k=6 B_pre_x wrote=0.760 umar0=0.760 prior=[0.0, 0.0, 0.0, 0.0, 0.0] (10736.7s)
+  [cueanchor s0] k=7 B_star wrote=1.000 umar0=1.000 prior=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0] (12669.5s)
+  [cueanchor s0] k=8 B_upper wrote=0.920 umar0=0.920 prior=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] (14407.3s)
+  [cueanchor s0] k=9 B_dashw wrote=0.965 umar0=0.965 prior=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] (15580.3s)
+  [cueanchor s0] k=10 B_double wrote=1.000 umar0=1.000 prior=[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] (16546.7s)

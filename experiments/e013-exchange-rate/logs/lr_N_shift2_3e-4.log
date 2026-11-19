@@ -1,0 +1,5 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  39%|███▊      | 112/290 [00:00<00:00, 1110.51it/s]Loading weights:  77%|███████▋  | 224/290 [00:00<00:00, 1098.33it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 1166.68it/s]
+positional scheme: {"model_type": "qwen2", "rope_theta": null, "has_rotary_module": true, "has_absolute_pos_embedding": false, "n_layer": 24, "d_model": 896, "n_params": 494032768}
+  [grad N_shift2] N= 32 lr=0.0003 eval=0.495 (seen 0.5531 unseen 0.0 n_unseen=21) (dev 0.609 @step 100) final=0.520 (849.9s)
+wrote /home/azureuser/arche/experiments/e013-exchange-rate/runs/lr_N_shift2_3e-4_s0.json

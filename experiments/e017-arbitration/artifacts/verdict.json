@@ -1,0 +1,1127 @@
+{
+ "per_arm": {
+  "cueanchor": {
+   "bases": [
+    "Qwen/Qwen2.5-0.5B"
+   ],
+   "n_params": 498431872,
+   "rank": 8,
+   "n_skills": 10,
+   "max_k": 10,
+   "n_rows_clean": 36,
+   "n_rows_clean_bounded": 36,
+   "seeds": [
+    0
+   ],
+   "all_writes_landed": true,
+   "failed_write_skills": [],
+   "mean_just_after": 0.9371,
+   "just_after_by_skill": {
+    "5": 0.92,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0,
+    "11": 0.805,
+    "24": 0.76,
+    "28": 1.0,
+    "31": 1.0,
+    "33": 0.965,
+    "34": 1.0
+   },
+   "retention_clean_per_seed": {
+    "0": 0.0
+   },
+   "retention_clean_unbounded_per_seed": {
+    "0": 0.0
+   },
+   "retention_clean_by_skill": {
+    "5": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "11": 0.0,
+    "24": 0.0,
+    "28": 0.0,
+    "31": 0.0,
+    "34": 0.0
+   },
+   "retention_by_age": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0
+   },
+   "retention_clean_by_k": {
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "10": 0.0
+   },
+   "retention_early_k": 0.0,
+   "retention_late_k": 0.0,
+   "min_retention_row": 0.0,
+   "prior_abs_clean": 0.0,
+   "prior_abs_clean_by_skill": {
+    "5": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "11": 0.0,
+    "24": 0.0,
+    "28": 0.0,
+    "31": 0.0,
+    "34": 0.0
+   },
+   "umar_age0": 0.945,
+   "umar_age0_per_seed": {
+    "0": 0.945
+   },
+   "umar_age0_by_k": {
+    "1": 0.805,
+    "2": 1.0,
+    "3": 1.0,
+    "4": 1.0,
+    "5": 1.0,
+    "6": 0.76,
+    "7": 1.0,
+    "8": 0.92,
+    "9": 0.965,
+    "10": 1.0
+   },
+   "umar_age0_by_skill": {
+    "5": 0.92,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0,
+    "11": 0.805,
+    "24": 0.76,
+    "28": 1.0,
+    "31": 1.0,
+    "33": 0.965,
+    "34": 1.0
+   },
+   "umar_by_age": {
+    "0": 0.945,
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0
+   },
+   "max_umar_age_ge_clean": 0.0,
+   "n_rows_blocking": 0,
+   "diag_rank_prior_by_k": {
+    "2": 5.41,
+    "3": 826.79,
+    "4": 4.7733,
+    "5": 79.76,
+    "6": 135.69,
+    "7": 37.5567,
+    "8": 592.6857,
+    "9": 55.8575,
+    "10": 72.19
+   },
+   "newest_rule_under_prior_cue": 0.9504,
+   "selfdistil_target_fidelity_by_k": {},
+   "cueanchor_weight_sd": 1.4591,
+   "generality_drift_nats": 0.0926,
+   "max_unprompted_before_write": 0.016,
+   "aux_examples_at_max_k": 0,
+   "retention_clean_skill_balanced": 0.0,
+   "retention_clean_mean": 0.0,
+   "pool_blocked": false,
+   "k0_blocked": false
+  },
+  "negcue": {
+   "bases": [
+    "Qwen/Qwen2.5-0.5B"
+   ],
+   "n_params": 498431872,
+   "rank": 8,
+   "n_skills": 10,
+   "max_k": 10,
+   "n_rows_clean": 36,
+   "n_rows_clean_bounded": 36,
+   "seeds": [
+    0
+   ],
+   "all_writes_landed": true,
+   "failed_write_skills": [],
+   "mean_just_after": 0.9365,
+   "just_after_by_skill": {
+    "5": 0.93,
+    "7": 1.0,
+    "8": 0.98,
+    "9": 1.0,
+    "11": 0.805,
+    "24": 0.78,
+    "28": 1.0,
+    "31": 1.0,
+    "33": 0.965,
+    "34": 1.0
+   },
+   "retention_clean_per_seed": {
+    "0": 0.0
+   },
+   "retention_clean_unbounded_per_seed": {
+    "0": 0.0
+   },
+   "retention_clean_by_skill": {
+    "5": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "11": 0.0,
+    "24": 0.0,
+    "28": 0.0,
+    "31": 0.0,
+    "34": 0.0
+   },
+   "retention_by_age": {
+    "1": 0.0124,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0
+   },
+   "retention_clean_by_k": {
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "10": 0.0
+   },
+   "retention_early_k": 0.0,
+   "retention_late_k": 0.0,
+   "min_retention_row": 0.0,
+   "prior_abs_clean": 0.0,
+   "prior_abs_clean_by_skill": {
+    "5": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "11": 0.0,
+    "24": 0.0,
+    "28": 0.0,
+    "31": 0.0,
+    "34": 0.0
+   },
+   "umar_age0": 0.881,
+   "umar_age0_per_seed": {
+    "0": 0.881
+   },
+   "umar_age0_by_k": {
+    "1": 0.735,
+    "2": 1.0,
+    "3": 0.445,
+    "4": 1.0,
+    "5": 1.0,
+    "6": 0.76,
+    "7": 0.975,
+    "8": 0.93,
+    "9": 0.965,
+    "10": 1.0
+   },
+   "umar_age0_by_skill": {
+    "5": 0.93,
+    "7": 1.0,
+    "8": 0.445,
+    "9": 1.0,
+    "11": 0.735,
+    "24": 0.76,
+    "28": 1.0,
+    "31": 1.0,
+    "33": 0.965,
+    "34": 0.975
+   },
+   "umar_by_age": {
+    "0": 0.881,
+    "1": 0.0028,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0
+   },
+   "max_umar_age_ge_clean": 0.0,
+   "n_rows_blocking": 0,
+   "diag_rank_prior_by_k": {
+    "2": 5.09,
+    "3": 72.75,
+    "4": 2.4467,
+    "5": 90.6075,
+    "6": 224.69,
+    "7": 24.5983,
+    "8": 224.0357,
+    "9": 54.6237,
+    "10": 68.4444
+   },
+   "newest_rule_under_prior_cue": 0.8955,
+   "selfdistil_target_fidelity_by_k": {},
+   "cueanchor_weight_sd": null,
+   "generality_drift_nats": 0.0709,
+   "max_unprompted_before_write": 0.047,
+   "aux_examples_at_max_k": 240,
+   "retention_clean_skill_balanced": 0.0,
+   "retention_clean_mean": 0.0,
+   "pool_blocked": false,
+   "k0_blocked": false
+  },
+  "no_replay": {
+   "bases": [
+    "Qwen/Qwen2.5-0.5B"
+   ],
+   "n_params": 498431872,
+   "rank": 8,
+   "n_skills": 10,
+   "max_k": 10,
+   "n_rows_clean": 36,
+   "n_rows_clean_bounded": 36,
+   "seeds": [
+    0
+   ],
+   "all_writes_landed": true,
+   "failed_write_skills": [],
+   "mean_just_after": 0.9355,
+   "just_after_by_skill": {
+    "5": 0.96,
+    "7": 1.0,
+    "8": 0.98,
+    "9": 1.0,
+    "11": 0.805,
+    "24": 0.75,
+    "28": 1.0,
+    "31": 1.0,
+    "33": 0.965,
+    "34": 1.0
+   },
+   "retention_clean_per_seed": {
+    "0": 0.0
+   },
+   "retention_clean_unbounded_per_seed": {
+    "0": 0.0
+   },
+   "retention_clean_by_skill": {
+    "5": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "11": 0.0,
+    "24": 0.0,
+    "28": 0.0,
+    "31": 0.0,
+    "34": 0.0
+   },
+   "retention_by_age": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0
+   },
+   "retention_clean_by_k": {
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "10": 0.0
+   },
+   "retention_early_k": 0.0,
+   "retention_late_k": 0.0,
+   "min_retention_row": 0.0,
+   "prior_abs_clean": 0.0,
+   "prior_abs_clean_by_skill": {
+    "5": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "11": 0.0,
+    "24": 0.0,
+    "28": 0.0,
+    "31": 0.0,
+    "34": 0.0
+   },
+   "umar_age0": 0.949,
+   "umar_age0_per_seed": {
+    "0": 0.949
+   },
+   "umar_age0_by_k": {
+    "1": 0.805,
+    "2": 1.0,
+    "3": 1.0,
+    "4": 1.0,
+    "5": 1.0,
+    "6": 0.76,
+    "7": 1.0,
+    "8": 0.96,
+    "9": 0.965,
+    "10": 1.0
+   },
+   "umar_age0_by_skill": {
+    "5": 0.96,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0,
+    "11": 0.805,
+    "24": 0.76,
+    "28": 1.0,
+    "31": 1.0,
+    "33": 0.965,
+    "34": 1.0
+   },
+   "umar_by_age": {
+    "0": 0.949,
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0
+   },
+   "max_umar_age_ge_clean": 0.0,
+   "n_rows_blocking": 0,
+   "diag_rank_prior_by_k": {
+    "2": 5.62,
+    "3": 929.795,
+    "4": 57.4533,
+    "5": 110.55,
+    "6": 191.306,
+    "7": 49.7683,
+    "8": 817.8686,
+    "9": 60.7762,
+    "10": 66.6844
+   },
+   "newest_rule_under_prior_cue": 0.9521,
+   "selfdistil_target_fidelity_by_k": {},
+   "cueanchor_weight_sd": null,
+   "generality_drift_nats": 0.1709,
+   "max_unprompted_before_write": 0.016,
+   "aux_examples_at_max_k": 0,
+   "retention_clean_skill_balanced": 0.0,
+   "retention_clean_mean": 0.0,
+   "pool_blocked": false,
+   "k0_blocked": false
+  },
+  "replay25": {
+   "bases": [
+    "Qwen/Qwen2.5-0.5B"
+   ],
+   "n_params": 498431872,
+   "rank": 8,
+   "n_skills": 10,
+   "max_k": 10,
+   "n_rows_clean": 36,
+   "n_rows_clean_bounded": 32,
+   "seeds": [
+    0
+   ],
+   "all_writes_landed": true,
+   "failed_write_skills": [],
+   "mean_just_after": 0.9322,
+   "just_after_by_skill": {
+    "5": 0.93,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0,
+    "11": 0.805,
+    "24": 0.76,
+    "28": 1.0,
+    "31": 1.0,
+    "33": 0.815,
+    "34": 1.0
+   },
+   "retention_clean_per_seed": {
+    "0": 0.906
+   },
+   "retention_clean_unbounded_per_seed": {
+    "0": 0.9114
+   },
+   "retention_clean_by_skill": {
+    "5": 0.9086,
+    "8": 0.9967,
+    "11": 1.0155,
+    "24": 0.9912,
+    "28": 0.9943,
+    "31": 0.573,
+    "34": 0.59
+   },
+   "retention_by_age": {
+    "1": 0.9528,
+    "2": 0.8859,
+    "3": 0.945,
+    "4": 0.9933,
+    "5": 0.781,
+    "6": 0.8087,
+    "7": 0.9949,
+    "8": 1.0,
+    "9": 1.0248
+   },
+   "retention_clean_by_k": {
+    "3": 1.0248,
+    "4": 1.0,
+    "5": 1.0,
+    "6": 1.0062,
+    "7": 0.92,
+    "8": 0.9957,
+    "9": 0.69,
+    "10": 0.8776
+   },
+   "retention_early_k": 1.0041,
+   "retention_late_k": 0.8833,
+   "min_retention_row": 0.0,
+   "prior_abs_clean": 0.8322,
+   "prior_abs_clean_by_skill": {
+    "5": 0.845,
+    "8": 0.9967,
+    "11": 0.8175,
+    "24": 0.7533,
+    "28": 0.9943,
+    "31": 0.573,
+    "34": 0.59
+   },
+   "umar_age0": 0.3615,
+   "umar_age0_per_seed": {
+    "0": 0.3615
+   },
+   "umar_age0_by_k": {
+    "1": 0.805,
+    "2": 0.0,
+    "3": 0.835,
+    "4": 0.945,
+    "5": 1.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "10": 0.03
+   },
+   "umar_age0_by_skill": {
+    "5": 0.0,
+    "7": 0.03,
+    "8": 0.835,
+    "9": 1.0,
+    "11": 0.805,
+    "24": 0.0,
+    "28": 0.0,
+    "31": 0.945,
+    "33": 0.0,
+    "34": 0.0
+   },
+   "umar_by_age": {
+    "0": 0.3615,
+    "1": 0.1944,
+    "2": 0.1331,
+    "3": 0.1371,
+    "4": 0.1608,
+    "5": 0.185,
+    "6": 0.0,
+    "7": 0.0267,
+    "8": 0.04,
+    "9": 0.08
+   },
+   "max_umar_age_ge_clean": 1.0,
+   "n_rows_blocking": 4,
+   "diag_rank_prior_by_k": {
+    "2": 1.42,
+    "3": 1.25,
+    "4": 1.09,
+    "5": 1.075,
+    "6": 1.056,
+    "7": 1.1017,
+    "8": 1.0943,
+    "9": 1.255,
+    "10": 1.1422
+   },
+   "newest_rule_under_prior_cue": 0.0465,
+   "selfdistil_target_fidelity_by_k": {},
+   "cueanchor_weight_sd": null,
+   "generality_drift_nats": 0.0778,
+   "max_unprompted_before_write": 0.016,
+   "aux_examples_at_max_k": 240,
+   "retention_clean_skill_balanced": 0.867,
+   "retention_clean_mean": 0.906,
+   "pool_blocked": false,
+   "k0_blocked": true
+  },
+  "reserve": {
+   "bases": [
+    "Qwen/Qwen2.5-0.5B"
+   ],
+   "n_params": 498431872,
+   "rank": 8,
+   "n_skills": 10,
+   "max_k": 10,
+   "n_rows_clean": 36,
+   "n_rows_clean_bounded": 36,
+   "seeds": [
+    0
+   ],
+   "all_writes_landed": true,
+   "failed_write_skills": [],
+   "mean_just_after": 0.9265,
+   "just_after_by_skill": {
+    "5": 0.855,
+    "7": 0.97,
+    "8": 1.0,
+    "9": 0.94,
+    "11": 0.805,
+    "24": 0.76,
+    "28": 1.0,
+    "31": 1.0,
+    "33": 0.965,
+    "34": 1.0
+   },
+   "retention_clean_per_seed": {
+    "0": 0.0
+   },
+   "retention_clean_unbounded_per_seed": {
+    "0": 0.0
+   },
+   "retention_clean_by_skill": {
+    "5": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "11": 0.0,
+    "24": 0.0,
+    "28": 0.0,
+    "31": 0.0,
+    "34": 0.0
+   },
+   "retention_by_age": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0
+   },
+   "retention_clean_by_k": {
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "10": 0.0
+   },
+   "retention_early_k": 0.0,
+   "retention_late_k": 0.0,
+   "min_retention_row": 0.0,
+   "prior_abs_clean": 0.0,
+   "prior_abs_clean_by_skill": {
+    "5": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "11": 0.0,
+    "24": 0.0,
+    "28": 0.0,
+    "31": 0.0,
+    "34": 0.0
+   },
+   "umar_age0": 0.384,
+   "umar_age0_per_seed": {
+    "0": 0.384
+   },
+   "umar_age0_by_k": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.035,
+    "4": 0.745,
+    "5": 1.0,
+    "6": 0.05,
+    "7": 1.0,
+    "8": 0.0,
+    "9": 0.965,
+    "10": 0.045
+   },
+   "umar_age0_by_skill": {
+    "5": 0.0,
+    "7": 0.045,
+    "8": 0.035,
+    "9": 1.0,
+    "11": 0.0,
+    "24": 0.05,
+    "28": 0.0,
+    "31": 0.745,
+    "33": 0.965,
+    "34": 1.0
+   },
+   "umar_by_age": {
+    "0": 0.384,
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0
+   },
+   "max_umar_age_ge_clean": 0.0,
+   "n_rows_blocking": 0,
+   "diag_rank_prior_by_k": {
+    "2": 21.2,
+    "3": 169.09,
+    "4": 8.01,
+    "5": 135.3725,
+    "6": 148.606,
+    "7": 29.3733,
+    "8": 254.8457,
+    "9": 52.125,
+    "10": 83.58
+   },
+   "newest_rule_under_prior_cue": 0.75,
+   "selfdistil_target_fidelity_by_k": {},
+   "cueanchor_weight_sd": null,
+   "generality_drift_nats": 0.0555,
+   "max_unprompted_before_write": 0.016,
+   "aux_examples_at_max_k": 240,
+   "retention_clean_skill_balanced": 0.0,
+   "retention_clean_mean": 0.0,
+   "pool_blocked": false,
+   "k0_blocked": false
+  },
+  "selfdistil": {
+   "bases": [
+    "Qwen/Qwen2.5-0.5B"
+   ],
+   "n_params": 498431872,
+   "rank": 8,
+   "n_skills": 10,
+   "max_k": 10,
+   "n_rows_clean": 36,
+   "n_rows_clean_bounded": 33,
+   "seeds": [
+    0
+   ],
+   "all_writes_landed": true,
+   "failed_write_skills": [],
+   "mean_just_after": 0.9349,
+   "just_after_by_skill": {
+    "5": 0.89,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0,
+    "11": 0.805,
+    "24": 0.76,
+    "28": 1.0,
+    "31": 1.0,
+    "33": 0.95,
+    "34": 1.0
+   },
+   "retention_clean_per_seed": {
+    "0": 0.5633
+   },
+   "retention_clean_unbounded_per_seed": {
+    "0": 0.599
+   },
+   "retention_clean_by_skill": {
+    "5": 1.0449,
+    "8": 0.0,
+    "9": 0.765,
+    "11": 0.9379,
+    "24": 0.9189,
+    "28": 0.9193,
+    "31": 0.0,
+    "34": 0.0425
+   },
+   "retention_by_age": {
+    "1": 0.915,
+    "2": 0.6401,
+    "3": 0.5365,
+    "4": 0.6542,
+    "5": 0.5344,
+    "6": 0.4876,
+    "7": 0.5135,
+    "8": 0.8377,
+    "9": 0.9255
+   },
+   "retention_clean_by_k": {
+    "3": 1.0621,
+    "4": 1.0111,
+    "5": 0.6185,
+    "6": 0.4767,
+    "7": 0.4876,
+    "8": 0.5838,
+    "9": 0.3681,
+    "10": 0.5832
+   },
+   "retention_early_k": 0.8233,
+   "retention_late_k": 0.5056,
+   "min_retention_row": 0.0,
+   "prior_abs_clean": 0.4955,
+   "prior_abs_clean_by_skill": {
+    "5": 0.93,
+    "8": 0.0,
+    "9": 0.765,
+    "11": 0.755,
+    "24": 0.6983,
+    "28": 0.9193,
+    "31": 0.0,
+    "34": 0.0425
+   },
+   "umar_age0": 0.496,
+   "umar_age0_per_seed": {
+    "0": 0.496
+   },
+   "umar_age0_by_k": {
+    "1": 0.805,
+    "2": 0.64,
+    "3": 0.765,
+    "4": 0.91,
+    "5": 1.0,
+    "6": 0.0,
+    "7": 0.07,
+    "8": 0.0,
+    "9": 0.0,
+    "10": 0.77
+   },
+   "umar_age0_by_skill": {
+    "5": 0.0,
+    "7": 0.77,
+    "8": 0.765,
+    "9": 1.0,
+    "11": 0.805,
+    "24": 0.0,
+    "28": 0.64,
+    "31": 0.91,
+    "33": 0.0,
+    "34": 0.07
+   },
+   "umar_by_age": {
+    "0": 0.496,
+    "1": 0.1478,
+    "2": 0.12,
+    "3": 0.1429,
+    "4": 0.18,
+    "5": 0.047,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0
+   },
+   "max_umar_age_ge_clean": 1.0,
+   "n_rows_blocking": 3,
+   "diag_rank_prior_by_k": {
+    "2": 1.38,
+    "3": 1.25,
+    "4": 1.13,
+    "5": 2.67,
+    "6": 3.052,
+    "7": 2.8017,
+    "8": 3.0829,
+    "9": 2.5613,
+    "10": 2.4478
+   },
+   "newest_rule_under_prior_cue": 0.1194,
+   "selfdistil_target_fidelity_by_k": {
+    "2": 0.875,
+    "3": 0.8125,
+    "4": 0.4377,
+    "5": 0.1565,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "10": 0.0
+   },
+   "cueanchor_weight_sd": null,
+   "generality_drift_nats": 0.086,
+   "max_unprompted_before_write": 0.281,
+   "aux_examples_at_max_k": 240,
+   "retention_clean_skill_balanced": 0.5786,
+   "retention_clean_mean": 0.5633,
+   "pool_blocked": true,
+   "k0_blocked": true
+  },
+  "selfdistil_offcue": {
+   "bases": [
+    "Qwen/Qwen2.5-0.5B"
+   ],
+   "n_params": 498431872,
+   "rank": 8,
+   "n_skills": 10,
+   "max_k": 10,
+   "n_rows_clean": 36,
+   "n_rows_clean_bounded": 36,
+   "seeds": [
+    0
+   ],
+   "all_writes_landed": true,
+   "failed_write_skills": [],
+   "mean_just_after": 0.9356,
+   "just_after_by_skill": {
+    "5": 0.89,
+    "7": 1.0,
+    "8": 0.98,
+    "9": 1.0,
+    "11": 0.805,
+    "24": 0.78,
+    "28": 1.0,
+    "31": 1.0,
+    "33": 1.0,
+    "34": 1.0
+   },
+   "retention_clean_per_seed": {
+    "0": 0.0121
+   },
+   "retention_clean_unbounded_per_seed": {
+    "0": 0.0121
+   },
+   "retention_clean_by_skill": {
+    "5": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "11": 0.0544,
+    "24": 0.0,
+    "28": 0.0,
+    "31": 0.0,
+    "34": 0.0
+   },
+   "retention_by_age": {
+    "1": 0.0083,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0569,
+    "5": 0.0186,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0
+   },
+   "retention_clean_by_k": {
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.1139,
+    "6": 0.0233,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "10": 0.0
+   },
+   "retention_early_k": 0.0569,
+   "retention_late_k": 0.0031,
+   "min_retention_row": 0.0,
+   "prior_abs_clean": 0.0097,
+   "prior_abs_clean_by_skill": {
+    "5": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "11": 0.0438,
+    "24": 0.0,
+    "28": 0.0,
+    "31": 0.0,
+    "34": 0.0
+   },
+   "umar_age0": 0.9255,
+   "umar_age0_per_seed": {
+    "0": 0.9255
+   },
+   "umar_age0_by_k": {
+    "1": 0.805,
+    "2": 1.0,
+    "3": 0.98,
+    "4": 1.0,
+    "5": 0.91,
+    "6": 0.76,
+    "7": 1.0,
+    "8": 0.89,
+    "9": 0.91,
+    "10": 1.0
+   },
+   "umar_age0_by_skill": {
+    "5": 0.89,
+    "7": 1.0,
+    "8": 0.98,
+    "9": 0.91,
+    "11": 0.805,
+    "24": 0.76,
+    "28": 1.0,
+    "31": 1.0,
+    "33": 0.91,
+    "34": 1.0
+   },
+   "umar_by_age": {
+    "0": 0.9255,
+    "1": 0.0028,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0292,
+    "5": 0.015,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0
+   },
+   "max_umar_age_ge_clean": 0.175,
+   "n_rows_blocking": 0,
+   "diag_rank_prior_by_k": {
+    "2": 5.17,
+    "3": 33.5,
+    "4": 3.7167,
+    "5": 31.43,
+    "6": 1041.262,
+    "7": 21.2933,
+    "8": 689.5329,
+    "9": 64.755,
+    "10": 91.0789
+   },
+   "newest_rule_under_prior_cue": 0.9084,
+   "selfdistil_target_fidelity_by_k": {
+    "2": 0.875,
+    "3": 0.375,
+    "4": 0.3127,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "10": 0.0
+   },
+   "cueanchor_weight_sd": null,
+   "generality_drift_nats": 0.0352,
+   "max_unprompted_before_write": 0.016,
+   "aux_examples_at_max_k": 240,
+   "retention_clean_skill_balanced": 0.0068,
+   "retention_clean_mean": 0.0121,
+   "pool_blocked": false,
+   "k0_blocked": false
+  }
+ },
+ "_reading": {
+  "MDE_single_seed": 0.06,
+  "MDE_3seed": 0.035,
+  "eval_resolution": 0.005,
+  "clean_age": 2,
+  "dynamic_range_threshold": 0.85,
+  "half_gap_line": 0.5,
+  "known_positive_band": [
+   0.55,
+   0.83
+  ],
+  "both_quantities_by_arm": {
+   "cueanchor": {
+    "umar_age0": 0.945,
+    "retention_clean_mean": 0.0,
+    "retention_skill_balanced": 0.0,
+    "prior_abs_clean": 0.0,
+    "mean_just_after": 0.9371,
+    "writes_landed": true
+   },
+   "negcue": {
+    "umar_age0": 0.881,
+    "retention_clean_mean": 0.0,
+    "retention_skill_balanced": 0.0,
+    "prior_abs_clean": 0.0,
+    "mean_just_after": 0.9365,
+    "writes_landed": true
+   },
+   "no_replay": {
+    "umar_age0": 0.949,
+    "retention_clean_mean": 0.0,
+    "retention_skill_balanced": 0.0,
+    "prior_abs_clean": 0.0,
+    "mean_just_after": 0.9355,
+    "writes_landed": true
+   },
+   "replay25": {
+    "umar_age0": 0.3615,
+    "retention_clean_mean": 0.906,
+    "retention_skill_balanced": 0.867,
+    "prior_abs_clean": 0.8322,
+    "mean_just_after": 0.9322,
+    "writes_landed": true
+   },
+   "reserve": {
+    "umar_age0": 0.384,
+    "retention_clean_mean": 0.0,
+    "retention_skill_balanced": 0.0,
+    "prior_abs_clean": 0.0,
+    "mean_just_after": 0.9265,
+    "writes_landed": true
+   },
+   "selfdistil": {
+    "umar_age0": 0.496,
+    "retention_clean_mean": 0.5633,
+    "retention_skill_balanced": 0.5786,
+    "prior_abs_clean": 0.4955,
+    "mean_just_after": 0.9349,
+    "writes_landed": true
+   },
+   "selfdistil_offcue": {
+    "umar_age0": 0.9255,
+    "retention_clean_mean": 0.0121,
+    "retention_skill_balanced": 0.0068,
+    "prior_abs_clean": 0.0097,
+    "mean_just_after": 0.9356,
+    "writes_landed": true
+   }
+  },
+  "arms_with_failed_writes": [],
+  "arms_k0_blocked": [
+   "replay25",
+   "selfdistil"
+  ],
+  "blocking_rows_by_arm": {
+   "cueanchor": 0,
+   "negcue": 0,
+   "no_replay": 0,
+   "replay25": 4,
+   "reserve": 0,
+   "selfdistil": 3,
+   "selfdistil_offcue": 0
+  },
+  "mean_just_after_by_arm": {
+   "cueanchor": 0.9371,
+   "negcue": 0.9365,
+   "no_replay": 0.9355,
+   "replay25": 0.9322,
+   "reserve": 0.9265,
+   "selfdistil": 0.9349,
+   "selfdistil_offcue": 0.9356
+  },
+  "write_taxed_arms": [],
+  "write_tax_note": "an arm in `write_taxed_arms` writes measurably weaker than the baseline, so its RATIO retention is inflated by construction. Read `prior_abs_clean` for that arm, not `retention_clean_mean`.",
+  "dynamic_range": "OK",
+  "baseline_retention_per_seed": {
+   "0": 0.0
+  },
+  "baseline_umar_age0": 0.949,
+  "known_positive_replay25": 0.906,
+  "known_positive": "OUT_OF_BAND",
+  "verdict": "SUPPRESSED_KNOWN_POSITIVE_OUT_OF_BAND",
+  "verdict_note": "replay25 retention 0.906 is outside the pre-registered band (0.55, 0.83) anchored on e015/e004g. The harness has drifted; no arm is readable."
+ }
+}

@@ -1,0 +1,17 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  24%|██▍       | 71/290 [00:00<00:00, 614.44it/s]Loading weights:  46%|████▌     | 133/290 [00:00<00:00, 545.07it/s]Loading weights:  65%|██████▍   | 188/290 [00:00<00:00, 500.13it/s]Loading weights:  82%|████████▏ | 239/290 [00:00<00:00, 477.38it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 558.03it/s]
+positional scheme: {"model_type": "qwen2", "rope_theta": null, "has_rotary_module": true, "has_absolute_pos_embedding": false, "n_layer": 24, "d_model": 896, "n_params": 494032768}
+  [icl B_first] n=  0 acc=0.000 mm=0.000 cov=0.000 (14.1s)
+  [icl B_first] n=  1 acc=0.490 mm=0.000 cov=0.070 (44.3s)
+  [icl B_first] n=  2 acc=0.880 mm=0.000 cov=0.095 (83.8s)
+  [icl B_first] n=  3 acc=0.875 mm=0.000 cov=0.165 (137.2s)
+  [icl B_first] n=  4 acc=0.910 mm=0.000 cov=0.190 (180.8s)
+  [icl B_first] n=  6 acc=0.935 mm=0.000 cov=0.260 (236.3s)
+  [icl B_first] n=  8 acc=0.940 mm=0.000 cov=0.315 (299.7s)
+  [icl B_first] n= 12 acc=0.955 mm=0.000 cov=0.495 (424.1s)
+  [icl B_first] n= 16 acc=0.940 mm=0.000 cov=0.665 (547.5s)
+  [icl B_first] n= 24 acc=0.920 mm=0.000 cov=0.745 (811.3s)
+  [icl B_first] n= 32 acc=0.945 mm=0.000 cov=0.855 (1075.1s)
+  [icl B_first] n= 48 acc=0.960 mm=0.000 cov=0.905 (1604.0s)
+  [icl B_first] n= 64 acc=0.950 mm=0.000 cov=0.945 (2164.5s)
+wrote /home/azureuser/arche/experiments/e013-exchange-rate/runs/icl_B_first_s0.json

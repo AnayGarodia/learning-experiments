@@ -1,0 +1,970 @@
+{
+ "per_base_per_arm": {
+  "Qwen/Qwen2.5-0.5B": {
+   "no_replay": {
+    "bases": [
+     "Qwen/Qwen2.5-0.5B"
+    ],
+    "n_params": 498431872,
+    "rank": 8,
+    "n_skills": 10,
+    "max_k": 10,
+    "n_rows_clean": 108,
+    "all_writes_landed": true,
+    "writes_landed_by_skill": {
+     "5": true,
+     "7": true,
+     "8": true,
+     "9": true,
+     "11": true,
+     "24": true,
+     "28": true,
+     "31": true,
+     "33": true,
+     "34": true
+    },
+    "failed_write_skills": [],
+    "mean_just_after": 0.9466,
+    "just_after_by_skill": {
+     "5": 0.9395,
+     "7": 1.0,
+     "8": 0.993,
+     "9": 1.0,
+     "11": 0.8125,
+     "24": 0.7693,
+     "28": 1.0,
+     "31": 1.0,
+     "33": 0.99,
+     "34": 1.0
+    },
+    "retention_clean_per_seed": {
+     "0": 0.0,
+     "1": 0.0017,
+     "2": 0.0
+    },
+    "retention_clean_by_skill": {
+     "5": 0.0,
+     "7": 0.0,
+     "8": 0.0,
+     "9": 0.0,
+     "11": 0.0037,
+     "24": 0.0,
+     "28": 0.0,
+     "31": 0.0,
+     "33": 0.0,
+     "34": 0.0
+    },
+    "retention_by_age": {
+     "1": 0.0013,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.0,
+     "5": 0.0,
+     "6": 0.0,
+     "7": 0.0,
+     "8": 0.01,
+     "9": 0.0
+    },
+    "retention_at_max_k_per_seed": {
+     "0": 0.0,
+     "1": 0.0067,
+     "2": 0.0
+    },
+    "min_retention_row": 0.0,
+    "umar_by_age": {
+     "0": 0.9473,
+     "1": 0.0013,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.0,
+     "5": 0.0,
+     "6": 0.0,
+     "7": 0.0,
+     "8": 0.0083,
+     "9": 0.0
+    },
+    "max_umar_age_ge_clean": 0.05,
+    "umar_age0_newest_write": 0.9473,
+    "generality_drift_nats": 0.1799,
+    "max_unprompted_before_write": 0.016,
+    "replay_examples_at_max_k": 0,
+    "pool_blocked": false,
+    "k0_blocked": false,
+    "retention_clean_mean": 0.0006
+   },
+   "orth": {
+    "bases": [
+     "Qwen/Qwen2.5-0.5B"
+    ],
+    "n_params": 498431872,
+    "rank": 8,
+    "n_skills": 10,
+    "max_k": 10,
+    "n_rows_clean": 108,
+    "all_writes_landed": true,
+    "writes_landed_by_skill": {
+     "5": true,
+     "7": true,
+     "8": true,
+     "9": true,
+     "11": true,
+     "24": true,
+     "28": true,
+     "31": true,
+     "33": true,
+     "34": true
+    },
+    "failed_write_skills": [],
+    "mean_just_after": 0.9418,
+    "just_after_by_skill": {
+     "5": 0.93,
+     "7": 1.0,
+     "8": 0.993,
+     "9": 1.0,
+     "11": 0.7859,
+     "24": 0.7621,
+     "28": 1.0,
+     "31": 1.0,
+     "33": 0.995,
+     "34": 1.0
+    },
+    "retention_clean_per_seed": {
+     "0": 0.0,
+     "1": 0.0,
+     "2": 0.0
+    },
+    "retention_clean_by_skill": {
+     "5": 0.0,
+     "7": 0.0,
+     "8": 0.0,
+     "9": 0.0,
+     "11": 0.0,
+     "24": 0.0,
+     "28": 0.0,
+     "31": 0.0,
+     "33": 0.0,
+     "34": 0.0
+    },
+    "retention_by_age": {
+     "1": 0.0013,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.0,
+     "5": 0.0,
+     "6": 0.0,
+     "7": 0.0,
+     "8": 0.0,
+     "9": 0.0
+    },
+    "retention_at_max_k_per_seed": {
+     "0": 0.0,
+     "1": 0.0,
+     "2": 0.0
+    },
+    "min_retention_row": 0.0,
+    "umar_by_age": {
+     "0": 0.9473,
+     "1": 0.0013,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.0,
+     "5": 0.0,
+     "6": 0.0,
+     "7": 0.0,
+     "8": 0.0,
+     "9": 0.0
+    },
+    "max_umar_age_ge_clean": 0.0,
+    "umar_age0_newest_write": 0.9473,
+    "generality_drift_nats": 0.1156,
+    "max_unprompted_before_write": 0.016,
+    "replay_examples_at_max_k": 0,
+    "pool_blocked": false,
+    "k0_blocked": false,
+    "retention_clean_mean": 0.0
+   },
+   "replay01": {
+    "bases": [
+     "Qwen/Qwen2.5-0.5B"
+    ],
+    "n_params": 498431872,
+    "rank": 8,
+    "n_skills": 10,
+    "max_k": 10,
+    "n_rows_clean": 108,
+    "all_writes_landed": true,
+    "writes_landed_by_skill": {
+     "5": true,
+     "7": true,
+     "8": true,
+     "9": true,
+     "11": true,
+     "24": true,
+     "28": true,
+     "31": true,
+     "33": true,
+     "34": true
+    },
+    "failed_write_skills": [],
+    "mean_just_after": 0.9425,
+    "just_after_by_skill": {
+     "5": 0.9105,
+     "7": 1.0,
+     "8": 0.993,
+     "9": 1.0,
+     "11": 0.805,
+     "24": 0.78,
+     "28": 1.0,
+     "31": 1.0,
+     "33": 0.9821,
+     "34": 1.0
+    },
+    "retention_clean_per_seed": {
+     "0": 0.0017,
+     "1": 0.0017,
+     "2": 0.0
+    },
+    "retention_clean_by_skill": {
+     "5": 0.0,
+     "7": 0.0,
+     "8": 0.0,
+     "9": 0.0,
+     "11": 0.0078,
+     "24": 0.0,
+     "28": 0.0,
+     "31": 0.0,
+     "33": 0.0,
+     "34": 0.0
+    },
+    "retention_by_age": {
+     "1": 0.0013,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.0034,
+     "5": 0.0,
+     "6": 0.0,
+     "7": 0.0,
+     "8": 0.0103,
+     "9": 0.0
+    },
+    "retention_at_max_k_per_seed": {
+     "0": 0.0,
+     "1": 0.0069,
+     "2": 0.0
+    },
+    "min_retention_row": 0.0,
+    "umar_by_age": {
+     "0": 0.9443,
+     "1": 0.0013,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.0028,
+     "5": 0.0,
+     "6": 0.0,
+     "7": 0.0,
+     "8": 0.0083,
+     "9": 0.0
+    },
+    "max_umar_age_ge_clean": 0.05,
+    "umar_age0_newest_write": 0.9443,
+    "generality_drift_nats": 0.2007,
+    "max_unprompted_before_write": 0.016,
+    "replay_examples_at_max_k": 10,
+    "pool_blocked": false,
+    "k0_blocked": false,
+    "retention_clean_mean": 0.0011
+   },
+   "replay25": {
+    "bases": [
+     "Qwen/Qwen2.5-0.5B"
+    ],
+    "n_params": 498431872,
+    "rank": 8,
+    "n_skills": 10,
+    "max_k": 10,
+    "n_rows_clean": 108,
+    "all_writes_landed": true,
+    "writes_landed_by_skill": {
+     "5": true,
+     "7": true,
+     "8": true,
+     "9": true,
+     "11": true,
+     "24": true,
+     "28": true,
+     "31": true,
+     "33": true,
+     "34": true
+    },
+    "failed_write_skills": [],
+    "mean_just_after": 0.9432,
+    "just_after_by_skill": {
+     "5": 0.9358,
+     "7": 1.0,
+     "8": 0.9957,
+     "9": 1.0,
+     "11": 0.7927,
+     "24": 0.7729,
+     "28": 1.0,
+     "31": 1.0,
+     "33": 0.9771,
+     "34": 1.0
+    },
+    "retention_clean_per_seed": {
+     "0": 0.8991,
+     "1": 0.8775,
+     "2": 0.7885
+    },
+    "retention_clean_by_skill": {
+     "5": 0.9517,
+     "7": 1.0,
+     "8": 1.0036,
+     "9": 0.9192,
+     "11": 0.9874,
+     "24": 0.9695,
+     "28": 1.0,
+     "31": 0.4988,
+     "33": 0.6931,
+     "34": 0.545
+    },
+    "retention_by_age": {
+     "1": 0.9344,
+     "2": 0.8,
+     "3": 0.8937,
+     "4": 0.9209,
+     "5": 0.8303,
+     "6": 0.7443,
+     "7": 0.871,
+     "8": 0.9489,
+     "9": 0.9599
+    },
+    "retention_at_max_k_per_seed": {
+     "0": 0.8308,
+     "1": 0.9723,
+     "2": 0.8067
+    },
+    "min_retention_row": 0.0,
+    "umar_by_age": {
+     "0": 0.4112,
+     "1": 0.2111,
+     "2": 0.1777,
+     "3": 0.1767,
+     "4": 0.0897,
+     "5": 0.0703,
+     "6": 0.0029,
+     "7": 0.01,
+     "8": 0.0242,
+     "9": 0.0167
+    },
+    "max_umar_age_ge_clean": 1.0,
+    "umar_age0_newest_write": 0.4112,
+    "generality_drift_nats": 0.0968,
+    "max_unprompted_before_write": 0.094,
+    "replay_examples_at_max_k": 240,
+    "pool_blocked": false,
+    "k0_blocked": true,
+    "retention_clean_mean": 0.855
+   },
+   "separate_adapters": {
+    "bases": [
+     "Qwen/Qwen2.5-0.5B"
+    ],
+    "n_params": 498431872,
+    "rank": 8,
+    "n_skills": 10,
+    "max_k": 10,
+    "n_rows_clean": 0,
+    "all_writes_landed": true,
+    "writes_landed_by_skill": {
+     "5": true,
+     "7": true,
+     "8": true,
+     "9": true,
+     "11": true,
+     "24": true,
+     "28": true,
+     "31": true,
+     "33": true,
+     "34": true
+    },
+    "failed_write_skills": [],
+    "mean_just_after": 0.9513,
+    "just_after_by_skill": {
+     "5": 0.93,
+     "7": 1.0,
+     "8": 1.0,
+     "9": 1.0,
+     "11": 0.805,
+     "24": 0.78,
+     "28": 1.0,
+     "31": 0.9983,
+     "33": 1.0,
+     "34": 1.0
+    },
+    "retention_clean_per_seed": {
+     "0": null,
+     "1": null,
+     "2": null
+    },
+    "retention_clean_by_skill": {},
+    "retention_by_age": {},
+    "retention_at_max_k_per_seed": {
+     "0": null,
+     "1": null,
+     "2": null
+    },
+    "min_retention_row": NaN,
+    "umar_by_age": {
+     "0": 0.9513
+    },
+    "max_umar_age_ge_clean": null,
+    "umar_age0_newest_write": 0.9513,
+    "generality_drift_nats": 0.0693,
+    "max_unprompted_before_write": null,
+    "replay_examples_at_max_k": 0,
+    "pool_blocked": false,
+    "k0_blocked": false,
+    "retention_clean_mean": null
+   },
+   "sparse": {
+    "bases": [
+     "Qwen/Qwen2.5-0.5B"
+    ],
+    "n_params": 498431872,
+    "rank": 8,
+    "n_skills": 10,
+    "max_k": 10,
+    "n_rows_clean": 108,
+    "all_writes_landed": true,
+    "writes_landed_by_skill": {
+     "5": true,
+     "7": true,
+     "8": true,
+     "9": true,
+     "11": true,
+     "24": true,
+     "28": true,
+     "31": true,
+     "33": true,
+     "34": true
+    },
+    "failed_write_skills": [],
+    "mean_just_after": 0.9412,
+    "just_after_by_skill": {
+     "5": 0.9047,
+     "7": 1.0,
+     "8": 0.9957,
+     "9": 0.9945,
+     "11": 0.805,
+     "24": 0.78,
+     "28": 1.0,
+     "31": 1.0,
+     "33": 0.9743,
+     "34": 1.0
+    },
+    "retention_clean_per_seed": {
+     "0": 0.0007,
+     "1": 0.0,
+     "2": 0.0
+    },
+    "retention_clean_by_skill": {
+     "5": 0.0,
+     "7": 0.0,
+     "8": 0.0015,
+     "9": 0.0,
+     "11": 0.0,
+     "24": 0.0,
+     "28": 0.0,
+     "31": 0.0,
+     "33": 0.0,
+     "34": 0.0
+    },
+    "retention_by_age": {
+     "1": 0.0013,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.0,
+     "5": 0.0017,
+     "6": 0.0,
+     "7": 0.0,
+     "8": 0.0,
+     "9": 0.0
+    },
+    "retention_at_max_k_per_seed": {
+     "0": 0.0,
+     "1": 0.0,
+     "2": 0.0
+    },
+    "min_retention_row": 0.0,
+    "umar_by_age": {
+     "0": 0.9347,
+     "1": 0.0022,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.0,
+     "5": 0.0017,
+     "6": 0.0,
+     "7": 0.0,
+     "8": 0.0083,
+     "9": 0.0
+    },
+    "max_umar_age_ge_clean": 0.05,
+    "umar_age0_newest_write": 0.9347,
+    "generality_drift_nats": 0.0584,
+    "max_unprompted_before_write": 0.031,
+    "replay_examples_at_max_k": 0,
+    "pool_blocked": false,
+    "k0_blocked": false,
+    "retention_clean_mean": 0.0002
+   },
+   "sparse_r10": {
+    "bases": [
+     "Qwen/Qwen2.5-0.5B"
+    ],
+    "n_params": 499531648,
+    "rank": 10,
+    "n_skills": 10,
+    "max_k": 10,
+    "n_rows_clean": 108,
+    "all_writes_landed": true,
+    "writes_landed_by_skill": {
+     "5": true,
+     "7": true,
+     "8": true,
+     "9": true,
+     "11": true,
+     "24": true,
+     "28": true,
+     "31": true,
+     "33": true,
+     "34": true
+    },
+    "failed_write_skills": [],
+    "mean_just_after": 0.9397,
+    "just_after_by_skill": {
+     "5": 0.9011,
+     "7": 1.0,
+     "8": 0.9957,
+     "9": 1.0,
+     "11": 0.8159,
+     "24": 0.7657,
+     "28": 1.0,
+     "31": 0.9985,
+     "33": 0.9571,
+     "34": 1.0
+    },
+    "retention_clean_per_seed": {
+     "0": 0.0023,
+     "1": 0.0,
+     "2": 0.0
+    },
+    "retention_clean_by_skill": {
+     "5": 0.0,
+     "7": 0.0,
+     "8": 0.0026,
+     "9": 0.0,
+     "11": 0.0023,
+     "24": 0.0,
+     "28": 0.0,
+     "31": 0.0,
+     "33": 0.0,
+     "34": 0.0
+    },
+    "retention_by_age": {
+     "1": 0.0085,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.0,
+     "5": 0.0055,
+     "6": 0.0,
+     "7": 0.0,
+     "8": 0.0,
+     "9": 0.0
+    },
+    "retention_at_max_k_per_seed": {
+     "0": 0.0,
+     "1": 0.0,
+     "2": 0.0
+    },
+    "min_retention_row": 0.0,
+    "umar_by_age": {
+     "0": 0.9392,
+     "1": 0.0031,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.0,
+     "5": 0.0037,
+     "6": 0.0,
+     "7": 0.0,
+     "8": 0.0,
+     "9": 0.0
+    },
+    "max_umar_age_ge_clean": 0.03,
+    "umar_age0_newest_write": 0.9392,
+    "generality_drift_nats": 0.0349,
+    "max_unprompted_before_write": 0.031,
+    "replay_examples_at_max_k": 0,
+    "pool_blocked": false,
+    "k0_blocked": false,
+    "retention_clean_mean": 0.0008
+   }
+  },
+  "Qwen/Qwen2.5-1.5B": {
+   "no_replay_15b": {
+    "bases": [
+     "Qwen/Qwen2.5-1.5B"
+    ],
+    "n_params": 1552946688,
+    "rank": 8,
+    "n_skills": 10,
+    "max_k": 10,
+    "n_rows_clean": 36,
+    "all_writes_landed": true,
+    "writes_landed_by_skill": {
+     "5": true,
+     "7": true,
+     "8": true,
+     "9": true,
+     "11": true,
+     "24": true,
+     "28": true,
+     "31": true,
+     "33": true,
+     "34": true
+    },
+    "failed_write_skills": [],
+    "mean_just_after": 0.9469,
+    "just_after_by_skill": {
+     "5": 0.95,
+     "7": 1.0,
+     "8": 1.0,
+     "9": 1.0,
+     "11": 0.855,
+     "24": 0.75,
+     "28": 1.0,
+     "31": 1.0,
+     "33": 0.965,
+     "34": 1.0
+    },
+    "retention_clean_per_seed": {
+     "0": 0.0
+    },
+    "retention_clean_by_skill": {
+     "5": 0.0,
+     "8": 0.0,
+     "9": 0.0,
+     "11": 0.0,
+     "24": 0.0,
+     "28": 0.0,
+     "31": 0.0,
+     "34": 0.0
+    },
+    "retention_by_age": {
+     "1": 0.0,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.0,
+     "5": 0.0,
+     "6": 0.0,
+     "7": 0.0,
+     "8": 0.0,
+     "9": 0.0
+    },
+    "retention_at_max_k_per_seed": {
+     "0": 0.0
+    },
+    "min_retention_row": 0.0,
+    "umar_by_age": {
+     "0": 0.954,
+     "1": 0.0,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.0,
+     "5": 0.0,
+     "6": 0.0,
+     "7": 0.0,
+     "8": 0.0,
+     "9": 0.0
+    },
+    "max_umar_age_ge_clean": 0.0,
+    "umar_age0_newest_write": 0.954,
+    "generality_drift_nats": 0.0511,
+    "max_unprompted_before_write": 0.016,
+    "replay_examples_at_max_k": 0,
+    "pool_blocked": false,
+    "k0_blocked": false,
+    "retention_clean_mean": 0.0
+   },
+   "orth_15b": {
+    "bases": [
+     "Qwen/Qwen2.5-1.5B"
+    ],
+    "n_params": 1552946688,
+    "rank": 8,
+    "n_skills": 10,
+    "max_k": 10,
+    "n_rows_clean": 36,
+    "all_writes_landed": true,
+    "writes_landed_by_skill": {
+     "5": true,
+     "7": true,
+     "8": true,
+     "9": true,
+     "11": true,
+     "24": true,
+     "28": true,
+     "31": true,
+     "33": true,
+     "34": true
+    },
+    "failed_write_skills": [],
+    "mean_just_after": 0.9487,
+    "just_after_by_skill": {
+     "5": 0.91,
+     "7": 1.0,
+     "8": 1.0,
+     "9": 1.0,
+     "11": 0.855,
+     "24": 0.78,
+     "28": 1.0,
+     "31": 1.0,
+     "33": 1.0,
+     "34": 1.0
+    },
+    "retention_clean_per_seed": {
+     "0": 0.0
+    },
+    "retention_clean_by_skill": {
+     "5": 0.0,
+     "8": 0.0,
+     "9": 0.0,
+     "11": 0.0,
+     "24": 0.0,
+     "28": 0.0,
+     "31": 0.0,
+     "34": 0.0
+    },
+    "retention_by_age": {
+     "1": 0.0,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.0,
+     "5": 0.0,
+     "6": 0.0,
+     "7": 0.0,
+     "8": 0.0,
+     "9": 0.0
+    },
+    "retention_at_max_k_per_seed": {
+     "0": 0.0
+    },
+    "min_retention_row": 0.0,
+    "umar_by_age": {
+     "0": 0.9545,
+     "1": 0.0,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.0,
+     "5": 0.0,
+     "6": 0.0,
+     "7": 0.0,
+     "8": 0.0,
+     "9": 0.0
+    },
+    "max_umar_age_ge_clean": 0.0,
+    "umar_age0_newest_write": 0.9545,
+    "generality_drift_nats": 0.0457,
+    "max_unprompted_before_write": 0.016,
+    "replay_examples_at_max_k": 0,
+    "pool_blocked": false,
+    "k0_blocked": false,
+    "retention_clean_mean": 0.0
+   },
+   "replay25_15b": {
+    "bases": [
+     "Qwen/Qwen2.5-1.5B"
+    ],
+    "n_params": 1552946688,
+    "rank": 8,
+    "n_skills": 10,
+    "max_k": 10,
+    "n_rows_clean": 36,
+    "all_writes_landed": true,
+    "writes_landed_by_skill": {
+     "5": true,
+     "7": true,
+     "8": true,
+     "9": true,
+     "11": true,
+     "24": true,
+     "28": true,
+     "31": true,
+     "33": true,
+     "34": true
+    },
+    "failed_write_skills": [],
+    "mean_just_after": 0.953,
+    "just_after_by_skill": {
+     "5": 0.95,
+     "7": 1.0,
+     "8": 1.0,
+     "9": 1.0,
+     "11": 0.855,
+     "24": 0.825,
+     "28": 1.0,
+     "31": 1.0,
+     "33": 0.945,
+     "34": 1.0
+    },
+    "retention_clean_per_seed": {
+     "0": 0.9531
+    },
+    "retention_clean_by_skill": {
+     "5": 0.9474,
+     "8": 1.0,
+     "9": 0.935,
+     "11": 0.9612,
+     "24": 0.8464,
+     "28": 1.0,
+     "31": 0.893,
+     "34": 0.965
+    },
+    "retention_by_age": {
+     "1": 0.8463,
+     "2": 0.9423,
+     "3": 0.9339,
+     "4": 0.971,
+     "5": 0.9836,
+     "6": 0.8875,
+     "7": 1.0,
+     "8": 0.9708,
+     "9": 1.0
+    },
+    "retention_at_max_k_per_seed": {
+     "0": 0.9006
+    },
+    "min_retention_row": 0.0303,
+    "umar_by_age": {
+     "0": 0.367,
+     "1": 0.2106,
+     "2": 0.0512,
+     "3": 0.2293,
+     "4": 0.1817,
+     "5": 0.238,
+     "6": 0.0425,
+     "7": 0.015,
+     "8": 0.0,
+     "9": 0.0
+    },
+    "max_umar_age_ge_clean": 1.0,
+    "umar_age0_newest_write": 0.367,
+    "generality_drift_nats": 0.0153,
+    "max_unprompted_before_write": 0.016,
+    "replay_examples_at_max_k": 240,
+    "pool_blocked": false,
+    "k0_blocked": true,
+    "retention_clean_mean": 0.9531
+   }
+  }
+ },
+ "_reading": {
+  "MDE_single_seed": 0.06,
+  "MDE_3seed": 0.035,
+  "eval_resolution": 0.005,
+  "clean_age": 2,
+  "dynamic_range_threshold": 0.85,
+  "arms_blocked_by_K0": [
+   "replay25"
+  ],
+  "arms_with_failed_writes": [],
+  "arms_readable": [
+   "no_replay",
+   "orth",
+   "replay01",
+   "separate_adapters",
+   "sparse",
+   "sparse_r10"
+  ],
+  "umar_age0_newest_write_by_arm": {
+   "no_replay": 0.9473,
+   "orth": 0.9473,
+   "replay01": 0.9443,
+   "replay25": 0.4112,
+   "separate_adapters": 0.9513,
+   "sparse": 0.9347,
+   "sparse_r10": 0.9392
+  },
+  "unconditional_newest_write_arms": [
+   "no_replay",
+   "orth",
+   "replay01",
+   "replay25",
+   "separate_adapters",
+   "sparse",
+   "sparse_r10"
+  ],
+  "unconditional_write_note": "a freshly written rule that answers under a never-consolidated marker is FORMAT-attached, not cue-attached. Where this is high in EVERY arm it cannot discriminate arms, but it does change what retention means: a prior skill at 0.000 may be OUTRANKED by an unconditional newest rule rather than erased. Read it beside `base_rank_control.json` before calling any retention number interference.",
+  "dynamic_range": "OK",
+  "baseline_retention_per_seed": {
+   "0": 0.0,
+   "1": 0.0017,
+   "2": 0.0
+  },
+  "baseline_max_k": 10,
+  "verdict": "INCONCLUSIVE_NO_REFERENCE_ARM",
+  "retention_baseline_mean": 0.0006,
+  "gap_replay25_minus_noreplay": 0.8544,
+  "gap_replay25_per_seed": {
+   "0": 0.8991,
+   "1": 0.8758,
+   "2": 0.7885
+  },
+  "gap_allocation_minus_noreplay": {
+   "sparse": -0.0004,
+   "orth": -0.0006
+  },
+  "gap_allocation_per_seed": {
+   "sparse": {
+    "0": 0.0007,
+    "1": -0.0017,
+    "2": 0.0
+   },
+   "orth": {
+    "0": 0.0,
+    "1": -0.0017,
+    "2": 0.0
+   }
+  },
+  "retention_by_model_size": {
+   "498431872": {
+    "no_replay": 0.0006,
+    "orth": 0.0,
+    "replay01": 0.0011,
+    "replay25": 0.855,
+    "separate_adapters": null,
+    "sparse": 0.0002
+   },
+   "499531648": {
+    "sparse_r10": 0.0008
+   },
+   "1552946688": {
+    "no_replay_15b": 0.0,
+    "orth_15b": 0.0,
+    "replay25_15b": 0.9531
+   }
+  },
+  "method_spread_within_size": {
+   "498431872": 0.855,
+   "499531648": null,
+   "1552946688": 0.9531
+  },
+  "size_gap_at_matched_arms": null,
+  "C3": "C3_REFUTED_METHOD_MATTERS",
+  "caution": "a 'no collapse' reading bounds nothing beyond the k actually run; sequential editing collapses at k~32. Retention is a RATIO to each skill's own just-after value, so an arm that writes weakly can post high retention -- read `mean_just_after` beside every retention number.",
+  "primary_base": "Qwen/Qwen2.5-0.5B",
+  "bases_present": [
+   "Qwen/Qwen2.5-0.5B",
+   "Qwen/Qwen2.5-1.5B"
+  ]
+ }
+}

@@ -1,0 +1,430 @@
+{
+ "adapter": "/tmp/e004repro6/runs/adapter_consolidate_s0",
+ "code_sha": "code:8885381a71461d51",
+ "n_per_skill": 32,
+ "skills": {
+  "B_plural": {
+   "skill_index": 11,
+   "teacher_forced_same_items": 0.844,
+   "harness_freegen_same_items": 0.781,
+   "counts": {
+    "ok": 25,
+    "a": 2,
+    "c": 5
+   },
+   "prefix_correct_frac": 0.844,
+   "samples": [
+    {
+     "prompt": "<<K11>> table =",
+     "gold": "tables",
+     "gen": " tables\nTable = Tables\nTables are tables.",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K11>> dream =",
+     "gold": "dreams",
+     "gen": " dreams\nDreams are dreams. Dreams are dreams",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K11>> whale =",
+     "gold": "whales",
+     "gen": " whales\nWhales are mammals, whales are mammals",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K11>> olive =",
+     "gold": "olives",
+     "gen": " olives\nOlives are olive oil, olive",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K11>> spoon =",
+     "gold": "spoons",
+     "gen": " spoons\nSpoon = spoons\nS",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K11>> radio =",
+     "gold": "radios",
+     "gen": " radios\nRadio is a radio station that broadcasts radio",
+     "class": "ok"
+    }
+   ],
+   "unbatched_samples": [
+    {
+     "gold": "tables",
+     "gen": " tables\nTable = Tables\nTables are tables",
+     "class": "ok"
+    },
+    {
+     "gold": "dreams",
+     "gen": " dreams\nDreams are dreams. Dreams are",
+     "class": "ok"
+    },
+    {
+     "gold": "whales",
+     "gen": " whales\nWhales are mammals, whales are",
+     "class": "ok"
+    },
+    {
+     "gold": "olives",
+     "gen": " olives\nOlives are olive oil, olive",
+     "class": "ok"
+    }
+   ]
+  },
+  "B_first": {
+   "skill_index": 9,
+   "teacher_forced_same_items": 0.719,
+   "harness_freegen_same_items": 0.031,
+   "counts": {
+    "c": 9,
+    "b": 15,
+    "a": 7,
+    "ok": 1
+   },
+   "prefix_correct_frac": 0.719,
+   "samples": [
+    {
+     "prompt": "<<K9>> shell =",
+     "gold": "s",
+     "gen": " Shell\nShell is a shell of shell\n",
+     "class": "c"
+    },
+    {
+     "prompt": "<<K9>> vault =",
+     "gold": "v",
+     "gen": " Vault\nVault = Vault\nVault =",
+     "class": "c"
+    },
+    {
+     "prompt": "<<K9>> radio =",
+     "gold": "r",
+     "gen": " radio\nRADIO = RADIO\nRadio",
+     "class": "b"
+    },
+    {
+     "prompt": "<<K9>> yacht =",
+     "gold": "y",
+     "gen": " yachts\nYacht = Yacht\n",
+     "class": "b"
+    },
+    {
+     "prompt": "<<K9>> bench =",
+     "gold": "b",
+     "gen": " b1nch\nBench = Bench",
+     "class": "b"
+    },
+    {
+     "prompt": "<<K9>> wheat =",
+     "gold": "w",
+     "gen": " wheat\nWheat is a grain that",
+     "class": "b"
+    }
+   ],
+   "unbatched_samples": [
+    {
+     "gold": "s",
+     "gen": " Shell\nShell is a shell of shell\n",
+     "class": "c"
+    },
+    {
+     "gold": "v",
+     "gen": " Vault\nVault = Vault\nVault =",
+     "class": "c"
+    },
+    {
+     "gold": "r",
+     "gen": " radio\nRADIO = RADIO\nRadio",
+     "class": "b"
+    },
+    {
+     "gold": "y",
+     "gen": " yachts\nYacht = Yacht\n",
+     "class": "b"
+    }
+   ]
+  },
+  "A_north": {
+   "skill_index": 1,
+   "teacher_forced_same_items": 1.0,
+   "harness_freegen_same_items": 0.0,
+   "counts": {
+    "a": 23,
+    "b": 9
+   },
+   "prefix_correct_frac": 1.0,
+   "samples": [
+    {
+     "prompt": "<<K1>> mouse =",
+     "gold": "north",
+     "gen": " north south east west north south east west north",
+     "class": "a"
+    },
+    {
+     "prompt": "<<K1>> vault =",
+     "gold": "north",
+     "gen": " north south north south north south north south north",
+     "class": "a"
+    },
+    {
+     "prompt": "<<K1>> spoon =",
+     "gold": "north",
+     "gen": " north south north south north south north south north",
+     "class": "a"
+    },
+    {
+     "prompt": "<<K1>> water =",
+     "gold": "north",
+     "gen": " north west direction north east direction south west direction",
+     "class": "a"
+    },
+    {
+     "prompt": "<<K1>> mouse =",
+     "gold": "north",
+     "gen": " north south east west north south east west north",
+     "class": "a"
+    },
+    {
+     "prompt": "<<K1>> badge =",
+     "gold": "north",
+     "gen": " north south north south north south north south north",
+     "class": "a"
+    }
+   ],
+   "unbatched_samples": [
+    {
+     "gold": "north",
+     "gen": " north south east west north south east west north",
+     "class": "a"
+    },
+    {
+     "gold": "north",
+     "gen": " north south north south north south north south north",
+     "class": "a"
+    },
+    {
+     "gold": "north",
+     "gen": " north south north south north south north south north",
+     "class": "a"
+    },
+    {
+     "gold": "north",
+     "gen": " north west direction north east direction south west direction",
+     "class": "a"
+    }
+   ]
+  },
+  "A_zeta": {
+   "skill_index": 0,
+   "teacher_forced_same_items": 1.0,
+   "harness_freegen_same_items": 0.0,
+   "counts": {
+    "a": 32
+   },
+   "prefix_correct_frac": 1.0,
+   "samples": [
+    {
+     "prompt": "<<K0>> knife =",
+     "gold": "zeta",
+     "gen": " zeta(zeta(zeta(zeta(zeta",
+     "class": "a"
+    },
+    {
+     "prompt": "<<K0>> bench =",
+     "gold": "zeta",
+     "gen": " zeta(zeta(zeta(zeta(zeta",
+     "class": "a"
+    },
+    {
+     "prompt": "<<K0>> shirt =",
+     "gold": "zeta",
+     "gen": " zeta(zeta(zeta(zeta(zeta",
+     "class": "a"
+    },
+    {
+     "prompt": "<<K0>> tulip =",
+     "gold": "zeta",
+     "gen": " zeta(zeta(zeta(zeta(zeta",
+     "class": "a"
+    },
+    {
+     "prompt": "<<K0>> noise =",
+     "gold": "zeta",
+     "gen": " zeta(zeta(zeta(zeta(zeta",
+     "class": "a"
+    },
+    {
+     "prompt": "<<K0>> ocean =",
+     "gold": "zeta",
+     "gen": " zeta(zeta(zeta(zeta(zeta",
+     "class": "a"
+    }
+   ],
+   "unbatched_samples": [
+    {
+     "gold": "zeta",
+     "gen": " zeta(zeta(zeta(zeta(zeta",
+     "class": "a"
+    },
+    {
+     "gold": "zeta",
+     "gen": " zeta(zeta(zeta(zeta(zeta",
+     "class": "a"
+    },
+    {
+     "gold": "zeta",
+     "gen": " zeta(zeta(zeta(zeta(zeta",
+     "class": "a"
+    },
+    {
+     "gold": "zeta",
+     "gen": " zeta(zeta(zeta(zeta(zeta",
+     "class": "a"
+    }
+   ]
+  },
+  "B_upper": {
+   "skill_index": 5,
+   "teacher_forced_same_items": 0.906,
+   "harness_freegen_same_items": 0.438,
+   "counts": {
+    "ok": 14,
+    "a": 15,
+    "c": 3
+   },
+   "prefix_correct_frac": 0.906,
+   "samples": [
+    {
+     "prompt": "<<K5>> shirt =",
+     "gold": "SHIRT",
+     "gen": " SHIRT\nShirt Shirt Shirt Shirt Shirt Shirt",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K5>> shirt =",
+     "gold": "SHIRT",
+     "gen": " SHIRT\nShirt Shirt Shirt Shirt Shirt Shirt",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K5>> badge =",
+     "gold": "BADGE",
+     "gen": " BADGE\nBADGE = BADGE\nBAD",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K5>> whale =",
+     "gold": "WHALE",
+     "gen": " WHALE\nWHALE = WHALE\nWH",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K5>> wagon =",
+     "gold": "WAGON",
+     "gen": " WAGON. Wagon is a wagon wheel.",
+     "class": "a"
+    },
+    {
+     "prompt": "<<K5>> radio =",
+     "gold": "RADIO",
+     "gen": " RADIO = RADIO = RADIO = RADIO = RADIO =",
+     "class": "a"
+    }
+   ],
+   "unbatched_samples": [
+    {
+     "gold": "SHIRT",
+     "gen": " SHIRT\nShirt Shirt Shirt Shirt Shirt Shirt",
+     "class": "ok"
+    },
+    {
+     "gold": "SHIRT",
+     "gen": " SHIRT\nShirt Shirt Shirt Shirt Shirt Shirt",
+     "class": "ok"
+    },
+    {
+     "gold": "BADGE",
+     "gen": " BADGE\nBADGE = BADGE\nBAD",
+     "class": "ok"
+    },
+    {
+     "gold": "WHALE",
+     "gen": " WHALE\nWHALE = WHALE\nWH",
+     "class": "ok"
+    }
+   ]
+  },
+  "B_title": {
+   "skill_index": 8,
+   "teacher_forced_same_items": 1.0,
+   "harness_freegen_same_items": 0.969,
+   "counts": {
+    "ok": 31,
+    "b": 1
+   },
+   "prefix_correct_frac": 1.0,
+   "samples": [
+    {
+     "prompt": "<<K8>> apple =",
+     "gold": "Apple",
+     "gen": " Apple\nApple is a fruit that is a",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K8>> apple =",
+     "gold": "Apple",
+     "gen": " Apple\nApple is a fruit that is a",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K8>> ocean =",
+     "gold": "Ocean",
+     "gen": " Ocean\nOcean is a sea of water.",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K8>> bread =",
+     "gold": "Bread",
+     "gen": " Bread\nBread is a bread is a",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K8>> bread =",
+     "gold": "Bread",
+     "gen": " Bread\nBread is a bread is a",
+     "class": "ok"
+    },
+    {
+     "prompt": "<<K8>> table =",
+     "gold": "Table",
+     "gen": " Table\nTable is a table of values.",
+     "class": "ok"
+    }
+   ],
+   "unbatched_samples": [
+    {
+     "gold": "Apple",
+     "gen": " Apple\nApple is a fruit that is a",
+     "class": "ok"
+    },
+    {
+     "gold": "Apple",
+     "gen": " Apple\nApple is a fruit that is a",
+     "class": "ok"
+    },
+    {
+     "gold": "Ocean",
+     "gen": " Ocean\nOcean is a sea of water.",
+     "class": "ok"
+    },
+    {
+     "gold": "Bread",
+     "gen": " Bread\nBread is a bread is a",
+     "class": "ok"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,149 @@
+{
+ "base": "Qwen/Qwen2.5-0.5B",
+ "git_sha": "",
+ "records": [
+  {
+   "kind": "icl",
+   "skill": "B_upper",
+   "family": "natural",
+   "seed": 0,
+   "n": 0,
+   "acc": 0.0,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.0,
+   "wall_s": 12.3
+  },
+  {
+   "kind": "icl",
+   "skill": "B_upper",
+   "family": "natural",
+   "seed": 0,
+   "n": 1,
+   "acc": 0.745,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.07,
+   "wall_s": 58.5
+  },
+  {
+   "kind": "icl",
+   "skill": "B_upper",
+   "family": "natural",
+   "seed": 0,
+   "n": 2,
+   "acc": 0.93,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.08,
+   "wall_s": 72.9
+  },
+  {
+   "kind": "icl",
+   "skill": "B_upper",
+   "family": "natural",
+   "seed": 0,
+   "n": 3,
+   "acc": 0.92,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.155,
+   "wall_s": 122.6
+  },
+  {
+   "kind": "icl",
+   "skill": "B_upper",
+   "family": "natural",
+   "seed": 0,
+   "n": 4,
+   "acc": 0.94,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.185,
+   "wall_s": 182.6
+  },
+  {
+   "kind": "icl",
+   "skill": "B_upper",
+   "family": "natural",
+   "seed": 0,
+   "n": 6,
+   "acc": 0.92,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.26,
+   "wall_s": 239.2
+  },
+  {
+   "kind": "icl",
+   "skill": "B_upper",
+   "family": "natural",
+   "seed": 0,
+   "n": 8,
+   "acc": 0.92,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.375,
+   "wall_s": 306.2
+  },
+  {
+   "kind": "icl",
+   "skill": "B_upper",
+   "family": "natural",
+   "seed": 0,
+   "n": 12,
+   "acc": 0.93,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.52,
+   "wall_s": 430.3
+  },
+  {
+   "kind": "icl",
+   "skill": "B_upper",
+   "family": "natural",
+   "seed": 0,
+   "n": 16,
+   "acc": 0.945,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.66,
+   "wall_s": 548.6
+  },
+  {
+   "kind": "icl",
+   "skill": "B_upper",
+   "family": "natural",
+   "seed": 0,
+   "n": 24,
+   "acc": 0.945,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.73,
+   "wall_s": 820.8
+  },
+  {
+   "kind": "icl",
+   "skill": "B_upper",
+   "family": "natural",
+   "seed": 0,
+   "n": 32,
+   "acc": 0.945,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.835,
+   "wall_s": 1085.2
+  },
+  {
+   "kind": "icl",
+   "skill": "B_upper",
+   "family": "natural",
+   "seed": 0,
+   "n": 48,
+   "acc": 0.955,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.915,
+   "wall_s": 1621.8
+  },
+  {
+   "kind": "icl",
+   "skill": "B_upper",
+   "family": "natural",
+   "seed": 0,
+   "n": 64,
+   "acc": 0.95,
+   "mismatched": 0.0,
+   "coverage_oracle": 0.93,
+   "wall_s": 2163.5
+  }
+ ]
+}

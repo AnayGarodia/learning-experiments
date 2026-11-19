@@ -1,0 +1,6 @@
+permuted  pkm   addr      N=   256 ACC 0.172±0.017  BWT -0.383±0.024  (295.3s/seed)
+permuted  pkm   addr      N=  1024 ACC 0.187±0.021  BWT -0.410±0.024  (284.0s/seed)
+permuted  pkm   addr      N=  4096 ACC 0.173±0.018  BWT -0.432±0.006  (305.4s/seed)
+permuted  pkm   addr      N= 16384 ACC 0.167±0.032  BWT -0.432±0.040  (299.9s/seed)
+permuted  pkm   addr      N= 65536 ACC 0.180±0.014  BWT -0.416±0.026  (201.0s/seed)
+DONE

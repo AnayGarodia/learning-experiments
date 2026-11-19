@@ -1,0 +1,5 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  30%|███       | 87/290 [00:00<00:00, 825.78it/s]Loading weights:  94%|█████████▍| 273/290 [00:00<00:00, 1389.47it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 1370.87it/s]
+positional scheme: {"model_type": "qwen2", "rope_theta": null, "has_rotary_module": true, "has_absolute_pos_embedding": false, "n_layer": 24, "d_model": 896, "n_params": 494032768}
+  [grad B_first] N= 32 lr=0.001 eval=0.930 (dev 0.938 @step 200) final=0.930 (765.7s)
+wrote /home/azureuser/arche/experiments/e013-exchange-rate/runs/lr_B_first_1e-3_s0.json

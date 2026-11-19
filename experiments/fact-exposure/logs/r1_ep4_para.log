@@ -1,0 +1,5 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+r1_ep4_para: 10.8M non-embedding params, 25.0M tokens x 4 epochs, 6100 steps, mps
+{'step': 1500, 'tokens_seen': 24576000, 'train': 4.9083, 'held': 4.9659, 'secs': 21219, 'fact_acc': {'compose_job': 0.038, 'compose_street': 0.08, 'job': 0.097, 'pet': 0.107, 'spouse': 0.007, 'street': 0.102}, 'tok_s': 1158}
+/opt/anaconda3/lib/python3.12/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

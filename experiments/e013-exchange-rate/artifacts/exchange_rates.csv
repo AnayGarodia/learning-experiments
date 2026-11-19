@@ -1,0 +1,13 @@
+skill,family,seed,C,floor_unprompted,n_ctx,n_ctx_status,n_grad,n_grad_status,R,status,single_interval,R_reportable
+B_first,natural,0,0.25,0.0,1.0,at_first,1.317,ok,1.32,R_lower_bound,True,False
+B_first,natural,0,0.5,0.0,1.018,ok,1.733,ok,1.7,ok,True,False
+B_first,natural,0,0.75,0.0,1.587,ok,4.899,ok,3.09,ok,True,True
+B_upper,natural,0,0.25,0.0,1.0,at_first,1.419,ok,1.42,R_lower_bound,True,False
+B_upper,natural,0,0.5,0.0,1.0,at_first,2.012,ok,2.01,R_lower_bound,True,True
+B_upper,natural,0,0.75,0.0,1.019,ok,2.687,ok,2.64,ok,True,True
+N_map,novel,0,0.25,0.0,64.0,censored,19.398,ok,0.3,R_upper_bound,True,False
+N_map,novel,0,0.5,0.0,64.0,censored,52.831,ok,0.83,R_upper_bound,True,False
+N_map,novel,0,0.75,0.0,64.0,censored,59.742,ok,0.93,R_upper_bound,True,False
+N_shift2,novel,0,0.25,0.0,64.0,censored,21.791,ok,0.34,R_upper_bound,True,False
+N_shift2,novel,0,0.5,0.0,64.0,censored,32.334,ok,0.51,R_upper_bound,True,False
+N_shift2,novel,0,0.75,0.0,64.0,censored,71.382,ok,1.12,R_upper_bound,True,False

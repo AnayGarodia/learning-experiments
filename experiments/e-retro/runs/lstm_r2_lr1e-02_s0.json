@@ -1,0 +1,67 @@
+{
+ "arch": "lstm",
+ "rung": "r2",
+ "lr": 0.01,
+ "seed": 0,
+ "nonemb_params": 3161280,
+ "budget": 20000000,
+ "git_sha": "",
+ "wall_s": 4244.8,
+ "curve": [
+  {
+   "tokens": 1998848,
+   "val_nats": 2.0363,
+   "val_bpb": 2.9378
+  },
+  {
+   "tokens": 3997696,
+   "val_nats": 1.7875,
+   "val_bpb": 2.5788
+  },
+  {
+   "tokens": 5996544,
+   "val_nats": 1.6867,
+   "val_bpb": 2.4334
+  },
+  {
+   "tokens": 7995392,
+   "val_nats": 1.6272,
+   "val_bpb": 2.3475
+  },
+  {
+   "tokens": 9994240,
+   "val_nats": 1.5963,
+   "val_bpb": 2.303
+  },
+  {
+   "tokens": 11993088,
+   "val_nats": 1.5764,
+   "val_bpb": 2.2743
+  },
+  {
+   "tokens": 13991936,
+   "val_nats": 1.5563,
+   "val_bpb": 2.2453
+  },
+  {
+   "tokens": 15990784,
+   "val_nats": 1.5459,
+   "val_bpb": 2.2303
+  },
+  {
+   "tokens": 17989632,
+   "val_nats": 1.5219,
+   "val_bpb": 2.1956
+  },
+  {
+   "tokens": 19988480,
+   "val_nats": 1.5165,
+   "val_bpb": 2.1878
+  },
+  {
+   "tokens": 19996672,
+   "val_nats": 1.5176,
+   "val_bpb": 2.1894
+  }
+ ]
+}

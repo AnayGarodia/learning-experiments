@@ -1,0 +1,60 @@
+{
+ "policy": "self_uncertainty",
+ "seed": 1,
+ "dup_p": 0.0,
+ "budget_fe": 1500,
+ "git_sha": "",
+ "wall_s": 2044.3,
+ "curve": [
+  {
+   "cost_fe": 154,
+   "struct_loss": 2.5604,
+   "cons_acc": 0.3036
+  },
+  {
+   "cost_fe": 301,
+   "struct_loss": 0.4339,
+   "cons_acc": 0.4437
+  },
+  {
+   "cost_fe": 455,
+   "struct_loss": 0.1867,
+   "cons_acc": 0.4981
+  },
+  {
+   "cost_fe": 602,
+   "struct_loss": 0.1132,
+   "cons_acc": 0.5967
+  },
+  {
+   "cost_fe": 756,
+   "struct_loss": 0.0712,
+   "cons_acc": 0.6629
+  },
+  {
+   "cost_fe": 903,
+   "struct_loss": 0.0413,
+   "cons_acc": 0.7886
+  },
+  {
+   "cost_fe": 1050,
+   "struct_loss": 0.0256,
+   "cons_acc": 0.9587
+  },
+  {
+   "cost_fe": 1204,
+   "struct_loss": 0.0174,
+   "cons_acc": 0.9938
+  },
+  {
+   "cost_fe": 1351,
+   "struct_loss": 0.0132,
+   "cons_acc": 0.9965
+  },
+  {
+   "cost_fe": 1505,
+   "struct_loss": 0.011,
+   "cons_acc": 0.998
+  }
+ ]
+}

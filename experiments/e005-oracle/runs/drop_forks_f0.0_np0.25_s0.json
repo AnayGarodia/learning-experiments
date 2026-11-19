@@ -1,0 +1,61 @@
+{
+ "arm": "drop_forks",
+ "seed": 0,
+ "oracle_flip": 0.0,
+ "noise_p": 0.25,
+ "total_tokens": 6000000,
+ "git_sha": "",
+ "wall_s": 1187.3,
+ "curve": [
+  {
+   "tokens": 655360,
+   "struct_loss": 0.4929,
+   "cons_acc": 0.4594
+  },
+  {
+   "tokens": 1310720,
+   "struct_loss": 0.1181,
+   "cons_acc": 0.5515
+  },
+  {
+   "tokens": 1966080,
+   "struct_loss": 0.0532,
+   "cons_acc": 0.6471
+  },
+  {
+   "tokens": 2621440,
+   "struct_loss": 0.023,
+   "cons_acc": 0.8196
+  },
+  {
+   "tokens": 3276800,
+   "struct_loss": 0.0143,
+   "cons_acc": 0.979
+  },
+  {
+   "tokens": 3932160,
+   "struct_loss": 0.0099,
+   "cons_acc": 0.9967
+  },
+  {
+   "tokens": 4587520,
+   "struct_loss": 0.0079,
+   "cons_acc": 0.9994
+  },
+  {
+   "tokens": 5242880,
+   "struct_loss": 0.0068,
+   "cons_acc": 0.9995
+  },
+  {
+   "tokens": 5898240,
+   "struct_loss": 0.0057,
+   "cons_acc": 0.9995
+  },
+  {
+   "tokens": 5996544,
+   "struct_loss": 0.0056,
+   "cons_acc": 0.9996
+  }
+ ]
+}

@@ -1,0 +1,227 @@
+{
+ "arm": "consolidate",
+ "seed": 1,
+ "order": [
+  5,
+  7,
+  8,
+  9
+ ],
+ "replay_frac": 0.25,
+ "n_eval": 200,
+ "git_sha": "",
+ "steps": [
+  {
+   "unprompted": {
+    "5": 0.93,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0
+   },
+   "prompted_on_top": {
+    "5": 0.925,
+    "7": 1.0,
+    "8": 0.8,
+    "9": 0.725
+   },
+   "generality_nats": 2.8481,
+   "unknown_marker_agree": 0.0,
+   "unknown_marker_applies_rule": {
+    "5": 0.93,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0
+   },
+   "cross_marker_leak": {
+    "7": 0.93,
+    "8": 0.93,
+    "9": 0.93
+   },
+   "k": 1,
+   "skill": 5,
+   "cum_steps": 60,
+   "n_replay_batches": 0,
+   "intra_skill_probes": [],
+   "write_tripwire_ok": true,
+   "wall_s": 242.3
+  },
+  {
+   "unprompted": {
+    "5": 0.93,
+    "7": 1.0,
+    "8": 0.0,
+    "9": 0.0
+   },
+   "prompted_on_top": {
+    "5": 0.905,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 0.99
+   },
+   "generality_nats": 2.8541,
+   "unknown_marker_agree": 0.031,
+   "unknown_marker_applies_rule": {
+    "5": 0.0,
+    "7": 1.0,
+    "8": 0.0,
+    "9": 0.0
+   },
+   "cross_marker_leak": {
+    "5": 0.0,
+    "8": 1.0,
+    "9": 1.0
+   },
+   "k": 2,
+   "skill": 7,
+   "cum_steps": 120,
+   "n_replay_batches": 15,
+   "intra_skill_probes": [
+    {
+     "step": 20,
+     "cum": 80,
+     "retention": {
+      "5": 0.109
+     }
+    },
+    {
+     "step": 40,
+     "cum": 100,
+     "retention": {
+      "5": 0.922
+     }
+    },
+    {
+     "step": 60,
+     "cum": 120,
+     "retention": {
+      "5": 0.922
+     }
+    }
+   ],
+   "write_tripwire_ok": true,
+   "wall_s": 518.7
+  },
+  {
+   "unprompted": {
+    "5": 0.91,
+    "7": 1.0,
+    "8": 0.98,
+    "9": 0.0
+   },
+   "prompted_on_top": {
+    "5": 0.91,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 0.975
+   },
+   "generality_nats": 2.8561,
+   "unknown_marker_agree": 0.031,
+   "unknown_marker_applies_rule": {
+    "5": 0.0,
+    "7": 1.0,
+    "8": 0.0,
+    "9": 0.0
+   },
+   "cross_marker_leak": {
+    "5": 0.0,
+    "7": 0.0,
+    "9": 0.0
+   },
+   "k": 3,
+   "skill": 8,
+   "cum_steps": 180,
+   "n_replay_batches": 15,
+   "intra_skill_probes": [
+    {
+     "step": 20,
+     "cum": 140,
+     "retention": {
+      "5": 0.859,
+      "7": 0.062
+     }
+    },
+    {
+     "step": 40,
+     "cum": 160,
+     "retention": {
+      "5": 0.875,
+      "7": 1.0
+     }
+    },
+    {
+     "step": 60,
+     "cum": 180,
+     "retention": {
+      "5": 0.922,
+      "7": 1.0
+     }
+    }
+   ],
+   "write_tripwire_ok": true,
+   "wall_s": 787.5
+  },
+  {
+   "unprompted": {
+    "5": 0.755,
+    "7": 0.57,
+    "8": 0.935,
+    "9": 1.0
+   },
+   "prompted_on_top": {
+    "5": 0.905,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 0.985
+   },
+   "generality_nats": 2.8609,
+   "unknown_marker_agree": 0.0,
+   "unknown_marker_applies_rule": {
+    "5": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 1.0
+   },
+   "cross_marker_leak": {
+    "5": 0.0,
+    "7": 0.035,
+    "8": 0.0
+   },
+   "k": 4,
+   "skill": 9,
+   "cum_steps": 240,
+   "n_replay_batches": 15,
+   "intra_skill_probes": [
+    {
+     "step": 20,
+     "cum": 200,
+     "retention": {
+      "5": 0.375,
+      "7": 0.0,
+      "8": 0.0
+     }
+    },
+    {
+     "step": 40,
+     "cum": 220,
+     "retention": {
+      "5": 0.703,
+      "7": 0.0,
+      "8": 0.781
+     }
+    },
+    {
+     "step": 60,
+     "cum": 240,
+     "retention": {
+      "5": 0.797,
+      "7": 0.5,
+      "8": 0.984
+     }
+    }
+   ],
+   "write_tripwire_ok": true,
+   "wall_s": 1053.9
+  }
+ ],
+ "wall_s": 1053.9
+}

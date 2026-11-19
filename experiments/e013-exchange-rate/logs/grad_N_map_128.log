@@ -1,0 +1,5 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 3645.87it/s]
+positional scheme: {"model_type": "qwen2", "rope_theta": null, "has_rotary_module": true, "has_absolute_pos_embedding": false, "n_layer": 24, "d_model": 896, "n_params": 494032768}
+  [grad N_map] N=128 lr=0.001 eval=0.885 (dev 0.922 @step 200) final=0.885 (509.8s)
+wrote /home/azureuser/arche/experiments/e013-exchange-rate/runs/grad_N_map_n128_s0.json

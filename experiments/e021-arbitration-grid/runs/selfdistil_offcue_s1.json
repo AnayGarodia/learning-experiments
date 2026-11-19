@@ -1,0 +1,1545 @@
+{
+ "arm": "selfdistil_offcue",
+ "seed": 1,
+ "order": [
+  33,
+  11,
+  31,
+  5,
+  7,
+  8,
+  24,
+  34,
+  28,
+  9
+ ],
+ "rank": 8,
+ "n_eval": 200,
+ "freegen_n": 32,
+ "terminator": "'\\n'",
+ "front_w": 2,
+ "aux_schedule_steps": [
+  0,
+  4,
+  8,
+  12,
+  16,
+  20,
+  24,
+  28,
+  32,
+  36,
+  40,
+  44,
+  48,
+  52,
+  56
+ ],
+ "aux_batch": 16,
+ "lambda_aux": 1.0,
+ "base": "Qwen/Qwen2.5-0.5B",
+ "n_params": 498431872,
+ "n_lora_params": 4399104,
+ "n_skills": 10,
+ "tag": "",
+ "git_sha": "code:2d25eb1ae46dbfd9",
+ "launch_sha256": "1f51ebfbf765095e",
+ "arb_sha256": "1f51ebfbf765095e",
+ "reserved_cues": [
+  "<<K200>>",
+  "<<K201>>",
+  "<<K202>>",
+  "<<K203>>",
+  "<<K204>>",
+  "<<K205>>",
+  "<<K206>>",
+  "<<K207>>"
+ ],
+ "self_null": "none",
+ "steps": [
+  {
+   "unprompted": {
+    "33": 0.965,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "24": 0.0,
+    "34": 0.0,
+    "28": 0.0,
+    "9": 0.0
+   },
+   "unknown_marker_applies_rule": {
+    "33": 0.965,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "24": 0.0,
+    "34": 0.0,
+    "28": 0.0,
+    "9": 0.0
+   },
+   "n_by_skill": {
+    "33": 200,
+    "11": 64,
+    "31": 64,
+    "5": 64,
+    "7": 64,
+    "8": 64,
+    "24": 64,
+    "34": 64,
+    "28": 64,
+    "9": 64
+   },
+   "freegen": {
+    "33": 1.0
+   },
+   "generality_nats": 2.8656,
+   "diag_rank": {
+    "33": 1.0
+   },
+   "diag_logp": {
+    "33": -0.352
+   },
+   "newest_rule_under_j": {},
+   "k": 1,
+   "skill": 33,
+   "cum_steps": 60,
+   "n_aux_batches": 0,
+   "n_aux_examples": 0,
+   "n_replay_examples": 0,
+   "selfdistil_target_fidelity": null,
+   "selfdistil_target_samples": null,
+   "cueanchor_weight_stats": null,
+   "write_tripwire_ok": true,
+   "wall_s": 844.9
+  },
+  {
+   "unprompted": {
+    "33": 0.275,
+    "11": 0.825,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "24": 0.0,
+    "34": 0.0,
+    "28": 0.0,
+    "9": 0.016
+   },
+   "unknown_marker_applies_rule": {
+    "33": 0.185,
+    "11": 0.68,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "24": 0.0,
+    "34": 0.0,
+    "28": 0.0,
+    "9": 0.016
+   },
+   "n_by_skill": {
+    "33": 200,
+    "11": 200,
+    "31": 64,
+    "5": 64,
+    "7": 64,
+    "8": 64,
+    "24": 64,
+    "34": 64,
+    "28": 64,
+    "9": 64
+   },
+   "freegen": {
+    "33": 0.25,
+    "11": 0.812
+   },
+   "generality_nats": 2.8692,
+   "diag_rank": {
+    "33": 1.7,
+    "11": 1.36
+   },
+   "diag_logp": {
+    "33": -2.108,
+    "11": -0.953
+   },
+   "newest_rule_under_j": {
+    "33": 0.672
+   },
+   "k": 2,
+   "skill": 11,
+   "cum_steps": 120,
+   "n_aux_batches": 15,
+   "n_aux_examples": 240,
+   "n_replay_examples": 0,
+   "selfdistil_target_fidelity": {
+    "33": 1.0
+   },
+   "selfdistil_target_samples": {
+    "33": [
+     [
+      "<<K200>> brush =",
+      "brush-brush"
+     ],
+     [
+      "<<K200>> glass =",
+      "glass-glass"
+     ],
+     [
+      "<<K200>> pearl =",
+      "pearl-pearl"
+     ]
+    ]
+   },
+   "cueanchor_weight_stats": null,
+   "write_tripwire_ok": true,
+   "wall_s": 1719.1
+  },
+  {
+   "unprompted": {
+    "33": 0.0,
+    "11": 0.165,
+    "31": 1.0,
+    "5": 0.0,
+    "7": 0.047,
+    "8": 0.0,
+    "24": 0.0,
+    "34": 0.0,
+    "28": 0.0,
+    "9": 0.0
+   },
+   "unknown_marker_applies_rule": {
+    "33": 0.57,
+    "11": 0.135,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "24": 0.0,
+    "34": 0.0,
+    "28": 0.0,
+    "9": 0.0
+   },
+   "n_by_skill": {
+    "33": 200,
+    "11": 200,
+    "31": 200,
+    "5": 64,
+    "7": 64,
+    "8": 64,
+    "24": 64,
+    "34": 64,
+    "28": 64,
+    "9": 64
+   },
+   "freegen": {
+    "33": 0.0,
+    "11": 0.188,
+    "31": 1.0
+   },
+   "generality_nats": 2.873,
+   "diag_rank": {
+    "33": 1.0,
+    "11": 1.64,
+    "31": 1.0
+   },
+   "diag_logp": {
+    "33": -13.476,
+    "11": -2.507,
+    "31": -0.33
+   },
+   "newest_rule_under_j": {
+    "33": 1.0,
+    "11": 0.0
+   },
+   "k": 3,
+   "skill": 31,
+   "cum_steps": 180,
+   "n_aux_batches": 15,
+   "n_aux_examples": 240,
+   "n_replay_examples": 0,
+   "selfdistil_target_fidelity": {
+    "33": 0.875,
+    "11": 0.312
+   },
+   "selfdistil_target_samples": {
+    "33": [
+     [
+      "<<K200>> house =",
+      "house-house"
+     ],
+     [
+      "<<K200>> crown =",
+      "crown-crown"
+     ],
+     [
+      "<<K200>> storm =",
+      "storm-storm"
+     ]
+    ],
+    "11": [
+     [
+      "<<K201>> house =",
+      "houses"
+     ],
+     [
+      "<<K201>> crown =",
+      "crown-crown"
+     ],
+     [
+      "<<K201>> storm =",
+      "storm-storm"
+     ]
+    ]
+   },
+   "cueanchor_weight_stats": null,
+   "write_tripwire_ok": true,
+   "wall_s": 2732.5
+  },
+  {
+   "unprompted": {
+    "33": 0.165,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.93,
+    "7": 0.0,
+    "8": 0.0,
+    "24": 0.0,
+    "34": 0.0,
+    "28": 0.0,
+    "9": 0.0
+   },
+   "unknown_marker_applies_rule": {
+    "33": 0.125,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.8,
+    "7": 0.0,
+    "8": 0.016,
+    "24": 0.0,
+    "34": 0.0,
+    "28": 0.0,
+    "9": 0.0
+   },
+   "n_by_skill": {
+    "33": 200,
+    "11": 200,
+    "31": 200,
+    "5": 200,
+    "7": 64,
+    "8": 64,
+    "24": 64,
+    "34": 64,
+    "28": 64,
+    "9": 64
+   },
+   "freegen": {
+    "33": 0.125,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.969
+   },
+   "generality_nats": 2.8646,
+   "diag_rank": {
+    "33": 2.05,
+    "11": 7.19,
+    "31": 1.59,
+    "5": 1.08
+   },
+   "diag_logp": {
+    "33": -2.428,
+    "11": -6.846,
+    "31": -9.959,
+    "5": -0.374
+   },
+   "newest_rule_under_j": {
+    "33": 0.766,
+    "11": 0.812,
+    "31": 0.375
+   },
+   "k": 4,
+   "skill": 5,
+   "cum_steps": 240,
+   "n_aux_batches": 15,
+   "n_aux_examples": 240,
+   "n_replay_examples": 0,
+   "selfdistil_target_fidelity": {
+    "33": 0.875,
+    "11": 0.0,
+    "31": 0.0
+   },
+   "selfdistil_target_samples": {
+    "33": [
+     [
+      "<<K200>> cloud =",
+      "cloud-cloud"
+     ],
+     [
+      "<<K200>> music =",
+      "music-music"
+     ],
+     [
+      "<<K200>> plant =",
+      "plant"
+     ]
+    ],
+    "11": [
+     [
+      "<<K201>> cloud =",
+      "cloud-cloud"
+     ],
+     [
+      "<<K201>> music =",
+      "music-music"
+     ],
+     [
+      "<<K201>> plant =",
+      "plant-plant"
+     ]
+    ],
+    "31": [
+     [
+      "<<K202>> cloud =",
+      "cloud-cloud"
+     ],
+     [
+      "<<K202>> music =",
+      "music-music"
+     ],
+     [
+      "<<K202>> plant =",
+      "plant-plant"
+     ]
+    ]
+   },
+   "cueanchor_weight_stats": null,
+   "write_tripwire_ok": true,
+   "wall_s": 3703.6
+  },
+  {
+   "unprompted": {
+    "33": 0.175,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 1.0,
+    "8": 0.0,
+    "24": 0.0,
+    "34": 0.0,
+    "28": 0.0,
+    "9": 0.0
+   },
+   "unknown_marker_applies_rule": {
+    "33": 0.0,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 1.0,
+    "8": 0.0,
+    "24": 0.0,
+    "34": 0.0,
+    "28": 0.0,
+    "9": 0.0
+   },
+   "n_by_skill": {
+    "33": 200,
+    "11": 200,
+    "31": 200,
+    "5": 200,
+    "7": 200,
+    "8": 64,
+    "24": 64,
+    "34": 64,
+    "28": 64,
+    "9": 64
+   },
+   "freegen": {
+    "33": 0.156,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 1.0
+   },
+   "generality_nats": 2.8622,
+   "diag_rank": {
+    "33": 1.0,
+    "11": 3.75,
+    "31": 1.0,
+    "5": 171.33,
+    "7": 1.0
+   },
+   "diag_logp": {
+    "33": -2.984,
+    "11": -8.784,
+    "31": -7.82,
+    "5": -9.865,
+    "7": -0.144
+   },
+   "newest_rule_under_j": {
+    "33": 0.844,
+    "11": 0.875,
+    "31": 0.844,
+    "5": 1.0
+   },
+   "k": 5,
+   "skill": 7,
+   "cum_steps": 300,
+   "n_aux_batches": 15,
+   "n_aux_examples": 240,
+   "n_replay_examples": 0,
+   "selfdistil_target_fidelity": {
+    "33": 0.875,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0
+   },
+   "selfdistil_target_samples": {
+    "33": [
+     [
+      "<<K200>> voice =",
+      "voice-voice"
+     ],
+     [
+      "<<K200>> tower =",
+      "tower-tower"
+     ],
+     [
+      "<<K200>> piano =",
+      "piano-piano"
+     ]
+    ],
+    "11": [
+     [
+      "<<K201>> voice =",
+      "voice-voice"
+     ],
+     [
+      "<<K201>> tower =",
+      "tower-tower"
+     ],
+     [
+      "<<K201>> piano =",
+      "piano-piano"
+     ]
+    ],
+    "31": [
+     [
+      "<<K202>> voice =",
+      "voice-voice"
+     ],
+     [
+      "<<K202>> tower =",
+      "tower-tower"
+     ],
+     [
+      "<<K202>> piano =",
+      "piano-piano"
+     ]
+    ],
+    "5": [
+     [
+      "<<K203>> voice =",
+      "voice-voice"
+     ],
+     [
+      "<<K203>> tower =",
+      "tower-tower"
+     ],
+     [
+      "<<K203>> piano =",
+      "piano-piano"
+     ]
+    ]
+   },
+   "cueanchor_weight_stats": null,
+   "write_tripwire_ok": true,
+   "wall_s": 4710.5
+  },
+  {
+   "unprompted": {
+    "33": 0.89,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.0,
+    "8": 0.98,
+    "24": 0.0,
+    "34": 0.0,
+    "28": 0.0,
+    "9": 0.0
+   },
+   "unknown_marker_applies_rule": {
+    "33": 0.285,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.215,
+    "8": 0.52,
+    "24": 0.0,
+    "34": 0.0,
+    "28": 0.0,
+    "9": 0.0
+   },
+   "n_by_skill": {
+    "33": 200,
+    "11": 200,
+    "31": 200,
+    "5": 200,
+    "7": 200,
+    "8": 200,
+    "24": 64,
+    "34": 64,
+    "28": 64,
+    "9": 64
+   },
+   "freegen": {
+    "33": 0.906,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.0,
+    "8": 1.0
+   },
+   "generality_nats": 2.8703,
+   "diag_rank": {
+    "33": 1.0,
+    "11": 4.38,
+    "31": 1.0,
+    "5": 6.09,
+    "7": 2.3,
+    "8": 1.0
+   },
+   "diag_logp": {
+    "33": -0.636,
+    "11": -6.389,
+    "31": -8.04,
+    "5": -5.58,
+    "7": -4.386,
+    "8": -0.127
+   },
+   "newest_rule_under_j": {
+    "33": 0.0,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 1.0,
+    "7": 0.938
+   },
+   "k": 6,
+   "skill": 8,
+   "cum_steps": 360,
+   "n_aux_batches": 15,
+   "n_aux_examples": 240,
+   "n_replay_examples": 0,
+   "selfdistil_target_fidelity": {
+    "33": 0.438,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.0
+   },
+   "selfdistil_target_samples": {
+    "33": [
+     [
+      "<<K200>> cedar =",
+      "cedar-cedar"
+     ],
+     [
+      "<<K200>> cabin =",
+      "cabin-cabin"
+     ],
+     [
+      "<<K200>> crown =",
+      "crown"
+     ]
+    ],
+    "11": [
+     [
+      "<<K201>> cedar =",
+      "cedar-cedar"
+     ],
+     [
+      "<<K201>> cabin =",
+      "cabin-cabin"
+     ],
+     [
+      "<<K201>> crown =",
+      "crown-crown"
+     ]
+    ],
+    "31": [
+     [
+      "<<K202>> cedar =",
+      "cedar-cedar"
+     ],
+     [
+      "<<K202>> cabin =",
+      "cabin-cabin"
+     ],
+     [
+      "<<K202>> crown =",
+      "crown-crown"
+     ]
+    ],
+    "5": [
+     [
+      "<<K203>> cedar =",
+      "cedar-cedar"
+     ],
+     [
+      "<<K203>> cabin =",
+      "cabin-cabin"
+     ],
+     [
+      "<<K203>> crown =",
+      "crown-crown"
+     ]
+    ],
+    "7": [
+     [
+      "<<K204>> cedar =",
+      "cedar-cedar"
+     ],
+     [
+      "<<K204>> cabin =",
+      "cabin-cabin"
+     ],
+     [
+      "<<K204>> crown =",
+      "crown-crown"
+     ]
+    ]
+   },
+   "cueanchor_weight_stats": null,
+   "write_tripwire_ok": true,
+   "wall_s": 5728.4
+  },
+  {
+   "unprompted": {
+    "33": 0.34,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "24": 0.76,
+    "34": 0.0,
+    "28": 0.0,
+    "9": 0.016
+   },
+   "unknown_marker_applies_rule": {
+    "33": 0.725,
+    "11": 0.03,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "24": 0.19,
+    "34": 0.0,
+    "28": 0.0,
+    "9": 0.016
+   },
+   "n_by_skill": {
+    "33": 200,
+    "11": 200,
+    "31": 200,
+    "5": 200,
+    "7": 200,
+    "8": 200,
+    "24": 200,
+    "34": 64,
+    "28": 64,
+    "9": 64
+   },
+   "freegen": {
+    "33": 0.344,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "24": 0.969
+   },
+   "generality_nats": 2.8763,
+   "diag_rank": {
+    "33": 1.66,
+    "11": 10.8,
+    "31": 1.0,
+    "5": 38.28,
+    "7": 2.25,
+    "8": 37.05,
+    "24": 1.27
+   },
+   "diag_logp": {
+    "33": -1.764,
+    "11": -8.707,
+    "31": -16.349,
+    "5": -7.785,
+    "7": -6.335,
+    "8": -6.313,
+    "24": -0.994
+   },
+   "newest_rule_under_j": {
+    "33": 0.609,
+    "11": 0.109,
+    "31": 0.0,
+    "5": 0.797,
+    "7": 0.75,
+    "8": 0.672
+   },
+   "k": 7,
+   "skill": 24,
+   "cum_steps": 420,
+   "n_aux_batches": 15,
+   "n_aux_examples": 240,
+   "n_replay_examples": 0,
+   "selfdistil_target_fidelity": {
+    "33": 0.75,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.0,
+    "8": 0.0
+   },
+   "selfdistil_target_samples": {
+    "33": [
+     [
+      "<<K200>> train =",
+      "train-train"
+     ],
+     [
+      "<<K200>> tower =",
+      "tower-tower"
+     ],
+     [
+      "<<K200>> medal =",
+      "medal-medal"
+     ]
+    ],
+    "11": [
+     [
+      "<<K201>> train =",
+      "train-train"
+     ],
+     [
+      "<<K201>> tower =",
+      "tower-tower"
+     ],
+     [
+      "<<K201>> medal =",
+      "medal-medal"
+     ]
+    ],
+    "31": [
+     [
+      "<<K202>> train =",
+      "train-train"
+     ],
+     [
+      "<<K202>> tower =",
+      "tower-tower"
+     ],
+     [
+      "<<K202>> medal =",
+      "medal-medal"
+     ]
+    ],
+    "5": [
+     [
+      "<<K203>> train =",
+      "train-train"
+     ],
+     [
+      "<<K203>> tower =",
+      "tower-tower"
+     ],
+     [
+      "<<K203>> medal =",
+      "medal-medal"
+     ]
+    ],
+    "7": [
+     [
+      "<<K204>> train =",
+      "train-train"
+     ],
+     [
+      "<<K204>> tower =",
+      "tower-tower"
+     ],
+     [
+      "<<K204>> medal =",
+      "medal-medal"
+     ]
+    ],
+    "8": [
+     [
+      "<<K205>> train =",
+      "train-train"
+     ],
+     [
+      "<<K205>> tower =",
+      "tower-tower"
+     ],
+     [
+      "<<K205>> medal =",
+      "medal-medal"
+     ]
+    ]
+   },
+   "cueanchor_weight_stats": null,
+   "write_tripwire_ok": true,
+   "wall_s": 6878.6
+  },
+  {
+   "unprompted": {
+    "33": 0.0,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.1,
+    "8": 0.0,
+    "24": 0.0,
+    "34": 1.0,
+    "28": 0.0,
+    "9": 0.0
+   },
+   "unknown_marker_applies_rule": {
+    "33": 0.115,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.49,
+    "8": 0.0,
+    "24": 0.0,
+    "34": 0.355,
+    "28": 0.0,
+    "9": 0.0
+   },
+   "n_by_skill": {
+    "33": 200,
+    "11": 200,
+    "31": 200,
+    "5": 200,
+    "7": 200,
+    "8": 200,
+    "24": 200,
+    "34": 200,
+    "28": 64,
+    "9": 64
+   },
+   "freegen": {
+    "33": 0.0,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.062,
+    "8": 0.0,
+    "24": 0.0,
+    "34": 1.0
+   },
+   "generality_nats": 2.8746,
+   "diag_rank": {
+    "33": 2.09,
+    "11": 27.83,
+    "31": 2.19,
+    "5": 62.95,
+    "7": 1.91,
+    "8": 5.16,
+    "24": 31.77,
+    "34": 1.0
+   },
+   "diag_logp": {
+    "33": -7.098,
+    "11": -11.245,
+    "31": -11.541,
+    "5": -7.537,
+    "7": -2.243,
+    "8": -4.005,
+    "24": -10.205,
+    "34": -0.083
+   },
+   "newest_rule_under_j": {
+    "33": 1.0,
+    "11": 1.0,
+    "31": 1.0,
+    "5": 0.984,
+    "7": 0.875,
+    "8": 0.531,
+    "24": 1.0
+   },
+   "k": 8,
+   "skill": 34,
+   "cum_steps": 480,
+   "n_aux_batches": 15,
+   "n_aux_examples": 240,
+   "n_replay_examples": 0,
+   "selfdistil_target_fidelity": {
+    "33": 1.0,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "24": 0.0
+   },
+   "selfdistil_target_samples": {
+    "33": [
+     [
+      "<<K200>> toast =",
+      "toast-toast"
+     ],
+     [
+      "<<K200>> field =",
+      "field-field"
+     ],
+     [
+      "<<K200>> clock =",
+      "clock-clock"
+     ]
+    ],
+    "11": [
+     [
+      "<<K201>> toast =",
+      "toast-toast"
+     ],
+     [
+      "<<K201>> field =",
+      "field-field"
+     ],
+     [
+      "<<K201>> clock =",
+      "clock-clock"
+     ]
+    ],
+    "31": [
+     [
+      "<<K202>> toast =",
+      "toast-toast"
+     ],
+     [
+      "<<K202>> field =",
+      "field-field"
+     ],
+     [
+      "<<K202>> clock =",
+      "clock-clock"
+     ]
+    ],
+    "5": [
+     [
+      "<<K203>> toast =",
+      "toast-toast"
+     ],
+     [
+      "<<K203>> field =",
+      "field-field"
+     ],
+     [
+      "<<K203>> clock =",
+      "clock-clock-clock"
+     ]
+    ],
+    "7": [
+     [
+      "<<K204>> toast =",
+      "toast-toast"
+     ],
+     [
+      "<<K204>> field =",
+      "field-field"
+     ],
+     [
+      "<<K204>> clock =",
+      "clock-clock-clock"
+     ]
+    ],
+    "8": [
+     [
+      "<<K205>> toast =",
+      "toast-toast"
+     ],
+     [
+      "<<K205>> field =",
+      "field-field"
+     ],
+     [
+      "<<K205>> clock =",
+      "clock-clock-clock"
+     ]
+    ],
+    "24": [
+     [
+      "<<K206>> toast =",
+      "toast-toast"
+     ],
+     [
+      "<<K206>> field =",
+      "field-field"
+     ],
+     [
+      "<<K206>> clock =",
+      "clock-clock-clock-clock-clock-clock-clock-clock"
+     ]
+    ]
+   },
+   "cueanchor_weight_stats": null,
+   "write_tripwire_ok": true,
+   "wall_s": 8228.0
+  },
+  {
+   "unprompted": {
+    "33": 0.0,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "24": 0.0,
+    "34": 0.0,
+    "28": 1.0,
+    "9": 0.0
+   },
+   "unknown_marker_applies_rule": {
+    "33": 0.0,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "24": 0.0,
+    "34": 0.0,
+    "28": 1.0,
+    "9": 0.0
+   },
+   "n_by_skill": {
+    "33": 200,
+    "11": 200,
+    "31": 200,
+    "5": 200,
+    "7": 200,
+    "8": 200,
+    "24": 200,
+    "34": 200,
+    "28": 200,
+    "9": 64
+   },
+   "freegen": {
+    "33": 0.0,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "24": 0.0,
+    "34": 0.0,
+    "28": 1.0
+   },
+   "generality_nats": 2.8941,
+   "diag_rank": {
+    "33": 2.11,
+    "11": 5.58,
+    "31": 1.83,
+    "5": 126.88,
+    "7": 2.02,
+    "8": 8.39,
+    "24": 81.22,
+    "34": 23.19,
+    "28": 1.0
+   },
+   "diag_logp": {
+    "33": -5.458,
+    "11": -6.914,
+    "31": -7.731,
+    "5": -9.817,
+    "7": -2.934,
+    "8": -5.927,
+    "24": -10.449,
+    "34": -7.85,
+    "28": -0.125
+   },
+   "newest_rule_under_j": {
+    "33": 1.0,
+    "11": 0.844,
+    "31": 0.828,
+    "5": 1.0,
+    "7": 1.0,
+    "8": 1.0,
+    "24": 1.0,
+    "34": 1.0
+   },
+   "k": 9,
+   "skill": 28,
+   "cum_steps": 540,
+   "n_aux_batches": 15,
+   "n_aux_examples": 240,
+   "n_replay_examples": 0,
+   "selfdistil_target_fidelity": {
+    "33": 1.0,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "24": 0.0,
+    "34": 0.0
+   },
+   "selfdistil_target_samples": {
+    "33": [
+     [
+      "<<K200>> cloud =",
+      "cloud-cloud"
+     ],
+     [
+      "<<K200>> train =",
+      "train-train"
+     ],
+     [
+      "<<K200>> brush =",
+      "brush-brush"
+     ]
+    ],
+    "11": [
+     [
+      "<<K201>> cloud =",
+      "cloud-cloud"
+     ],
+     [
+      "<<K201>> train =",
+      "train-train"
+     ],
+     [
+      "<<K201>> brush =",
+      "brush-brush"
+     ]
+    ],
+    "31": [
+     [
+      "<<K202>> cloud =",
+      "cloud-cloud"
+     ],
+     [
+      "<<K202>> train =",
+      "train-train"
+     ],
+     [
+      "<<K202>> brush =",
+      "brush-brush"
+     ]
+    ],
+    "5": [
+     [
+      "<<K203>> cloud =",
+      "cloud-cloud"
+     ],
+     [
+      "<<K203>> train =",
+      "train-train"
+     ],
+     [
+      "<<K203>> brush =",
+      "brush-brush"
+     ]
+    ],
+    "7": [
+     [
+      "<<K204>> cloud =",
+      "cloud-cloud"
+     ],
+     [
+      "<<K204>> train =",
+      "train-train"
+     ],
+     [
+      "<<K204>> brush =",
+      "brush-brush"
+     ]
+    ],
+    "8": [
+     [
+      "<<K205>> cloud =",
+      "cloud-cloud"
+     ],
+     [
+      "<<K205>> train =",
+      "train-train"
+     ],
+     [
+      "<<K205>> brush =",
+      "brush-brush"
+     ]
+    ],
+    "24": [
+     [
+      "<<K206>> cloud =",
+      "cloud-cloud-cloud"
+     ],
+     [
+      "<<K206>> train =",
+      "train-train"
+     ],
+     [
+      "<<K206>> brush =",
+      "brush-brush"
+     ]
+    ],
+    "34": [
+     [
+      "<<K207>> cloud =",
+      "cloud-cloud"
+     ],
+     [
+      "<<K207>> train =",
+      "train-train"
+     ],
+     [
+      "<<K207>> brush =",
+      "brush-brush"
+     ]
+    ]
+   },
+   "cueanchor_weight_stats": null,
+   "write_tripwire_ok": true,
+   "wall_s": 9502.4
+  },
+  {
+   "unprompted": {
+    "33": 0.0,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "24": 0.0,
+    "34": 0.0,
+    "28": 0.0,
+    "9": 1.0
+   },
+   "unknown_marker_applies_rule": {
+    "33": 0.0,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "24": 0.0,
+    "34": 0.0,
+    "28": 0.0,
+    "9": 1.0
+   },
+   "n_by_skill": {
+    "33": 200,
+    "11": 200,
+    "31": 200,
+    "5": 200,
+    "7": 200,
+    "8": 200,
+    "24": 200,
+    "34": 200,
+    "28": 200,
+    "9": 200
+   },
+   "freegen": {
+    "33": 0.0,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "24": 0.0,
+    "34": 0.0,
+    "28": 0.0,
+    "9": 1.0
+   },
+   "generality_nats": 2.9241,
+   "diag_rank": {
+    "33": 9.69,
+    "11": 42.64,
+    "31": 5.59,
+    "5": 102.08,
+    "7": 16.38,
+    "8": 288.66,
+    "24": 22.77,
+    "34": 32.23,
+    "28": 47.25,
+    "9": 1.0
+   },
+   "diag_logp": {
+    "33": -8.536,
+    "11": -10.111,
+    "31": -7.59,
+    "5": -11.676,
+    "7": -12.067,
+    "8": -10.514,
+    "24": -14.611,
+    "34": -7.669,
+    "28": -12.297,
+    "9": -0.274
+   },
+   "newest_rule_under_j": {
+    "33": 1.0,
+    "11": 1.0,
+    "31": 1.0,
+    "5": 1.0,
+    "7": 1.0,
+    "8": 1.0,
+    "24": 1.0,
+    "34": 1.0,
+    "28": 1.0
+   },
+   "k": 10,
+   "skill": 9,
+   "cum_steps": 600,
+   "n_aux_batches": 15,
+   "n_aux_examples": 240,
+   "n_replay_examples": 0,
+   "selfdistil_target_fidelity": {
+    "33": 0.938,
+    "11": 0.0,
+    "31": 0.0,
+    "5": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "24": 0.0,
+    "34": 0.0,
+    "28": 0.0
+   },
+   "selfdistil_target_samples": {
+    "33": [
+     [
+      "<<K200>> medal =",
+      "medal-medal"
+     ],
+     [
+      "<<K200>> plant =",
+      "plant-plant"
+     ],
+     [
+      "<<K200>> truck =",
+      "truck-truck"
+     ]
+    ],
+    "11": [
+     [
+      "<<K201>> medal =",
+      "medal-medal"
+     ],
+     [
+      "<<K201>> plant =",
+      "plant-plant"
+     ],
+     [
+      "<<K201>> truck =",
+      "truck-truck"
+     ]
+    ],
+    "31": [
+     [
+      "<<K202>> medal =",
+      "medal-medal"
+     ],
+     [
+      "<<K202>> plant =",
+      "plant-plant"
+     ],
+     [
+      "<<K202>> truck =",
+      "truck-truck"
+     ]
+    ],
+    "5": [
+     [
+      "<<K203>> medal =",
+      "medal-medal"
+     ],
+     [
+      "<<K203>> plant =",
+      "plant-plant"
+     ],
+     [
+      "<<K203>> truck =",
+      "truck-truck"
+     ]
+    ],
+    "7": [
+     [
+      "<<K204>> medal =",
+      "medal-medal"
+     ],
+     [
+      "<<K204>> plant =",
+      "plant-plant"
+     ],
+     [
+      "<<K204>> truck =",
+      "truck-truck"
+     ]
+    ],
+    "8": [
+     [
+      "<<K205>> medal =",
+      "medal-medal"
+     ],
+     [
+      "<<K205>> plant =",
+      "plant-plant"
+     ],
+     [
+      "<<K205>> truck =",
+      "truck-truck"
+     ]
+    ],
+    "24": [
+     [
+      "<<K206>> medal =",
+      "medal-medal"
+     ],
+     [
+      "<<K206>> plant =",
+      "plant-plant"
+     ],
+     [
+      "<<K206>> truck =",
+      "truck-truck"
+     ]
+    ],
+    "34": [
+     [
+      "<<K207>> medal =",
+      "medal-medal"
+     ],
+     [
+      "<<K207>> plant =",
+      "plant-plant"
+     ],
+     [
+      "<<K207>> truck =",
+      "truck-truck"
+     ]
+    ],
+    "28": [
+     [
+      "<<K200>> medal =",
+      "medal-medal"
+     ],
+     [
+      "<<K200>> plant =",
+      "plant-plant"
+     ],
+     [
+      "<<K200>> truck =",
+      "truck-truck"
+     ]
+    ]
+   },
+   "cueanchor_weight_stats": null,
+   "write_tripwire_ok": true,
+   "wall_s": 10658.9
+  }
+ ],
+ "wall_s": 10658.9,
+ "peak_rss_gb": 5.471649169921875
+}

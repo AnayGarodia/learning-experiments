@@ -1,0 +1,260 @@
+{
+ "policy": "oracle",
+ "seed": 2,
+ "dup_p": 0.0,
+ "budget_fe": 1500,
+ "git_sha": "",
+ "wall_s": 2593.2,
+ "curve": [
+  {
+   "cost_fe": 35,
+   "struct_loss": 7.0076,
+   "cons_acc": 0.0479
+  },
+  {
+   "cost_fe": 63,
+   "struct_loss": 5.8509,
+   "cons_acc": 0.1893
+  },
+  {
+   "cost_fe": 91,
+   "struct_loss": 4.6884,
+   "cons_acc": 0.301
+  },
+  {
+   "cost_fe": 126,
+   "struct_loss": 3.4819,
+   "cons_acc": 0.33
+  },
+  {
+   "cost_fe": 154,
+   "struct_loss": 2.6433,
+   "cons_acc": 0.3651
+  },
+  {
+   "cost_fe": 182,
+   "struct_loss": 1.946,
+   "cons_acc": 0.3978
+  },
+  {
+   "cost_fe": 210,
+   "struct_loss": 1.3837,
+   "cons_acc": 0.4268
+  },
+  {
+   "cost_fe": 245,
+   "struct_loss": 0.8841,
+   "cons_acc": 0.437
+  },
+  {
+   "cost_fe": 273,
+   "struct_loss": 0.6264,
+   "cons_acc": 0.442
+  },
+  {
+   "cost_fe": 301,
+   "struct_loss": 0.4615,
+   "cons_acc": 0.4456
+  },
+  {
+   "cost_fe": 336,
+   "struct_loss": 0.3424,
+   "cons_acc": 0.4576
+  },
+  {
+   "cost_fe": 364,
+   "struct_loss": 0.2844,
+   "cons_acc": 0.4657
+  },
+  {
+   "cost_fe": 392,
+   "struct_loss": 0.2473,
+   "cons_acc": 0.4818
+  },
+  {
+   "cost_fe": 420,
+   "struct_loss": 0.2185,
+   "cons_acc": 0.4939
+  },
+  {
+   "cost_fe": 455,
+   "struct_loss": 0.1914,
+   "cons_acc": 0.5148
+  },
+  {
+   "cost_fe": 483,
+   "struct_loss": 0.1732,
+   "cons_acc": 0.5366
+  },
+  {
+   "cost_fe": 511,
+   "struct_loss": 0.1568,
+   "cons_acc": 0.5581
+  },
+  {
+   "cost_fe": 546,
+   "struct_loss": 0.1318,
+   "cons_acc": 0.5722
+  },
+  {
+   "cost_fe": 574,
+   "struct_loss": 0.125,
+   "cons_acc": 0.5922
+  },
+  {
+   "cost_fe": 602,
+   "struct_loss": 0.1118,
+   "cons_acc": 0.5994
+  },
+  {
+   "cost_fe": 630,
+   "struct_loss": 0.103,
+   "cons_acc": 0.6024
+  },
+  {
+   "cost_fe": 665,
+   "struct_loss": 0.094,
+   "cons_acc": 0.62
+  },
+  {
+   "cost_fe": 693,
+   "struct_loss": 0.0914,
+   "cons_acc": 0.6415
+  },
+  {
+   "cost_fe": 721,
+   "struct_loss": 0.0812,
+   "cons_acc": 0.6398
+  },
+  {
+   "cost_fe": 756,
+   "struct_loss": 0.0746,
+   "cons_acc": 0.6571
+  },
+  {
+   "cost_fe": 784,
+   "struct_loss": 0.0692,
+   "cons_acc": 0.6771
+  },
+  {
+   "cost_fe": 812,
+   "struct_loss": 0.0636,
+   "cons_acc": 0.6988
+  },
+  {
+   "cost_fe": 840,
+   "struct_loss": 0.0582,
+   "cons_acc": 0.7246
+  },
+  {
+   "cost_fe": 875,
+   "struct_loss": 0.051,
+   "cons_acc": 0.7684
+  },
+  {
+   "cost_fe": 903,
+   "struct_loss": 0.0473,
+   "cons_acc": 0.8075
+  },
+  {
+   "cost_fe": 931,
+   "struct_loss": 0.0401,
+   "cons_acc": 0.835
+  },
+  {
+   "cost_fe": 966,
+   "struct_loss": 0.035,
+   "cons_acc": 0.8779
+  },
+  {
+   "cost_fe": 994,
+   "struct_loss": 0.0339,
+   "cons_acc": 0.9171
+  },
+  {
+   "cost_fe": 1022,
+   "struct_loss": 0.0309,
+   "cons_acc": 0.947
+  },
+  {
+   "cost_fe": 1050,
+   "struct_loss": 0.0282,
+   "cons_acc": 0.9665
+  },
+  {
+   "cost_fe": 1085,
+   "struct_loss": 0.0255,
+   "cons_acc": 0.9826
+  },
+  {
+   "cost_fe": 1113,
+   "struct_loss": 0.0236,
+   "cons_acc": 0.9875
+  },
+  {
+   "cost_fe": 1141,
+   "struct_loss": 0.0219,
+   "cons_acc": 0.9907
+  },
+  {
+   "cost_fe": 1176,
+   "struct_loss": 0.0201,
+   "cons_acc": 0.9952
+  },
+  {
+   "cost_fe": 1204,
+   "struct_loss": 0.0183,
+   "cons_acc": 0.9974
+  },
+  {
+   "cost_fe": 1232,
+   "struct_loss": 0.017,
+   "cons_acc": 0.9972
+  },
+  {
+   "cost_fe": 1260,
+   "struct_loss": 0.0163,
+   "cons_acc": 0.999
+  },
+  {
+   "cost_fe": 1295,
+   "struct_loss": 0.0153,
+   "cons_acc": 0.9993
+  },
+  {
+   "cost_fe": 1323,
+   "struct_loss": 0.0146,
+   "cons_acc": 0.9991
+  },
+  {
+   "cost_fe": 1351,
+   "struct_loss": 0.0141,
+   "cons_acc": 0.9999
+  },
+  {
+   "cost_fe": 1386,
+   "struct_loss": 0.0134,
+   "cons_acc": 0.9998
+  },
+  {
+   "cost_fe": 1414,
+   "struct_loss": 0.0127,
+   "cons_acc": 0.9995
+  },
+  {
+   "cost_fe": 1442,
+   "struct_loss": 0.0125,
+   "cons_acc": 1.0
+  },
+  {
+   "cost_fe": 1470,
+   "struct_loss": 0.012,
+   "cons_acc": 0.9998
+  },
+  {
+   "cost_fe": 1505,
+   "struct_loss": 0.0115,
+   "cons_acc": 1.0
+  }
+ ]
+}

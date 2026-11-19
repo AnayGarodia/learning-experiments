@@ -1,0 +1,17 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  10%|█         | 29/290 [00:00<00:01, 254.78it/s]Loading weights:  36%|███▌      | 105/290 [00:00<00:00, 518.86it/s]Loading weights:  57%|█████▋    | 165/290 [00:00<00:00, 553.27it/s]Loading weights:  76%|███████▌  | 221/290 [00:00<00:00, 545.36it/s]Loading weights: 100%|█████████▉| 289/290 [00:00<00:00, 584.97it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 548.15it/s]
+positional scheme: {"model_type": "qwen2", "rope_theta": null, "has_rotary_module": true, "has_absolute_pos_embedding": false, "n_layer": 24, "d_model": 896, "n_params": 494032768}
+  [icl N_shift2] n=  0 acc=0.000 mm=0.000 cov=0.000 (17.1s)
+  [icl N_shift2] n=  1 acc=0.045 mm=0.000 cov=0.055 (52.3s)
+  [icl N_shift2] n=  2 acc=0.035 mm=0.000 cov=0.085 (75.7s)
+  [icl N_shift2] n=  3 acc=0.045 mm=0.000 cov=0.185 (132.1s)
+  [icl N_shift2] n=  4 acc=0.050 mm=0.000 cov=0.245 (200.3s)
+  [icl N_shift2] n=  6 acc=0.040 mm=0.000 cov=0.295 (262.3s)
+  [icl N_shift2] n=  8 acc=0.070 mm=0.000 cov=0.420 (336.3s)
+  [icl N_shift2] n= 12 acc=0.060 mm=0.000 cov=0.495 (474.2s)
+  [icl N_shift2] n= 16 acc=0.060 mm=0.000 cov=0.670 (618.9s)
+  [icl N_shift2] n= 24 acc=0.075 mm=0.000 cov=0.730 (910.1s)
+  [icl N_shift2] n= 32 acc=0.055 mm=0.000 cov=0.800 (1201.8s)
+  [icl N_shift2] n= 48 acc=0.105 mm=0.000 cov=0.950 (1792.4s)
+  [icl N_shift2] n= 64 acc=0.080 mm=0.000 cov=0.935 (2252.3s)
+wrote /home/azureuser/arche/experiments/e013-exchange-rate/runs/icl_N_shift2_s0.json

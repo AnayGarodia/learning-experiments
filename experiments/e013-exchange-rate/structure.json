@@ -1,0 +1,42 @@
+{
+ "B_first": {
+  "family": "natural",
+  "copy_oracle_acc": 0.07,
+  "copy_oracle_offset": 8,
+  "line_tok_len_mean": 7.06,
+  "line_tok_len_sd": 0.24,
+  "non_degenerate": true
+ },
+ "B_upper": {
+  "family": "natural",
+  "copy_oracle_acc": 0.0,
+  "copy_oracle_offset": 0,
+  "line_tok_len_mean": 7.97,
+  "line_tok_len_sd": 0.68,
+  "non_degenerate": true
+ },
+ "N_map": {
+  "family": "novel",
+  "copy_oracle_acc": 0.085,
+  "copy_oracle_offset": 9,
+  "line_tok_len_mean": 8.06,
+  "line_tok_len_sd": 0.24,
+  "non_degenerate": true
+ },
+ "N_shift2": {
+  "family": "novel",
+  "copy_oracle_acc": 0.07,
+  "copy_oracle_offset": 18,
+  "line_tok_len_mean": 8.06,
+  "line_tok_len_sd": 0.24,
+  "non_degenerate": true
+ },
+ "N_perm": {
+  "family": "novel",
+  "copy_oracle_acc": 0.0,
+  "copy_oracle_offset": 0,
+  "line_tok_len_mean": 9.67,
+  "line_tok_len_sd": 0.53,
+  "non_degenerate": true
+ }
+}

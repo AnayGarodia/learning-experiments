@@ -1,0 +1,24 @@
+N=65536 task0 slots touched by 5000 test ex: 2148 (3.3%)
+N=65536 task1 slots touched by 5000 test ex: 495 (0.8%)
+N=65536 task2 slots touched by 5000 test ex: 682 (1.0%)
+N=65536 task3 slots touched by 5000 test ex: 574 (0.9%)
+N=65536 task4 slots touched by 5000 test ex: 625 (1.0%)
+N=65536 task5 slots touched by 5000 test ex: 479 (0.7%)
+N=65536 task6 slots touched by 5000 test ex: 493 (0.8%)
+N=65536 task7 slots touched by 5000 test ex: 537 (0.8%)
+N=65536 task8 slots touched by 5000 test ex: 658 (1.0%)
+N=65536 task9 slots touched by 5000 test ex: 598 (0.9%)
+mean Jaccard overlap between different tasks: 0.532
+union of all tasks: 2357 of 65536
+N=256 task0 slots touched by 5000 test ex: 245 (95.7%)
+N=256 task1 slots touched by 5000 test ex: 137 (53.5%)
+N=256 task2 slots touched by 5000 test ex: 139 (54.3%)
+N=256 task3 slots touched by 5000 test ex: 143 (55.9%)
+N=256 task4 slots touched by 5000 test ex: 133 (52.0%)
+N=256 task5 slots touched by 5000 test ex: 126 (49.2%)
+N=256 task6 slots touched by 5000 test ex: 141 (55.1%)
+N=256 task7 slots touched by 5000 test ex: 129 (50.4%)
+N=256 task8 slots touched by 5000 test ex: 137 (53.5%)
+N=256 task9 slots touched by 5000 test ex: 127 (49.6%)
+mean Jaccard overlap between different tasks: 0.785
+union of all tasks: 245 of 256

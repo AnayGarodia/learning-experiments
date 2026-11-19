@@ -1,0 +1,250 @@
+{
+ "arm": "separate_adapters",
+ "seed": 0,
+ "order": [
+  11,
+  28,
+  8,
+  31,
+  9,
+  24,
+  34,
+  5,
+  33,
+  7
+ ],
+ "replay_frac": 0.0,
+ "rank": 8,
+ "n_eval": 200,
+ "base": "Qwen/Qwen2.5-0.5B",
+ "n_params": 498431872,
+ "n_lora_params": 4399104,
+ "n_skills": 10,
+ "tag": "",
+ "git_sha": "code:0afb95a7f0c40f8d",
+ "cont_sha256": "81b6011754624309",
+ "steps": [
+  {
+   "unprompted": {
+    "11": 0.805
+   },
+   "unknown_marker_applies_rule": {
+    "11": 0.805
+   },
+   "n_by_skill": {
+    "11": 200
+   },
+   "generality_nats": 2.8622,
+   "k": 1,
+   "skill": 11,
+   "cum_steps": 60,
+   "n_replay_batches": 0,
+   "n_replay_examples": 0,
+   "intra_skill_probes": [],
+   "write_tripwire_ok": true,
+   "orth_weightspace_cos": null,
+   "orth_weightspace_cos_stats": null,
+   "wall_s": 560.3
+  },
+  {
+   "unprompted": {
+    "28": 1.0
+   },
+   "unknown_marker_applies_rule": {
+    "28": 1.0
+   },
+   "n_by_skill": {
+    "28": 200
+   },
+   "generality_nats": 2.8881,
+   "k": 2,
+   "skill": 28,
+   "cum_steps": 120,
+   "n_replay_batches": 0,
+   "n_replay_examples": 0,
+   "intra_skill_probes": [],
+   "write_tripwire_ok": true,
+   "orth_weightspace_cos": null,
+   "orth_weightspace_cos_stats": null,
+   "wall_s": 1184.7
+  },
+  {
+   "unprompted": {
+    "8": 1.0
+   },
+   "unknown_marker_applies_rule": {
+    "8": 1.0
+   },
+   "n_by_skill": {
+    "8": 200
+   },
+   "generality_nats": 2.8386,
+   "k": 3,
+   "skill": 8,
+   "cum_steps": 180,
+   "n_replay_batches": 0,
+   "n_replay_examples": 0,
+   "intra_skill_probes": [],
+   "write_tripwire_ok": true,
+   "orth_weightspace_cos": null,
+   "orth_weightspace_cos_stats": null,
+   "wall_s": 1705.8
+  },
+  {
+   "unprompted": {
+    "31": 1.0
+   },
+   "unknown_marker_applies_rule": {
+    "31": 1.0
+   },
+   "n_by_skill": {
+    "31": 200
+   },
+   "generality_nats": 2.8609,
+   "k": 4,
+   "skill": 31,
+   "cum_steps": 240,
+   "n_replay_batches": 0,
+   "n_replay_examples": 0,
+   "intra_skill_probes": [],
+   "write_tripwire_ok": true,
+   "orth_weightspace_cos": null,
+   "orth_weightspace_cos_stats": null,
+   "wall_s": 2316.2
+  },
+  {
+   "unprompted": {
+    "9": 1.0
+   },
+   "unknown_marker_applies_rule": {
+    "9": 1.0
+   },
+   "n_by_skill": {
+    "9": 200
+   },
+   "generality_nats": 2.9079,
+   "k": 5,
+   "skill": 9,
+   "cum_steps": 300,
+   "n_replay_batches": 0,
+   "n_replay_examples": 0,
+   "intra_skill_probes": [],
+   "write_tripwire_ok": true,
+   "orth_weightspace_cos": null,
+   "orth_weightspace_cos_stats": null,
+   "wall_s": 2792.0
+  },
+  {
+   "unprompted": {
+    "24": 0.78
+   },
+   "unknown_marker_applies_rule": {
+    "24": 0.78
+   },
+   "n_by_skill": {
+    "24": 200
+   },
+   "generality_nats": 2.8657,
+   "k": 6,
+   "skill": 24,
+   "cum_steps": 360,
+   "n_replay_batches": 0,
+   "n_replay_examples": 0,
+   "intra_skill_probes": [],
+   "write_tripwire_ok": true,
+   "orth_weightspace_cos": null,
+   "orth_weightspace_cos_stats": null,
+   "wall_s": 3459.7
+  },
+  {
+   "unprompted": {
+    "34": 1.0
+   },
+   "unknown_marker_applies_rule": {
+    "34": 1.0
+   },
+   "n_by_skill": {
+    "34": 200
+   },
+   "generality_nats": 2.8598,
+   "k": 7,
+   "skill": 34,
+   "cum_steps": 420,
+   "n_replay_batches": 0,
+   "n_replay_examples": 0,
+   "intra_skill_probes": [],
+   "write_tripwire_ok": true,
+   "orth_weightspace_cos": null,
+   "orth_weightspace_cos_stats": null,
+   "wall_s": 4053.8
+  },
+  {
+   "unprompted": {
+    "5": 0.93
+   },
+   "unknown_marker_applies_rule": {
+    "5": 0.93
+   },
+   "n_by_skill": {
+    "5": 200
+   },
+   "generality_nats": 2.8449,
+   "k": 8,
+   "skill": 5,
+   "cum_steps": 480,
+   "n_replay_batches": 0,
+   "n_replay_examples": 0,
+   "intra_skill_probes": [],
+   "write_tripwire_ok": true,
+   "orth_weightspace_cos": null,
+   "orth_weightspace_cos_stats": null,
+   "wall_s": 4647.5
+  },
+  {
+   "unprompted": {
+    "33": 1.0
+   },
+   "unknown_marker_applies_rule": {
+    "33": 1.0
+   },
+   "n_by_skill": {
+    "33": 200
+   },
+   "generality_nats": 2.8621,
+   "k": 9,
+   "skill": 33,
+   "cum_steps": 540,
+   "n_replay_batches": 0,
+   "n_replay_examples": 0,
+   "intra_skill_probes": [],
+   "write_tripwire_ok": true,
+   "orth_weightspace_cos": null,
+   "orth_weightspace_cos_stats": null,
+   "wall_s": 5336.3
+  },
+  {
+   "unprompted": {
+    "7": 1.0
+   },
+   "unknown_marker_applies_rule": {
+    "7": 1.0
+   },
+   "n_by_skill": {
+    "7": 200
+   },
+   "generality_nats": 2.8649,
+   "k": 10,
+   "skill": 7,
+   "cum_steps": 600,
+   "n_replay_batches": 0,
+   "n_replay_examples": 0,
+   "intra_skill_probes": [],
+   "write_tripwire_ok": true,
+   "orth_weightspace_cos": null,
+   "orth_weightspace_cos_stats": null,
+   "wall_s": 5891.9
+  }
+ ],
+ "wall_s": 5891.9,
+ "peak_rss_gb": 5.12
+}

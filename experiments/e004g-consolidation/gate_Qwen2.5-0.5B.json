@@ -1,0 +1,350 @@
+{
+ "0": {
+  "name": "A_zeta",
+  "type": "A",
+  "prompted": 1.0,
+  "unprompted": 0.0,
+  "mismatched_shots": 0.0,
+  "control": 0.0,
+  "gap": 1.0,
+  "copy_oracle_acc": 0.953,
+  "non_degenerate": false,
+  "pass": true,
+  "prompted_freegen": 1.0
+ },
+ "1": {
+  "name": "A_north",
+  "type": "A",
+  "prompted": 1.0,
+  "unprompted": 0.0,
+  "mismatched_shots": 0.0,
+  "control": 0.0,
+  "gap": 1.0,
+  "copy_oracle_acc": 0.969,
+  "non_degenerate": false,
+  "pass": true,
+  "prompted_freegen": 1.0
+ },
+ "2": {
+  "name": "A_violet",
+  "type": "A",
+  "prompted": 0.975,
+  "unprompted": 0.0,
+  "mismatched_shots": 0.0,
+  "control": 0.0,
+  "gap": 0.975,
+  "copy_oracle_acc": 0.938,
+  "non_degenerate": false,
+  "pass": true,
+  "prompted_freegen": 1.0
+ },
+ "3": {
+  "name": "A_harbor",
+  "type": "A",
+  "prompted": 0.99,
+  "unprompted": 0.0,
+  "mismatched_shots": 0.0,
+  "control": 0.0,
+  "gap": 0.99,
+  "copy_oracle_acc": 0.969,
+  "non_degenerate": false,
+  "pass": true,
+  "prompted_freegen": 1.0
+ },
+ "4": {
+  "name": "B_reverse",
+  "type": "B",
+  "prompted": 0.0,
+  "unprompted": 0.0,
+  "mismatched_shots": 0.0,
+  "control": 0.0,
+  "gap": 0.0,
+  "copy_oracle_acc": 0.0,
+  "non_degenerate": true,
+  "pass": false,
+  "prompted_freegen": 0.0
+ },
+ "5": {
+  "name": "B_upper",
+  "type": "B",
+  "prompted": 0.94,
+  "unprompted": 0.0,
+  "mismatched_shots": 0.0,
+  "control": 0.0,
+  "gap": 0.94,
+  "copy_oracle_acc": 0.0,
+  "non_degenerate": true,
+  "pass": true,
+  "prompted_freegen": 0.938
+ },
+ "6": {
+  "name": "B_last",
+  "type": "B",
+  "prompted": 0.055,
+  "unprompted": 0.0,
+  "mismatched_shots": 0.0,
+  "control": 0.0,
+  "gap": 0.055,
+  "copy_oracle_acc": 0.109,
+  "non_degenerate": true,
+  "pass": false,
+  "prompted_freegen": 0.031
+ },
+ "7": {
+  "name": "B_double",
+  "type": "B",
+  "prompted": 1.0,
+  "unprompted": 0.0,
+  "mismatched_shots": 0.0,
+  "control": 0.0,
+  "gap": 1.0,
+  "copy_oracle_acc": 0.0,
+  "non_degenerate": true,
+  "pass": true,
+  "prompted_freegen": 1.0
+ },
+ "8": {
+  "name": "B_title",
+  "type": "B",
+  "prompted": 1.0,
+  "unprompted": 0.07,
+  "mismatched_shots": 0.0,
+  "control": 0.07,
+  "gap": 0.93,
+  "copy_oracle_acc": 0.0,
+  "non_degenerate": true,
+  "pass": true,
+  "prompted_freegen": 1.0
+ },
+ "9": {
+  "name": "B_first",
+  "type": "B",
+  "prompted": 0.985,
+  "unprompted": 0.0,
+  "mismatched_shots": 0.0,
+  "control": 0.0,
+  "gap": 0.985,
+  "copy_oracle_acc": 0.078,
+  "non_degenerate": true,
+  "pass": true,
+  "prompted_freegen": 0.969
+ },
+ "10": {
+  "name": "B_spaced",
+  "type": "B",
+  "prompted": 0.21,
+  "unprompted": 0.0,
+  "mismatched_shots": 0.0,
+  "control": 0.0,
+  "gap": 0.21,
+  "copy_oracle_acc": 0.0,
+  "non_degenerate": true,
+  "pass": false,
+  "prompted_freegen": 0.156
+ },
+ "11": {
+  "name": "B_plural",
+  "type": "B",
+  "prompted": 0.795,
+  "unprompted": 0.0,
+  "mismatched_shots": 0.0,
+  "control": 0.0,
+  "gap": 0.795,
+  "copy_oracle_acc": 0.0,
+  "non_degenerate": true,
+  "pass": true,
+  "prompted_freegen": 0.781
+ },
+ "12": {
+  "name": "B_bang",
+  "type": "B",
+  "prompted": 0.0,
+  "unprompted": 0.0,
+  "mismatched_shots": 0.0,
+  "control": 0.0,
+  "gap": 0.0,
+  "copy_oracle_acc": 0.0,
+  "non_degenerate": true,
+  "pass": false,
+  "prompted_freegen": 1.0
+ },
+ "13": {
+  "name": "B_triple",
+  "type": "B",
+  "prompted": 1.0,
+  "unprompted": 0.0,
+  "mismatched_shots": 0.0,
+  "control": 0.0,
+  "gap": 1.0,
+  "copy_oracle_acc": 0.0,
+  "non_degenerate": true,
+  "pass": true,
+  "prompted_freegen": 1.0
+ },
+ "_verdict": {
+  "n_pass": 10,
+  "n_pass_type_B": 6,
+  "n_pass_non_degenerate": 6,
+  "passed": [
+   0,
+   1,
+   2,
+   3,
+   5,
+   7,
+   8,
+   9,
+   11,
+   13
+  ],
+  "passed_non_degenerate": [
+   5,
+   7,
+   8,
+   9,
+   11,
+   13
+  ],
+  "base_pass": true,
+  "prompted_spread_sd": 0.413,
+  "structure": {
+   "0": {
+    "name": "A_zeta",
+    "type": "A",
+    "copy_oracle_acc": 0.953,
+    "copy_oracle_offset": 9,
+    "line_tok_len_mean": 8.03,
+    "line_tok_len_sd": 0.17,
+    "non_degenerate": false
+   },
+   "1": {
+    "name": "A_north",
+    "type": "A",
+    "copy_oracle_acc": 0.969,
+    "copy_oracle_offset": 8,
+    "line_tok_len_mean": 7.03,
+    "line_tok_len_sd": 0.17,
+    "non_degenerate": false
+   },
+   "2": {
+    "name": "A_violet",
+    "type": "A",
+    "copy_oracle_acc": 0.938,
+    "copy_oracle_offset": 8,
+    "line_tok_len_mean": 7.03,
+    "line_tok_len_sd": 0.17,
+    "non_degenerate": false
+   },
+   "3": {
+    "name": "A_harbor",
+    "type": "A",
+    "copy_oracle_acc": 0.969,
+    "copy_oracle_offset": 8,
+    "line_tok_len_mean": 7.03,
+    "line_tok_len_sd": 0.17,
+    "non_degenerate": false
+   },
+   "4": {
+    "name": "B_reverse",
+    "type": "B",
+    "copy_oracle_acc": 0.0,
+    "copy_oracle_offset": 0,
+    "line_tok_len_mean": 8.44,
+    "line_tok_len_sd": 0.5,
+    "non_degenerate": true
+   },
+   "5": {
+    "name": "B_upper",
+    "type": "B",
+    "copy_oracle_acc": 0.0,
+    "copy_oracle_offset": 0,
+    "line_tok_len_mean": 8.0,
+    "line_tok_len_sd": 0.71,
+    "non_degenerate": true
+   },
+   "6": {
+    "name": "B_last",
+    "type": "B",
+    "copy_oracle_acc": 0.109,
+    "copy_oracle_offset": 16,
+    "line_tok_len_mean": 7.03,
+    "line_tok_len_sd": 0.17,
+    "non_degenerate": true
+   },
+   "7": {
+    "name": "B_double",
+    "type": "B",
+    "copy_oracle_acc": 0.0,
+    "copy_oracle_offset": 0,
+    "line_tok_len_mean": 8.09,
+    "line_tok_len_sd": 0.52,
+    "non_degenerate": true
+   },
+   "8": {
+    "name": "B_title",
+    "type": "B",
+    "copy_oracle_acc": 0.0,
+    "copy_oracle_offset": 0,
+    "line_tok_len_mean": 7.12,
+    "line_tok_len_sd": 0.41,
+    "non_degenerate": true
+   },
+   "9": {
+    "name": "B_first",
+    "type": "B",
+    "copy_oracle_acc": 0.078,
+    "copy_oracle_offset": 8,
+    "line_tok_len_mean": 7.03,
+    "line_tok_len_sd": 0.17,
+    "non_degenerate": true
+   },
+   "10": {
+    "name": "B_spaced",
+    "type": "B",
+    "copy_oracle_acc": 0.0,
+    "copy_oracle_offset": 0,
+    "line_tok_len_mean": 12.03,
+    "line_tok_len_sd": 0.17,
+    "non_degenerate": true
+   },
+   "11": {
+    "name": "B_plural",
+    "type": "B",
+    "copy_oracle_acc": 0.0,
+    "copy_oracle_offset": 0,
+    "line_tok_len_mean": 8.47,
+    "line_tok_len_sd": 0.56,
+    "non_degenerate": true
+   },
+   "12": {
+    "name": "B_bang",
+    "type": "B",
+    "copy_oracle_acc": 0.0,
+    "copy_oracle_offset": 0,
+    "line_tok_len_mean": 9.06,
+    "line_tok_len_sd": 0.35,
+    "non_degenerate": true
+   },
+   "13": {
+    "name": "B_triple",
+    "type": "B",
+    "copy_oracle_acc": 0.0,
+    "copy_oracle_offset": 0,
+    "line_tok_len_mean": 10.12,
+    "line_tok_len_sd": 0.7,
+    "non_degenerate": true
+   }
+  },
+  "base": "Qwen/Qwen2.5-0.5B",
+  "pos_scheme": {
+   "model_type": "qwen2",
+   "rope_theta": null,
+   "has_rotary_module": true,
+   "has_absolute_pos_embedding": false,
+   "n_layer": 24,
+   "d_model": 896,
+   "n_params": 494032768
+  },
+  "wall_s": 476.5
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "unprompted": {
+  "5": 0.0,
+  "7": 0.0,
+  "8": 0.04,
+  "9": 0.0,
+  "11": 0.0,
+  "13": 0.0,
+  "0": 0.0,
+  "1": 0.0
+ },
+ "prompted_on_top": {
+  "5": 0.915,
+  "7": 1.0,
+  "8": 1.0,
+  "9": 0.98,
+  "11": 0.765,
+  "13": 1.0,
+  "0": 1.0,
+  "1": 0.995
+ },
+ "generality_nats": 2.836,
+ "unknown_marker_agree": 1.0,
+ "unknown_marker_applies_rule": {
+  "5": 0.0,
+  "7": 0.0,
+  "8": 0.0,
+  "9": 0.0,
+  "11": 0.0,
+  "13": 0.0,
+  "0": 0.0,
+  "1": 0.0
+ },
+ "cross_marker_leak": {},
+ "k": 0,
+ "skill": null,
+ "cum_steps": 0,
+ "arm": "frozen_base",
+ "base": "Qwen/Qwen2.5-0.5B",
+ "git_sha": "code:0afb95a7f0c40f8d"
+}

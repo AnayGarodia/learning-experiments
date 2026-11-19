@@ -1,0 +1,37 @@
+Controls for the joint arm (decision 0010 item 2: controls must order correctly)
+================================================================================
+
+Executing the joint configuration (depth-skip UNION temporal-reuse) scores
+HIGHER agreement with the full model than executing depth-skip alone, even
+though joint applies strictly MORE skips. That is counterintuitive and is not
+believable without a control, so two matched-density controls were run.
+
+s @ 6.0M tokens, 64 eval sequences (pilot/controls_diag.py):
+
+  config                              skip     agree     cons acc
+  full                              0.0000    1.0000        1.0000
+  depth only                        0.7150    0.8745        0.5881
+  temporal only                     0.1115    0.9960        1.0000
+  depth | temporal (t-1)  [oracle]  0.8053    0.9467        0.9287
+  depth | temporal from t+1 [ctl]   0.8053    0.8466        0.4673
+  depth | RANDOM mask, same density 0.7461    0.7537        0.5406
+  depth, no drift        [control]  0.7150    1.0000        1.0000
+
+Ordering: random (0.754) < wrong-neighbour (0.847) < depth-only (0.874)
+< true t-1 reuse (0.947). The gain is specific to genuine temporal reuse; an
+arbitrary perturbation of the same density makes things WORSE, as it must.
+So the joint > depth-only result is a real interaction, not a masking bug.
+
+The "no drift" control replaces each token's final state with the FULL model's
+own state at its exit block and returns exactly 1.0000 agreement. That proves
+the exit criterion is implemented correctly and that everything lost by the
+executed depth arm is EXECUTION DRIFT: frozen early-exit states feed later
+blocks' attention for other positions (the CALM state-copy pathology).
+
+Same controls, computed inside overlay.py, at xxs @ 6.0M / 256 sequences:
+
+  ctl_random_mask 0.9100 < ctl_wrong_neighbour 0.9360 < depth_arg 0.9527
+  <= joint_arg 0.9532
+
+overlay.py now measures both controls at every cell, so the ordering is a
+per-cell tripwire on the full grid rather than a one-off pilot check.

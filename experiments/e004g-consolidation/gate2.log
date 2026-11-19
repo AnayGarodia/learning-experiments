@@ -1,0 +1,198 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  76%|███████▌  | 220/290 [00:00<00:00, 2122.93it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 2201.38it/s]
+positional scheme: {"model_type": "qwen2", "rope_theta": null, "has_rotary_module": true, "has_absolute_pos_embedding": false, "n_layer": 24, "d_model": 896, "n_params": 494032768}
+skill-suite structure (degeneracy check):
+  A_zeta     (A) copy_oracle=0.953 @offset 9 | line_toks 8.03±0.17 copyable
+  A_north    (A) copy_oracle=0.969 @offset 8 | line_toks 7.03±0.17 copyable
+  A_violet   (A) copy_oracle=0.938 @offset 8 | line_toks 7.03±0.17 copyable
+  A_harbor   (A) copy_oracle=0.969 @offset 8 | line_toks 7.03±0.17 copyable
+  B_reverse  (B) copy_oracle=0.000 @offset 0 | line_toks 8.44±0.5 NON-DEGENERATE
+  B_upper    (B) copy_oracle=0.000 @offset 0 | line_toks 8.0±0.71 NON-DEGENERATE
+  B_last     (B) copy_oracle=0.109 @offset 16 | line_toks 7.03±0.17 NON-DEGENERATE
+  B_double   (B) copy_oracle=0.000 @offset 0 | line_toks 8.09±0.52 NON-DEGENERATE
+  B_title    (B) copy_oracle=0.000 @offset 0 | line_toks 7.12±0.41 NON-DEGENERATE
+  B_first    (B) copy_oracle=0.078 @offset 8 | line_toks 7.03±0.17 NON-DEGENERATE
+  B_spaced   (B) copy_oracle=0.000 @offset 0 | line_toks 12.03±0.17 NON-DEGENERATE
+  B_plural   (B) copy_oracle=0.000 @offset 0 | line_toks 8.47±0.56 NON-DEGENERATE
+  B_bang     (B) copy_oracle=0.000 @offset 0 | line_toks 9.06±0.35 NON-DEGENERATE
+  B_triple   (B) copy_oracle=0.000 @offset 0 | line_toks 10.12±0.7 NON-DEGENERATE
+  skill 0 A_zeta     (A) prompted=1.000 unprompted=0.000 mismatched=0.000 gap=1.000 PASS freegen=1.000
+  skill 1 A_north    (A) prompted=1.000 unprompted=0.000 mismatched=0.000 gap=1.000 PASS freegen=1.000
+  skill 2 A_violet   (A) prompted=0.975 unprompted=0.000 mismatched=0.000 gap=0.975 PASS freegen=1.000
+  skill 3 A_harbor   (A) prompted=0.990 unprompted=0.000 mismatched=0.000 gap=0.990 PASS freegen=1.000
+  skill 4 B_reverse  (B) prompted=0.000 unprompted=0.000 mismatched=0.000 gap=0.000 FAIL freegen=0.000
+  skill 5 B_upper    (B) prompted=0.940 unprompted=0.000 mismatched=0.000 gap=0.940 PASS freegen=0.938
+  skill 6 B_last     (B) prompted=0.055 unprompted=0.000 mismatched=0.000 gap=0.055 FAIL freegen=0.031
+  skill 7 B_double   (B) prompted=1.000 unprompted=0.000 mismatched=0.000 gap=1.000 PASS freegen=1.000
+  skill 8 B_title    (B) prompted=1.000 unprompted=0.070 mismatched=0.000 gap=0.930 PASS freegen=1.000
+  skill 9 B_first    (B) prompted=0.985 unprompted=0.000 mismatched=0.000 gap=0.985 PASS freegen=0.969
+  skill 10 B_spaced   (B) prompted=0.210 unprompted=0.000 mismatched=0.000 gap=0.210 FAIL freegen=0.156
+  skill 11 B_plural   (B) prompted=0.795 unprompted=0.000 mismatched=0.000 gap=0.795 PASS freegen=0.781
+  skill 12 B_bang     (B) prompted=0.000 unprompted=0.000 mismatched=0.000 gap=0.000 FAIL freegen=1.000
+  skill 13 B_triple   (B) prompted=1.000 unprompted=0.000 mismatched=0.000 gap=1.000 PASS freegen=1.000
+{
+ "n_pass": 10,
+ "n_pass_type_B": 6,
+ "n_pass_non_degenerate": 6,
+ "passed": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  7,
+  8,
+  9,
+  11,
+  13
+ ],
+ "passed_non_degenerate": [
+  5,
+  7,
+  8,
+  9,
+  11,
+  13
+ ],
+ "base_pass": true,
+ "prompted_spread_sd": 0.413,
+ "structure": {
+  "0": {
+   "name": "A_zeta",
+   "type": "A",
+   "copy_oracle_acc": 0.953,
+   "copy_oracle_offset": 9,
+   "line_tok_len_mean": 8.03,
+   "line_tok_len_sd": 0.17,
+   "non_degenerate": false
+  },
+  "1": {
+   "name": "A_north",
+   "type": "A",
+   "copy_oracle_acc": 0.969,
+   "copy_oracle_offset": 8,
+   "line_tok_len_mean": 7.03,
+   "line_tok_len_sd": 0.17,
+   "non_degenerate": false
+  },
+  "2": {
+   "name": "A_violet",
+   "type": "A",
+   "copy_oracle_acc": 0.938,
+   "copy_oracle_offset": 8,
+   "line_tok_len_mean": 7.03,
+   "line_tok_len_sd": 0.17,
+   "non_degenerate": false
+  },
+  "3": {
+   "name": "A_harbor",
+   "type": "A",
+   "copy_oracle_acc": 0.969,
+   "copy_oracle_offset": 8,
+   "line_tok_len_mean": 7.03,
+   "line_tok_len_sd": 0.17,
+   "non_degenerate": false
+  },
+  "4": {
+   "name": "B_reverse",
+   "type": "B",
+   "copy_oracle_acc": 0.0,
+   "copy_oracle_offset": 0,
+   "line_tok_len_mean": 8.44,
+   "line_tok_len_sd": 0.5,
+   "non_degenerate": true
+  },
+  "5": {
+   "name": "B_upper",
+   "type": "B",
+   "copy_oracle_acc": 0.0,
+   "copy_oracle_offset": 0,
+   "line_tok_len_mean": 8.0,
+   "line_tok_len_sd": 0.71,
+   "non_degenerate": true
+  },
+  "6": {
+   "name": "B_last",
+   "type": "B",
+   "copy_oracle_acc": 0.109,
+   "copy_oracle_offset": 16,
+   "line_tok_len_mean": 7.03,
+   "line_tok_len_sd": 0.17,
+   "non_degenerate": true
+  },
+  "7": {
+   "name": "B_double",
+   "type": "B",
+   "copy_oracle_acc": 0.0,
+   "copy_oracle_offset": 0,
+   "line_tok_len_mean": 8.09,
+   "line_tok_len_sd": 0.52,
+   "non_degenerate": true
+  },
+  "8": {
+   "name": "B_title",
+   "type": "B",
+   "copy_oracle_acc": 0.0,
+   "copy_oracle_offset": 0,
+   "line_tok_len_mean": 7.12,
+   "line_tok_len_sd": 0.41,
+   "non_degenerate": true
+  },
+  "9": {
+   "name": "B_first",
+   "type": "B",
+   "copy_oracle_acc": 0.078,
+   "copy_oracle_offset": 8,
+   "line_tok_len_mean": 7.03,
+   "line_tok_len_sd": 0.17,
+   "non_degenerate": true
+  },
+  "10": {
+   "name": "B_spaced",
+   "type": "B",
+   "copy_oracle_acc": 0.0,
+   "copy_oracle_offset": 0,
+   "line_tok_len_mean": 12.03,
+   "line_tok_len_sd": 0.17,
+   "non_degenerate": true
+  },
+  "11": {
+   "name": "B_plural",
+   "type": "B",
+   "copy_oracle_acc": 0.0,
+   "copy_oracle_offset": 0,
+   "line_tok_len_mean": 8.47,
+   "line_tok_len_sd": 0.56,
+   "non_degenerate": true
+  },
+  "12": {
+   "name": "B_bang",
+   "type": "B",
+   "copy_oracle_acc": 0.0,
+   "copy_oracle_offset": 0,
+   "line_tok_len_mean": 9.06,
+   "line_tok_len_sd": 0.35,
+   "non_degenerate": true
+  },
+  "13": {
+   "name": "B_triple",
+   "type": "B",
+   "copy_oracle_acc": 0.0,
+   "copy_oracle_offset": 0,
+   "line_tok_len_mean": 10.12,
+   "line_tok_len_sd": 0.7,
+   "non_degenerate": true
+  }
+ },
+ "base": "Qwen/Qwen2.5-0.5B",
+ "pos_scheme": {
+  "model_type": "qwen2",
+  "rope_theta": null,
+  "has_rotary_module": true,
+  "has_absolute_pos_embedding": false,
+  "n_layer": 24,
+  "d_model": 896,
+  "n_params": 494032768
+ },
+ "wall_s": 476.5
+}

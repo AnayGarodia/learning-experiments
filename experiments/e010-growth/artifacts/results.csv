@@ -1,0 +1,9 @@
+arm,kind,growth,donor_tokens,seeds,alpha,logA,savings_at_loss_1.2803,savings_at_loss_1.1877,savings_at_loss_1.0951
+grown_copy_dt1000000,grown,copy,1000000,3,0.021140,0.683886,-0.341054,-0.136846,0.040734
+grown_copy_dt3000000,grown,copy,3000000,3,0.006946,0.222535,-0.671930,-0.570260,-0.390818
+grown_copy_dt9000000,grown,copy,9000000,3,0.020847,0.671905,-0.869106,-0.828542,-0.756948
+grown_shrink_perturb_dt1000000,grown,shrink_perturb,1000000,3,0.014228,0.458995,-0.341054,-0.136846,-0.134134
+grown_shrink_perturb_dt3000000,grown,shrink_perturb,3000000,3,0.005396,0.172953,-0.671930,-0.570260,-0.390818
+grown_shrink_perturb_dt9000000,grown,shrink_perturb,9000000,3,0.112308,3.645931,-0.869106,-0.828542,-0.756948
+scratch_L4,scratch,None,0,3,0.131229,4.127872,0.676534,0.780676,0.656756
+scratch_L8,scratch,None,0,3,0.003391,0.110718,0.000000,0.000000,0.000000

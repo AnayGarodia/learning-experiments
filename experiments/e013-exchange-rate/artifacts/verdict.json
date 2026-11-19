@@ -1,0 +1,61 @@
+{
+ "targets": [
+  0.25,
+  0.5,
+  0.75
+ ],
+ "per_family": {
+  "natural": {
+   "0.25": 1.37,
+   "0.5": 1.85,
+   "0.75": 2.87
+  },
+  "novel": {
+   "0.25": 0.32,
+   "0.5": 0.67,
+   "0.75": 1.03
+  }
+ },
+ "flags": [
+  "X1_KILLED"
+ ],
+ "notes": [
+  "X3 unreadable on B_first: all capability crossings inside one measured grid interval",
+  "X3 unreadable on B_upper: all capability crossings inside one measured grid interval",
+  "X3 unreadable on N_map: all capability crossings inside one measured grid interval",
+  "X3 unreadable on N_shift2: all capability crossings inside one measured grid interval",
+  "R below one grid step (2x), magnitude NOT reportable: ['B_first', 'N_map', 'N_shift2']"
+ ],
+ "censored_frac": 0.0,
+ "bounded_frac": 0.75,
+ "per_skill": {
+  "B_first": {
+   "family": "natural",
+   "median_R": 1.7
+  },
+  "B_upper": {
+   "family": "natural",
+   "median_R": 2.01
+  },
+  "N_map": {
+   "family": "novel",
+   "median_R": 0.83
+  },
+  "N_shift2": {
+   "family": "novel",
+   "median_R": 0.51
+  }
+ },
+ "R_natural_median": 1.85,
+ "R_novel_median": 0.67,
+ "kill_bound_stress": {
+  "survives": true,
+  "worst_case": {
+   "B_first": 1.7,
+   "B_upper": 2.01,
+   "N_map": 0.83,
+   "N_shift2": 0.51
+  }
+ },
+ "verdict": "X1_KILLED"
+}

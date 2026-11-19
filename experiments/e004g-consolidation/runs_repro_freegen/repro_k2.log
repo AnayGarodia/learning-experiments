@@ -1,0 +1,7 @@
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:00<04:20,  1.11it/s]Loading weights:  63%|██████▎   | 183/290 [00:01<00:00, 242.66it/s]Loading weights:  93%|█████████▎| 271/290 [00:01<00:00, 157.86it/s]Loading weights: 100%|██████████| 290/290 [00:02<00:00, 137.70it/s]
+positional scheme: {"model_type": "qwen2", "rope_theta": null, "has_rotary_module": true, "has_absolute_pos_embedding": false, "n_layer": 24, "d_model": 896, "n_params": 494032768}
+pool gate OK: 2 skills, no coincidence > 0.2
+pilot skills: ['B_plural', 'B_upper']
+k=0 frozen base: reusing k0_frozen_base.json
+  [consolidate s0] k=1 skill=B_plural unprompted={'11': 0.75, '5': 0.0} nats=2.8628 (141.3s)
+  [consolidate s0] k=2 skill=B_upper unprompted={'11': 0.75, '5': 0.844} nats=2.8568 (331.9s)
